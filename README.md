@@ -36,22 +36,22 @@ The data is stored in YAML format under the `data/` directory:
   │   └── baan.rb
   └── data/
       ├── provinces.yml
-      └── districts.yml
 ```
 
 Each record includes:
 
 **Provinces**
 
-* `code`: Administrative code
-* `name`: Lao name
+* `code`: 3166-2:LA code
+* `name_lo`: Lao name
 * `name_en`: Romanized name
+* `districts`: List of districts
 
 **Districts**
 
 * `code`: Administrative code
-* `province_code`: Parent province code
-* `name`: Lao name
+* `parent_division`: Parent province
+* `name_lo`: Lao name
 * `name_en`: Romanized name
 
 ---
@@ -61,11 +61,8 @@ Each record includes:
 ```ruby
 require "baan"
 
-Baan.provinces
-# => [{ "code" => "01", "name" => "ວຽງຈັນ", "name_en" => "Vientiane" }, ...]
-
-Baan.districts_by_province("01")
-# => [{ "code" => "0101", "province_code" => "01", "name" => "ໄຊເສດຖາ", "name_en" => "Saysettha" }, ...]
+Baan::Province.all
+Baan::Province.districts
 ```
 
 ---
