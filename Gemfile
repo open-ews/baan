@@ -4,6 +4,7 @@ source "https://rubygems.org"
 gemspec
 
 group :development do
+  gem "pry"
   gem "rake"
   gem "rubocop"
   gem "rubocop-rails-omakase"
@@ -12,7 +13,6 @@ group :development do
 end
 
 group :test do
-  gem "pry"
   gem "rspec"
   gem "simplecov", require: false
   gem "simplecov-cobertura", require: false

@@ -1,8 +1,19 @@
 module Baan
   class Province < AdministrativeDivision
-    def initialize(districts: [], **options)
-      subdivisions = districts.map { |district| District.new(**district, parent_division: self) }
-      super(subdivisions: subdivisions, **options)
+    class << self
+      def all
+        data
+      end
+
+      def [](code)
+        data[code]
+      end
+
+      private
+
+      def data
+        @data ||= Cache.new.data
+      end
     end
 
     def districts

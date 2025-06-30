@@ -1,12 +1,9 @@
 require_relative "baan/version"
+require_relative "baan/administrative_division"
+require_relative "baan/province"
+require_relative "baan/district"
+require_relative "baan/cache"
+require_relative "baan/parser"
 
 module Baan
-  def self.initialize!(data_directory: File.join(__dir__, "..", "data", "data.yaml"))
-    data = YAML.load_file(data_directory)
-    data.deep_symbolize_keys!
-
-    data.fetch(:provinces).each do |province|
-      Province.new(**province)
-    end
-  end
 end
