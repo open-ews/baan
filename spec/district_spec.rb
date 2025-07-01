@@ -5,6 +5,7 @@ module Baan
     it "handles working with districts" do
       all_districts = District.all
 
+      expect(all_districts).to be_a(Array)
       expect(all_districts.count).to eq(148)
 
       chanthabuly_district = District["0101"]
