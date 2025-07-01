@@ -7,7 +7,20 @@ module Baan
     end
 
     def data
-      @data ||= parser.parse.each_with_object({}) { |province, result| result[province.code] = province }
+      @data ||= begin
+        dataset.each_with_object(Hash.new { |h, k| h[k] = {} }) do |(key, dataset), result|
+          dataset.each { result[key][it.code] = it }
+        end
+      end
+    end
+
+    private
+
+    def dataset
+      @dataset ||= begin
+        data = parser.parse
+        { Province => data.provinces, District => data.districts }
+      end
     end
   end
 end

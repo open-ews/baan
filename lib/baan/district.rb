@@ -1,3 +1,7 @@
 module Baan
-  class District < AdministrativeDivision; end
+  class District < AdministrativeDivision
+    def province
+      parent_division
+    end
+  end
 end
