@@ -5,6 +5,7 @@ module Baan
     it "handles working with provinces" do
       all_provinces = Province.all
 
+      expect(all_provinces).to be_a(Array)
       expect(all_provinces.count).to eq(18)
 
       vientiane_prefecture = Province["LA-VT"]
