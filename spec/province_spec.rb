@@ -13,7 +13,7 @@ module Baan
         code: "LA-VT",
         name_en: "Vientiane Prefecture",
         name_lo: "ວຽງຈັນ",
-        subdivisions: include(
+        districts: include(
           have_attributes(
             code: "0101",
             name_en: "Chanthabuly",

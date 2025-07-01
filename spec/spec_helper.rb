@@ -1,12 +1,12 @@
-require "baan"
+require "simplecov"
+SimpleCov.start
 
 if ENV.key?("CI")
-  require "simplecov"
-  SimpleCov.start
-
   require "simplecov-cobertura"
   SimpleCov.formatter = SimpleCov::Formatter::CoberturaFormatter
 end
+
+require "baan"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
