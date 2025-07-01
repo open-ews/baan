@@ -1,5 +1,7 @@
 # Baan (ບ້ານ)
 
+[![Ruby](https://github.com/open-ews/baan/actions/workflows/build.yml/badge.svg)](https://github.com/open-ews/baan/actions/workflows/build.yml)[![codecov](https://codecov.io/github/open-ews/baan/graph/badge.svg?token=BnQJ13vZbX)](https://codecov.io/github/open-ews/baan)
+
 **Baan** is a Ruby library that provides geodata for administrative regions in **Lao PDR**, including provinces and districts. The name *"Baan"* (ບ້ານ) means *"village"* in Lao, reflecting the project's aim to support geographic and community-based applications.
 
 ---
