@@ -1,6 +1,6 @@
 # Baan (ບ້ານ)
 
-[![Ruby](https://github.com/open-ews/baan/actions/workflows/build.yml/badge.svg)](https://github.com/open-ews/baan/actions/workflows/build.yml)[![codecov](https://codecov.io/github/open-ews/baan/graph/badge.svg?token=BnQJ13vZbX)](https://codecov.io/github/open-ews/baan)
+[![Ruby](https://github.com/open-ews/baan/actions/workflows/build.yml/badge.svg)](https://github.com/open-ews/baan/actions/workflows/build.yml) [![codecov](https://codecov.io/github/open-ews/baan/graph/badge.svg?token=BnQJ13vZbX)](https://codecov.io/github/open-ews/baan)
 
 **Baan** is a Ruby library that provides geodata for administrative regions in **Lao PDR**, including provinces and districts. The name *"Baan"* (ບ້ານ) means *"village"* in Lao, reflecting the project's aim to support geographic and community-based applications.
 
@@ -61,10 +61,53 @@ Each record includes:
 ## 🚀 Usage
 
 ```ruby
-require "baan"
-
+# Get all provinces
 Baan::Province.all
-Baan::Province.districts
+=>
+{"LA-VT" =>
+  #<data Baan::Province
+   code="LA-VT",
+   name_en="Vientiane Prefecture",
+   name_lo="ວຽງຈັນ",
+   subdivisions=
+    [#<data Baan::District code="0101", name_en="Chanthabuly", name_lo="ຈັນທະບູລີ", subdivisions=[], parent_division=#<data Baan::Province:...>>,],
+   parent_division=nil>,
+# ...other provinces
+}
+
+# Get a province by its code
+Baan::Province["LA-VT"]
+=>
+#<data Baan::Province
+ code="LA-VT",
+ name_en="Vientiane Prefecture",
+ name_lo="ວຽງຈັນ",
+ subdivisions=
+  [#<data Baan::District code="0101", name_en="Chanthabuly", name_lo="ຈັນທະບູລີ", subdivisions=[], parent_division=#<data Baan::Province:...>>,],
+ parent_division=nil>
+
+# Get all districts
+Baan::District.all
+=>
+{"0101" =>
+  #<data Baan::District
+   code="0101",
+   name_en="Chanthabuly",
+   name_lo="ຈັນທະບູລີ",
+   subdivisions=[],
+   parent_division=#<data Baan::Province:...>>,
+# ...other districts
+}
+
+# Get a district by its code
+Baan::District["0101"]
+=>
+#<data Baan::District
+ code="0101",
+ name_en="Chanthabuly",
+ name_lo="ຈັນທະບູລີ",
+ subdivisions=[],
+ parent_division=#<data Baan::Province:...>>
 ```
 
 ---
