@@ -2,7 +2,7 @@ require "yaml"
 
 module Baan
   class Parser
-    DEFAULT_DATA_FILE = Pathname(File.join(__dir__, "..", "..", "data", "provinces.yml")).freeze
+    DEFAULT_DATA_FILE = Pathname(File.join(__dir__, "..", "data", "provinces.yml")).freeze
     DEFAULT_ROOT_KEY = "provinces".freeze
     Result = Data.define(:provinces, :districts)
 
