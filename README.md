@@ -30,15 +30,7 @@ gem install baan
 
 ## 🗂️ Data Structure
 
-The data is stored in YAML format under the `data/` directory:
-
-```
-/baan
-  ├── lib/
-  │   └── baan.rb
-  └── data/
-      ├── provinces.yml
-```
+The data is stored in YAML format under the `lib/data/` directory:
 
 Each record includes:
 
