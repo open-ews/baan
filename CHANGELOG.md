@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/open-ews/baan/compare/v0.2.1...v0.3.0) (2026-08-26)
+
+
+### Features
+
+* Add villages from PIN data ([#13](https://github.com/open-ews/baan/issues/13)) ([71a65d8](https://github.com/open-ews/baan/commit/71a65d8ad25a011ba89413dc008fc0f85cfbb256))
+
 ## [0.2.1](https://github.com/open-ews/baan/compare/v0.2.0...v0.2.1) (2025-07-01)
 
 
