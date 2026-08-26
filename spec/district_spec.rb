@@ -8,16 +8,22 @@ module Baan
       expect(all_districts).to be_a(Array)
       expect(all_districts.count).to eq(148)
 
-      chanthabuly_district = District["0101"]
+      sanamxay_district = District["1703"]
 
-      expect(chanthabuly_district).to have_attributes(
-        code: "0101",
-        name_en: "Chanthabuly",
-        name_lo: "ຈັນທະບູລີ",
+      expect(sanamxay_district).to have_attributes(
+        code: "1703",
+        name_en: "Sanamxay",
+        name_lo: "ສະໜາມໄຊ",
         province: have_attributes(
-          code: "LA-VT",
-          name_en: "Vientiane Prefecture",
-          name_lo: "ວຽງຈັນ"
+          code: "LA-AT",
+          name_en: "Attapeu",
+          name_lo: "ອັດຕະປື"
+        ),
+        villages: include(
+          have_attributes(
+            code: "17030001",
+            name_en: "Mitsumphun"
+          )
         )
       )
     end

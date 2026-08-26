@@ -19,7 +19,7 @@ module Baan
     def dataset
       @dataset ||= begin
         data = parser.parse
-        { Province => data.provinces, District => data.districts }
+        { Province => data.provinces, District => data.districts, Village => data.villages }
       end
     end
   end
