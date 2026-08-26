@@ -8,19 +8,27 @@ module Baan
       expect(all_provinces).to be_a(Array)
       expect(all_provinces.count).to eq(18)
 
-      vientiane_prefecture = Province["LA-VT"]
+      attapeu = Province["LA-AT"]
 
-      expect(vientiane_prefecture).to have_attributes(
-        code: "LA-VT",
-        name_en: "Vientiane Prefecture",
-        name_lo: "ວຽງຈັນ",
+      expect(attapeu).to have_attributes(
+        code: "LA-AT",
+        name_en: "Attapeu",
+        name_lo: "ອັດຕະປື",
         districts: include(
           have_attributes(
-            code: "0101",
-            name_en: "Chanthabuly",
-            name_lo: "ຈັນທະບູລີ",
-            parent_division: vientiane_prefecture,
-            subdivisions: []
+            code: "1703",
+            name_en: "Sanamxay",
+            name_lo: "ສະໜາມໄຊ"
+          )
+        ),
+        villages: include(
+          have_attributes(
+            code: "17010001",
+            name_en: "Sakare",
+          ),
+          have_attributes(
+            code: "17030001",
+            name_en: "Mitsumphun"
           )
         ),
         parent_division: nil

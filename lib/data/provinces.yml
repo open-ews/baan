@@ -1,534 +1,7226 @@
+---
 provinces:
-  - code: "LA-VT"
-    name_en: "Vientiane Prefecture"
-    name_lo: "ວຽງຈັນ"
-    districts:
-      - code: "0101"
-        name_en: "Chanthabuly"
-        name_lo: "ຈັນທະບູລີ"
-      - code: "0102"
-        name_en: "Sikhottabong"
-        name_lo: "ສີໂຄດຕະບອງ"
-      - code: "0103"
-        name_en: "Xaysetha"
-        name_lo: "ໄຊເສດຖາ"
-      - code: "0104"
-        name_en: "Sisattanak"
-        name_lo: "ສີສັດຕະນາກ"
-      - code: "0105"
-        name_en: "Naxaithong"
-        name_lo: "ນາຊາຍທອງ"
-      - code: "0106"
-        name_en: "Xaythany"
-        name_lo: "ໄຊທະນີ"
-      - code: "0107"
-        name_en: "Hadxayfong"
-        name_lo: "ຫາດຊາຍຟອງ"
-      - code: "0108"
-        name_en: "Sangthong"
-        name_lo: "ສັງທອງ"
-      - code: "0109"
-        name_en: "Mayparkngum"
-        name_lo: "ປາກງື່ມ"
-
-  - code: "LA-PH"
-    name_en: "Phongsaly"
-    name_lo: "ຜົ້ງສາລີ"
-    districts:
-      - code: "0201"
-        name_en: "Phongsaly"
-        name_lo: "ຜົ້ງສາລີ"
-      - code: "0202"
-        name_en: "May"
-        name_lo: "ໃໝ່"
-      - code: "0203"
-        name_en: "Khoua"
-        name_lo: "ຂວາ"
-      - code: "0204"
-        name_en: "Samphanh"
-        name_lo: "ສຳພັນ"
-      - code: "0205"
-        name_en: "Boun Neua"
-        name_lo: "ບຸນເໜືອ"
-      - code: "0206"
-        name_en: "Yot Ou"
-        name_lo: "ຍອດອູ"
-      - code: "0207"
-        name_en: "Boun Tay"
-        name_lo: "ບຸນໃຕ້"
-
-  - code: "LA-LM"
-    name_en: "Luang Namtha"
-    name_lo: "ຫລວງນໍ້າທາ"
-    districts:
-      - code: "0301"
-        name_en: "Namtha"
-        name_lo: "ນ້ຳທາ"
-      - code: "0302"
-        name_en: "Sing"
-        name_lo: "ສິງ"
-      - code: "0303"
-        name_en: "Long"
-        name_lo: "ລອງ"
-      - code: "0304"
-        name_en: "Viengphoukha"
-        name_lo: "ວຽງພູຄາ"
-      - code: "0305"
-        name_en: "Na Le"
-        name_lo: "ນາແລ"
-
-  - code: "LA-OU"
-    name_en: "Oudomxay"
-    name_lo: "ອຸດົມໄຊ"
-    districts:
-      - code: "0401"
-        name_en: "Xay"
-        name_lo: "ໄຊ"
-      - code: "0402"
-        name_en: "La"
-        name_lo: "ຫຼາ"
-      - code: "0403"
-        name_en: "Na Mo"
-        name_lo: "ນາໝໍ້"
-      - code: "0404"
-        name_en: "Nga"
-        name_lo: "ງາ"
-      - code: "0405"
-        name_en: "Beng"
-        name_lo: "ແບ່ງ"
-      - code: "0406"
-        name_en: "Houne"
-        name_lo: "ຮຸນ"
-      - code: "0407"
-        name_en: "Pak Beng"
-        name_lo: "ປາກແບ່ງ"
-
-  - code: "LA-BK"
-    name_en: "Bokeo"
-    name_lo: "ບໍ່ແກ້ວ"
-    districts:
-      - code: "0501"
-        name_en: "Houayxay"
-        name_lo: "ຫ້ວຍຊາຍ"
-      - code: "0502"
-        name_en: "Ton Pheung"
-        name_lo: "ຕົ້ນເຜິ້ງ"
-      - code: "0503"
-        name_en: "Meung"
-        name_lo: "ເມິງ"
-      - code: "0504"
-        name_en: "Pha Oudom"
-        name_lo: "ຜາອຸດົມ"
-      - code: "0505"
-        name_en: "Pak Tha"
-        name_lo: "ປາກທາ"
-
-  - code: "LA-LP"
-    name_en: "Luang Prabang"
-    name_lo: "ຫລວງພະບາງ"
-    districts:
-      - code: "0601"
-        name_en: "Luang Prabang"
-        name_lo: "ຫຼວງພະບາງ"
-      - code: "0602"
-        name_en: "Xiengngeun"
-        name_lo: "ຊຽງເງີນ"
-      - code: "0603"
-        name_en: "Nane"
-        name_lo: "ນານ"
-      - code: "0604"
-        name_en: "Pak Ou"
-        name_lo: "ປາກອູ"
-      - code: "0605"
-        name_en: "Nam Bak"
-        name_lo: "ນ້ຳບາກ"
-      - code: "0606"
-        name_en: "Ngoy"
-        name_lo: "ງອຍ"
-      - code: "0607"
-        name_en: "Pak Seng"
-        name_lo: "ປາກແຊງ"
-      - code: "0608"
-        name_en: "Phonxay"
-        name_lo: "ໂພນໄຊ"
-      - code: "0609"
-        name_en: "Chomphet"
-        name_lo: "ຈອມເພັດ"
-      - code: "0610"
-        name_en: "Viengkham"
-        name_lo: "ວຽງຄຳ"
-      - code: "0611"
-        name_en: "Phoukhoune"
-        name_lo: "ພູຄູນ"
-      - code: "0612"
-        name_en: "Phonthong"
-        name_lo: "ໂພນທອງ"
-
-  - code: "LA-HO"
-    name_en: "Houaphanh"
-    name_lo: "ຫົວພັນ"
-    districts:
-      - code: "0701"
-        name_en: "Xam Neua"
-        name_lo: "ຊຳເໜືອ"
-      - code: "0702"
-        name_en: "Xiengkho"
-        name_lo: "ຊຽງຄໍ້"
-      - code: "0703"
-        name_en: "Hiam"
-        name_lo: "ຮ້ຽມ"
-      - code: "0704"
-        name_en: "Viengxay"
-        name_lo: "ວຽງໄຊ"
-      - code: "0705"
-        name_en: "Houameuang"
-        name_lo: "ຫົວເມືອງ"
-      - code: "0706"
-        name_en: "Samtay"
-        name_lo: "ຊຳໃຕ້"
-      - code: "0707"
-        name_en: "Sop Bao"
-        name_lo: "ສົບເບົາ"
-      - code: "0708"
-        name_en: "Et"
-        name_lo: "ແອດ"
-      - code: "0709"
-        name_en: "Kone"
-        name_lo: "ກວັນ"
-      - code: "0710"
-        name_en: "Xon"
-        name_lo: "ຊ່ອນ"
-
-  - code: "LA-XA"
-    name_en: "Sainyabuli"
-    name_lo: "ໄຊຍະບູລີ"
-    districts:
-      - code: "0801"
-        name_en: "Sainyabuli"
-        name_lo: "ໄຊຍະບູລີ"
-      - code: "0802"
-        name_en: "Khop"
-        name_lo: "ຄອບ"
-      - code: "0803"
-        name_en: "Hongsa"
-        name_lo: "ຫົງສາ"
-      - code: "0804"
-        name_en: "Ngeun"
-        name_lo: "ເງີນ"
-      - code: "0805"
-        name_en: "Xienghone"
-        name_lo: "ຊຽງຮ່ອນ"
-      - code: "0806"
-        name_en: "Phiang"
-        name_lo: "ພຽງ"
-      - code: "0807"
-        name_en: "Parklai"
-        name_lo: "ປາກລາຍ"
-      - code: "0808"
-        name_en: "Kenethao"
-        name_lo: "ແກ່ນທ້າວ"
-      - code: "0809"
-        name_en: "Botene"
-        name_lo: "ບໍ່ແຕນ"
-      - code: "0810"
-        name_en: "Thongmyxay"
-        name_lo: "ທົ່ງມີໄຊ"
-      - code: "0811"
-        name_en: "Xaisathan"
-        name_lo: "ໄຊສະຖານ"
-
-  - code: "LA-XI"
-    name_en: "Xiangkhouang"
-    name_lo: "ຊຽງຂວາງ"
-    districts:
-      - code: "0901"
-        name_en: "Pek"
-        name_lo: "ແປກ"
-      - code: "0902"
-        name_en: "Kham"
-        name_lo: "ຄຳ"
-      - code: "0903"
-        name_en: "Nong Het"
-        name_lo: "ໜອງແຮດ"
-      - code: "0904"
-        name_en: "Khoune"
-        name_lo: "ຄູນ"
-      - code: "0905"
-        name_en: "Mok May"
-        name_lo: "ໝອກໄໝ່"
-      - code: "0906"
-        name_en: "Phou Kout"
-        name_lo: "ພູກູດ"
-      - code: "0907"
-        name_en: "Phaxay"
-        name_lo: "ຜາໄຊ"
-
-  - code: "LA-VI"
-    name_en: "Vientiane"
-    name_lo: "ວຽງຈັນ"
-    districts:
-      - code: "1001"
-        name_en: "Phonhong"
-        name_lo: "ໂພນໂຮງ"
-      - code: "1002"
-        name_en: "Thoulakhom"
-        name_lo: "ທຸລະຄົມ"
-      - code: "1003"
-        name_en: "Keo Oudom"
-        name_lo: "ແກ້ວອຸດົມ"
-      - code: "1004"
-        name_en: "Kasy"
-        name_lo: "ກາສີ"
-      - code: "1005"
-        name_en: "Vangvieng"
-        name_lo: "ວັງວຽງ"
-      - code: "1006"
-        name_en: "Feuang"
-        name_lo: "ເຟືອງ"
-      - code: "1007"
-        name_en: "Xanakharm"
-        name_lo: "ຊະນະຄາມ"
-      - code: "1008"
-        name_en: "Mad"
-        name_lo: "ແມດ"
-      - code: "1009"
-        name_en: "Viengkham"
-        name_lo: "ວຽງຄໍາ"
-      - code: "1010"
-        name_en: "Hinhurp"
-        name_lo: "ຫີນເຫີບ"
-      - code: "1011"
-        name_en: "Meun"
-        name_lo: "ໜື່ນ"
-
-  - code: "LA-BL"
-    name_en: "Bolikhamsai"
-    name_lo: "ບໍລິຄໍາໄຊ"
-    districts:
-      - code: "1101"
-        name_en: "Pakxan"
-        name_lo: "ປາກຊັນ"
-      - code: "1102"
-        name_en: "Thaphabat"
-        name_lo: "ທ່າພະບາດ"
-      - code: "1103"
-        name_en: "Pakkading"
-        name_lo: "ປາກກະດິງ"
-      - code: "1104"
-        name_en: "Borikhane"
-        name_lo: "ບໍລິຄັນ"
-      - code: "1105"
-        name_en: "Khamkeut"
-        name_lo: "ຄຳເກີດ"
-      - code: "1106"
-        name_en: "Viengthong"
-        name_lo: "ວຽງທອງ"
-      - code: "1107"
-        name_en: "Xaichamphon"
-        name_lo: "ໄຊຈຳພອນ"
-
-  - code: "LA-KH"
-    name_en: "Khammouane"
-    name_lo: "ຄໍາມ່ວນ"
-    districts:
-      - code: "1201"
-        name_en: "Thakhek"
-        name_lo: "ທ່າແຂກ"
-      - code: "1202"
-        name_en: "Mahaxay"
-        name_lo: "ມະຫາໄຊ"
-      - code: "1203"
-        name_en: "Nong Bok"
-        name_lo: "ໜອງບົກ"
-      - code: "1204"
-        name_en: "Hineboune"
-        name_lo: "ຫີນບູນ"
-      - code: "1205"
-        name_en: "Yommalath"
-        name_lo: "ຍົມມະລາດ"
-      - code: "1206"
-        name_en: "Boualapha"
-        name_lo: "ບົວລະພາ"
-      - code: "1207"
-        name_en: "Nakai"
-        name_lo: "ນາກາຍ"
-      - code: "1208"
-        name_en: "Sebangphay"
-        name_lo: "ເຊບັ້ງໄຟ"
-      - code: "1209"
-        name_en: "Xaibouathong"
-        name_lo: "ໄຊບົວທອງ"
-      - code: "1210"
-        name_en: "Kounkham"
-        name_lo: "ຄູນຄຳ"
-
-  - code: "LA-SV"
-    name_en: "Savannakhet"
-    name_lo: "ສະຫວັນນະເຂດ"
-    districts:
-      - code: "1301"
-        name_en: "Kaysone Phomvihane"
-        name_lo: "ໄກສອນ ພົມວິຫານ"
-      - code: "1302"
-        name_en: "Outhoumphone"
-        name_lo: "ອຸທຸມພອນ"
-      - code: "1303"
-        name_en: "Atsaphangthong"
-        name_lo: "ອາດສະພັງທອງ"
-      - code: "1304"
-        name_en: "Phine"
-        name_lo: "ພິນ"
-      - code: "1305"
-        name_en: "Seponh"
-        name_lo: "ເຊໂປນ"
-      - code: "1306"
-        name_en: "Nong"
-        name_lo: "ໜອງ"
-      - code: "1307"
-        name_en: "Thapangthong"
-        name_lo: "ທາພັງທອງ"
-      - code: "1308"
-        name_en: "Songkhone"
-        name_lo: "ສອງຄອນ"
-      - code: "1309"
-        name_en: "Champhone"
-        name_lo: "ຈຳພອນ"
-      - code: "1310"
-        name_en: "Xonaboury"
-        name_lo: "ຊົນນະບູລີ"
-      - code: "1311"
-        name_en: "Xayboury"
-        name_lo: "ໄຊບູລີ"
-      - code: "1312"
-        name_en: "Viraboury"
-        name_lo: "ວີລະບຸລີ"
-      - code: "1313"
-        name_en: "Assaphone"
-        name_lo: "ອາດສະພອນ"
-      - code: "1314"
-        name_en: "Xonboury"
-        name_lo: "ໄຊພູທອງ"
-      - code: "1315"
-        name_en: "Thaphalanxay"
-        name_lo: "ພະລານໄຊ"
-
-  - code: "LA-SL"
-    name_en: "Salavan"
-    name_lo: "ສາລະວັນ"
-    districts:
-      - code: "1401"
-        name_en: "Saravane"
-        name_lo: "ສາລະວັນ"
-      - code: "1402"
-        name_en: "Ta Oy"
-        name_lo: "ຕະໂອ້ຍ"
-      - code: "1403"
-        name_en: "Toumlane"
-        name_lo: "ຕຸ້ມລານ"
-      - code: "1404"
-        name_en: "Lakhonepheng"
-        name_lo: "ລະຄອນເພັງ"
-      - code: "1405"
-        name_en: "Vapy"
-        name_lo: "ວາປີ"
-      - code: "1406"
-        name_en: "Khongsedone"
-        name_lo: "ຄົງເຊໂດນ"
-      - code: "1407"
-        name_en: "Lao Ngam"
-        name_lo: "ເລົ່າງາມ"
-      - code: "1408"
-        name_en: "Sa Mouay"
-        name_lo: "ສະມ້ວຍ"
-
-  - code: "LA-XE"
-    name_en: "Sekong"
-    name_lo: "ເຊກອງ"
-    districts:
-      - code: "1501"
-        name_en: "La Mam"
-        name_lo: "ລະມາມ"
-      - code: "1502"
-        name_en: "Kaleum"
-        name_lo: "ກະເລິມ"
-      - code: "1503"
-        name_en: "Dak Cheung"
-        name_lo: "ດັກຈຶງ"
-      - code: "1504"
-        name_en: "Tha Teng"
-        name_lo: "ທ່າແຕງ"
-
-  - code: "LA-CH"
-    name_en: "Champasak"
-    name_lo: "ຈຳປາສັກ"
-    districts:
-      - code: "1601"
-        name_en: "Pakse"
-        name_lo: "ປາກເຊ"
-      - code: "1602"
-        name_en: "Sanasomboun"
-        name_lo: "ຊະນະສົມບູນ"
-      - code: "1603"
-        name_en: "Batiengchaleunsouk"
-        name_lo: "ບາຈຽງຈະເລີນສຸກ"
-      - code: "1604"
-        name_en: "Paksong"
-        name_lo: "ປາກຊ່ອງ"
-      - code: "1605"
-        name_en: "Pathouphone"
-        name_lo: "ປະທຸມພອນ"
-      - code: "1606"
-        name_en: "Phonthong"
-        name_lo: "ໂພນທອງ"
-      - code: "1607"
-        name_en: "Champassack"
-        name_lo: "ຈຳປາສັກ"
-      - code: "1608"
-        name_en: "Soukhoumma"
-        name_lo: "ສຸຂຸມາ"
-      - code: "1609"
-        name_en: "Mounlapamok"
-        name_lo: "ມູນລະປະໂມກ"
-      - code: "1610"
-        name_en: "Khong"
-        name_lo: "ໂຂງ"
-
-  - code: "LA-AT"
-    name_en: "Attapeu"
-    name_lo: "ອັດຕະປື"
-    districts:
-      - code: "1701"
-        name_en: "Saysetha"
-        name_lo: "ໄຊເສດຖາ"
-      - code: "1702"
-        name_en: "Samakkhixay"
-        name_lo: "ສາມັກຄີໄຊ"
-      - code: "1703"
-        name_en: "Sanamxay"
-        name_lo: "ສະໜາມໄຊ"
-      - code: "1704"
-        name_en: "Sanxay"
-        name_lo: "ສານໄຊ"
-      - code: "1705"
-        name_en: "Phouvong"
-        name_lo: "ພູວົງ"
-
-  - code: "LA-XS"
-    name_en: "Xaisomboun"
-    name_lo: "ໄຊສົມບູນ"
-    districts:
-      - code: "1801"
-        name_en: "Anouvong"
-        name_lo: "ອະນຸວົງ"
-      - code: "1802"
-        name_en: "Longchaeng"
-        name_lo: "ລ້ອງແຈ້ງ"
-      - code: "1803"
-        name_en: "Longxan"
-        name_lo: "ລ້ອງຊານ"
-      - code: "1804"
-        name_en: "Hom"
-        name_lo: "ຮົ່ມ"
-      - code: "1805"
-        name_en: "Thathom"
-        name_lo: "ທ່າໂທມ"
+- code: LA-VT
+  name_en: Vientiane Prefecture
+  name_lo: ວຽງຈັນ
+  districts:
+  - code: '0101'
+    name_en: Chanthabuly
+    name_lo: ຈັນທະບູລີ
+  - code: '0102'
+    name_en: Sikhottabong
+    name_lo: ສີໂຄດຕະບອງ
+  - code: '0103'
+    name_en: Xaysetha
+    name_lo: ໄຊເສດຖາ
+  - code: '0104'
+    name_en: Sisattanak
+    name_lo: ສີສັດຕະນາກ
+  - code: '0105'
+    name_en: Naxaithong
+    name_lo: ນາຊາຍທອງ
+  - code: '0106'
+    name_en: Xaythany
+    name_lo: ໄຊທະນີ
+  - code: '0107'
+    name_en: Hadxayfong
+    name_lo: ຫາດຊາຍຟອງ
+  - code: '0108'
+    name_en: Sangthong
+    name_lo: ສັງທອງ
+  - code: '0109'
+    name_en: Mayparkngum
+    name_lo: ປາກງື່ມ
+- code: LA-PH
+  name_en: Phongsaly
+  name_lo: ຜົ້ງສາລີ
+  districts:
+  - code: '0201'
+    name_en: Phongsaly
+    name_lo: ຜົ້ງສາລີ
+  - code: '0202'
+    name_en: May
+    name_lo: ໃໝ່
+  - code: '0203'
+    name_en: Khoua
+    name_lo: ຂວາ
+  - code: '0204'
+    name_en: Samphanh
+    name_lo: ສຳພັນ
+  - code: '0205'
+    name_en: Boun Neua
+    name_lo: ບຸນເໜືອ
+  - code: '0206'
+    name_en: Yot Ou
+    name_lo: ຍອດອູ
+  - code: '0207'
+    name_en: Boun Tay
+    name_lo: ບຸນໃຕ້
+- code: LA-LM
+  name_en: Luang Namtha
+  name_lo: ຫລວງນໍ້າທາ
+  districts:
+  - code: '0301'
+    name_en: Namtha
+    name_lo: ນ້ຳທາ
+  - code: '0302'
+    name_en: Sing
+    name_lo: ສິງ
+  - code: '0303'
+    name_en: Long
+    name_lo: ລອງ
+  - code: '0304'
+    name_en: Viengphoukha
+    name_lo: ວຽງພູຄາ
+  - code: '0305'
+    name_en: Na Le
+    name_lo: ນາແລ
+- code: LA-OU
+  name_en: Oudomxay
+  name_lo: ອຸດົມໄຊ
+  districts:
+  - code: '0401'
+    name_en: Xay
+    name_lo: ໄຊ
+  - code: '0402'
+    name_en: La
+    name_lo: ຫຼາ
+  - code: '0403'
+    name_en: Na Mo
+    name_lo: ນາໝໍ້
+  - code: '0404'
+    name_en: Nga
+    name_lo: ງາ
+  - code: '0405'
+    name_en: Beng
+    name_lo: ແບ່ງ
+  - code: '0406'
+    name_en: Houne
+    name_lo: ຮຸນ
+  - code: '0407'
+    name_en: Pak Beng
+    name_lo: ປາກແບ່ງ
+- code: LA-BK
+  name_en: Bokeo
+  name_lo: ບໍ່ແກ້ວ
+  districts:
+  - code: '0501'
+    name_en: Houayxay
+    name_lo: ຫ້ວຍຊາຍ
+  - code: '0502'
+    name_en: Ton Pheung
+    name_lo: ຕົ້ນເຜິ້ງ
+  - code: '0503'
+    name_en: Meung
+    name_lo: ເມິງ
+  - code: '0504'
+    name_en: Pha Oudom
+    name_lo: ຜາອຸດົມ
+  - code: '0505'
+    name_en: Pak Tha
+    name_lo: ປາກທາ
+- code: LA-LP
+  name_en: Luang Prabang
+  name_lo: ຫລວງພະບາງ
+  districts:
+  - code: '0601'
+    name_en: Luang Prabang
+    name_lo: ຫຼວງພະບາງ
+  - code: '0602'
+    name_en: Xiengngeun
+    name_lo: ຊຽງເງີນ
+  - code: '0603'
+    name_en: Nane
+    name_lo: ນານ
+  - code: '0604'
+    name_en: Pak Ou
+    name_lo: ປາກອູ
+  - code: '0605'
+    name_en: Nam Bak
+    name_lo: ນ້ຳບາກ
+    villages:
+    - code: '06050001'
+      name_en: Nakhone
+      name_lo: ນະຄອນ
+      latitude: 20.592275
+      longitude: 102.554058
+    - code: '06050002'
+      name_en: Bom
+      name_lo: ບົມ
+      latitude: 20.654695
+      longitude: 102.520452
+    - code: '06050003'
+      name_en: Namgna
+      name_lo: ນໍ້າງາ
+      latitude: 20.377994
+      longitude: 102.302179
+    - code: '06050004'
+      name_en: Namla
+      name_lo: ນໍ້າລາ
+      latitude: 20.648786
+      longitude: 102.448411
+    - code: '06050005'
+      name_en: Thalytai
+      name_lo: ທ່າລີ່ໃຕ້
+      latitude: 20.573962
+      longitude: 102.461591
+    - code: '06050006'
+      name_en: Nongkeo
+      name_lo: ໜອງແກ້ວ
+      latitude: 20.326023
+      longitude: 102.291179
+    - code: '06050007'
+      name_en: Far
+      name_lo: ຟ້າ
+      latitude: 20.627369
+      longitude: 102.457399
+    - code: '06050008'
+      name_en: Khorng
+      name_lo: ໂຄ້ງ
+      latitude: 20.633216
+      longitude: 102.441636
+    - code: '06050009'
+      name_en: Phonhorm1
+      name_lo: ໂພນໂຮມ
+      latitude: 20.710513
+      longitude: 102.388415
+    - code: '06050010'
+      name_en: Viengkham
+      name_lo: ວຽງຄຳ
+      latitude: 20.645569
+      longitude: 102.590879
+    - code: '06050011'
+      name_en: Ly
+      name_lo: ລີ
+      latitude: 20.626274
+      longitude: 102.53534
+    - code: '06050012'
+      name_en: Houayhok
+      name_lo: ຫ້ວຍຫົກ
+      latitude: 20.384732
+      longitude: 102.401035
+    - code: '06050013'
+      name_en: Xiengda
+      name_lo: ຊຽງດາ
+      latitude: 20.445493
+      longitude: 102.340886
+    - code: '06050014'
+      name_en: Thalynuea
+      name_lo: ທ່າລີ່ເໜືອ
+      latitude: 20.6134
+      longitude: 102.476097
+    - code: '06050015'
+      name_en: Sibounheuang
+      name_lo: ສີບຸນເຮືອງ
+      latitude: 20.36802
+      longitude: 102.345741
+    - code: '06050016'
+      name_en: Douantay
+      name_lo: ດ່ວນໃຕ້
+      latitude: 20.892547
+      longitude: 102.61277
+    - code: '06050017'
+      name_en: Phonsavanh
+      name_lo: ໂພນສະຫວັນ
+      latitude: 20.510048
+      longitude: 102.364183
+    - code: '06050018'
+      name_en: Naham
+      name_lo: ນາຮຳ
+      latitude: 20.337596
+      longitude: 102.403608
+    - code: '06050019'
+      name_en: Phonsaat
+      name_lo: ໂພນສະອາດ
+      latitude: 20.632396
+      longitude: 102.463811
+    - code: '06050020'
+      name_en: Mueangtang
+      name_lo: ເມືອງແຕງ
+      latitude: 20.28529
+      longitude: 102.18006
+    - code: '06050021'
+      name_en: Nammong
+      name_lo: ນໍ້າມອງ
+      latitude: 20.580119
+      longitude: 102.350812
+    - code: '06050022'
+      name_en: Korknang
+      name_lo: ຄົກນາງ
+      latitude: 20.298103
+      longitude: 102.241325
+    - code: '06050023'
+      name_en: Simungkhun
+      name_lo: ສີມຸງຄຸນ
+      latitude: 20.347931
+      longitude: 102.317333
+    - code: '06050024'
+      name_en: Phonsai 1
+      name_lo: ໂພນໄຊ 1
+      latitude: 20.619775
+      longitude: 102.426177
+    - code: '06050025'
+      name_en: Vangkham
+      name_lo: ວັງຄຳ
+      latitude: 20.566744
+      longitude: 102.430624
+    - code: '06050026'
+      name_en: Tharbou
+      name_lo: ທ່າບູ້
+      latitude: 20.516576
+      longitude: 102.31496
+    - code: '06050027'
+      name_en: Donekham
+      name_lo: ດອນຄຳ
+      latitude: 20.6286
+      longitude: 102.516026
+    - code: '06050028'
+      name_en: Houayhar
+      name_lo: ຫ້ວຍຫ້າ
+      latitude: 20.688868
+      longitude: 102.518834
+    - code: '06050029'
+      name_en: Huoinhang
+      name_lo: ຫ້ວຍຍາງ
+      latitude: 20.573863
+      longitude: 102.511282
+    - code: '06050030'
+      name_en: Parkkan
+      name_lo: ປາກຂັນ
+      latitude: 20.854016
+      longitude: 102.588929
+    - code: '06050031'
+      name_en: Pungjong
+      name_lo: ປຸງຈອງ
+      latitude: 20.772728
+      longitude: 102.524627
+    - code: '06050032'
+      name_en: Nagnangtay
+      name_lo: ນາຍາງໃຕ້
+      latitude: 20.703519
+      longitude: 102.482495
+    - code: '06050033'
+      name_en: Parkmong
+      name_lo: ປາກມອງ
+      latitude: 20.580833
+      longitude: 102.402565
+    - code: '06050034'
+      name_en: Namay
+      name_lo: ນາໃໝ່
+      latitude: 20.736664
+      longitude: 102.501706
+    - code: '06050035'
+      name_en: Bouam
+      name_lo: ບວມ
+      latitude: 20.889225
+      longitude: 102.550367
+    - code: '06050036'
+      name_en: Houayyan
+      name_lo: ຫ້ວຍຍາງ
+      latitude: 20.665759
+      longitude: 102.462181
+    - code: '06050037'
+      name_en: Phalouang
+      name_lo: ຜາຫຼວງ
+      latitude: 20.471614
+      longitude: 102.411278
+    - code: '06050038'
+      name_en: Vienghinsung
+      name_lo: ວຽງຫີນສູງ
+      latitude: 20.712436
+      longitude: 102.572585
+    - code: '06050039'
+      name_en: Kingkang
+      name_lo: ຂີງກາງ
+      latitude: 20.831483
+      longitude: 102.511573
+    - code: '06050040'
+      name_en: Phonxieng
+      name_lo: ໂພນຊຽງ
+      latitude: 20.540341
+      longitude: 102.394751
+    - code: '06050041'
+      name_en: Xang
+      name_lo: ຊາງ
+      latitude: 20.490845
+      longitude: 102.335057
+    - code: '06050042'
+      name_en: Mokluck
+      name_lo: ມົກຫຼັກ
+      latitude: 20.539359
+      longitude: 102.503651
+    - code: '06050043'
+      name_en: Kanloum
+      name_lo: ຂັນລຸ່ມ
+      latitude: 20.818844
+      longitude: 102.597282
+    - code: '06050044'
+      name_en: Namkhar
+      name_lo: ນໍ້າຄ້າ
+      latitude: 20.454955
+      longitude: 102.358803
+    - code: '06050045'
+      name_en: Naxiengdy
+      name_lo: ນາຊຽງດີ
+      latitude: 20.411962
+      longitude: 102.300835
+    - code: '06050046'
+      name_en: Phonsavang
+      name_lo: ໂພນສະຫວ່າງ
+      latitude: 20.480442
+      longitude: 102.323953
+    - code: '06050047'
+      name_en: Vanghin
+      name_lo: ວັງຫີນ
+      latitude: 20.575701
+      longitude: 102.378209
+    - code: '06050048'
+      name_en: Houaygnim
+      name_lo: ຫ້ວຍຢິມ
+      latitude: 20.340265
+      longitude: 102.218957
+    - code: '06050049'
+      name_en: Kantheung
+      name_lo: ຂັນເທິງ
+      latitude: 20.796228
+      longitude: 102.55013
+    - code: '06050050'
+      name_en: Kang
+      name_lo: ກຣາງ
+      latitude: 20.535947
+      longitude: 102.2933
+    - code: '06050051'
+      name_en: Lak 50
+      name_lo: ຫຼັກ 50
+      latitude: 20.561928
+      longitude: 102.213748
+    - code: '06050052'
+      name_en: Houana
+      name_lo: ຫົວນາ
+      latitude: 20.460204
+      longitude: 102.247954
+    - code: '06050053'
+      name_en: Houayhia
+      name_lo: ຫ້ວຍຮຽມ
+      latitude: 20.336364
+      longitude: 102.358275
+    - code: '06050054'
+      name_en: Donelao
+      name_lo: ດອກເລົາ
+      latitude: 20.626006
+      longitude: 102.310879
+    - code: '06050055'
+      name_en: Nakork
+      name_lo: ນາກອກ
+      latitude: 20.558106
+      longitude: 102.397209
+    - code: '06050056'
+      name_en: Yalo
+      name_lo: ຍະໂລ
+      latitude: 20.610962
+      longitude: 102.250844
+  - code: '0606'
+    name_en: Ngoy
+    name_lo: ງອຍ
+  - code: '0607'
+    name_en: Pak Seng
+    name_lo: ປາກແຊງ
+  - code: '0608'
+    name_en: Phonxay
+    name_lo: ໂພນໄຊ
+    villages:
+    - code: '06080001'
+      name_en: Paknga
+      name_lo: ປາກງາ
+      latitude: 19.967181
+      longitude: 102.553793
+    - code: '06080002'
+      name_en: Donekham
+      name_lo: ດອນຄຳ
+      latitude: 19.795713
+      longitude: 102.86833
+    - code: '06080003'
+      name_en: Thapho
+      name_lo: ທ່າໂພ
+      latitude: 19.945418
+      longitude: 102.436647
+    - code: '06080004'
+      name_en: Thakham
+      name_lo: ທ່າຂ້າມ
+      latitude: 19.952401
+      longitude: 102.513126
+    - code: '06080005'
+      name_en: Donxai
+      name_lo: ດອນໄຊ
+      latitude: 20.006624
+      longitude: 102.607884
+    - code: '06080006'
+      name_en: Phonthong
+      name_lo: ໂພນທອງ
+      latitude: 19.946196
+      longitude: 102.909258
+    - code: '06080007'
+      name_en: Pungpao
+      name_lo: ປຸ່ງເປົ້າ
+      latitude: 19.946149
+      longitude: 102.465935
+    - code: '06080008'
+      name_en: Viengjaleun
+      name_lo: ວຽງຈະເລີນ
+      latitude: 19.991285
+      longitude: 103.062577
+    - code: '06080009'
+      name_en: Houaydong
+      name_lo: ຫ້ວຍດອງ
+      latitude: 19.889202
+      longitude: 102.62497
+    - code: '06080010'
+      name_en: Katangsaleung
+      name_lo: ກະຕ່າງສະເຫຼືອງ
+      latitude: 19.826921
+      longitude: 102.445232
+    - code: '06080011'
+      name_en: Houaymaha
+      name_lo: ຫ້ວຍມະຫາ
+      latitude: 19.981926
+      longitude: 102.495302
+    - code: '06080012'
+      name_en: Pakvang
+      name_lo: ປາກວັງ
+      latitude: 19.896949
+      longitude: 103.042431
+    - code: '06080013'
+      name_en: Vangkhone
+      name_lo: ວັງຂອນ
+      latitude: 19.972758
+      longitude: 102.962492
+    - code: '06080014'
+      name_en: Kiewlai
+      name_lo: ກິ່ວໄລ່
+      latitude: 19.941348
+      longitude: 102.841327
+    - code: '06080015'
+      name_en: Bouakkham
+      name_lo: ບວກຄຳ
+      latitude: 19.978861
+      longitude: 102.929426
+    - code: '06080016'
+      name_en: Na ngiew
+      name_lo: ນາງິ້ວ
+      latitude: 19.939424
+      longitude: 102.933019
+    - code: '06080017'
+      name_en: Phatoupneua
+      name_lo: ຜາຕູບເໜືອ
+      latitude: 20.036697
+      longitude: 102.56827
+    - code: '06080018'
+      name_en: Pounglak
+      name_lo: ປຸ່ງລັດ
+      latitude: 19.856296
+      longitude: 102.486946
+    - code: '06080019'
+      name_en: Houainor
+      name_lo: ຫ້ວຍໂນະ
+      latitude: 19.919101
+      longitude: 102.435257
+    - code: '06080020'
+      name_en: Houayloungtheung
+      name_lo: ຫ້ວຍລຸ້ງເທິງ
+      latitude: 19.927768
+      longitude: 102.566176
+    - code: '06080021'
+      name_en: Houaypha
+      name_lo: ຫ້ວຍພາ
+      latitude: 19.819624
+      longitude: 102.707561
+    - code: '06080022'
+      name_en: Sobchia
+      name_lo: ສົບເຈ້ຍ
+      latitude: 19.964438
+      longitude: 102.619681
+    - code: '06080023'
+      name_en: Na ngoy
+      name_lo: ນາງອຍ
+      latitude: 19.915435
+      longitude: 102.880839
+    - code: '06080024'
+      name_en: Houayman
+      name_lo: ຫ້ວຍມັນ
+      latitude: 19.98947
+      longitude: 102.429477
+    - code: '06080025'
+      name_en: Naphieng
+      name_lo: ນາພຽງ
+      latitude: 19.877009
+      longitude: 102.699288
+    - code: '06080026'
+      name_en: Huoisala
+      name_lo: ຫ້ວຍສະລາ
+      latitude: 19.859694
+      longitude: 102.373987
+    - code: '06080027'
+      name_en: Hadchong
+      name_lo: ຫາດຈອງ
+      latitude: 19.873957
+      longitude: 102.935329
+    - code: '06080028'
+      name_en: Houaychia
+      name_lo: ຫ້ວຍເຈ້ຍ
+      latitude: 19.940706
+      longitude: 102.6678
+    - code: '06080029'
+      name_en: Houaykhing
+      name_lo: ຫ້ວຍຂີງ
+      latitude: 19.924657
+      longitude: 102.779196
+    - code: '06080030'
+      name_en: Supphoulouang
+      name_lo: ສັນພູຫຼວງ
+      latitude: 19.721596
+      longitude: 102.439314
+    - code: '06080031'
+      name_en: Sakouan
+      name_lo: ສະກວນ
+      latitude: 20.010756
+      longitude: 102.846423
+    - code: '06080032'
+      name_en: Tathong
+      name_lo: ຕາດທອງ
+      latitude: 19.912379
+      longitude: 102.728495
+    - code: '06080033'
+      name_en: Phackbong
+      name_lo: ພັກບົງ
+      latitude: 19.992403
+      longitude: 102.743217
+    - code: '06080034'
+      name_en: Houaylone
+      name_lo: ຫ້ວຍລອນ
+      latitude: 19.892683
+      longitude: 102.445616
+    - code: '06080035'
+      name_en: Houaynga
+      name_lo: ຫ້ວຍງາ
+      latitude: 19.919832
+      longitude: 102.504917
+    - code: '06080036'
+      name_en: Chomchieng
+      name_lo: ຈອມຈຽງ
+      latitude: 19.823657
+      longitude: 102.605379
+    - code: '06080037'
+      name_en: Sobhout
+      name_lo: ສົບຫູດ
+      latitude: 19.874669
+      longitude: 102.809834
+  - code: '0609'
+    name_en: Chomphet
+    name_lo: ຈອມເພັດ
+  - code: '0610'
+    name_en: Viengkham
+    name_lo: ວຽງຄຳ
+  - code: '0611'
+    name_en: Phoukhoune
+    name_lo: ພູຄູນ
+  - code: '0612'
+    name_en: Phonthong
+    name_lo: ໂພນທອງ
+    villages:
+    - code: '06120001'
+      name_en: Vungxieng
+      name_lo: ວັງຊຽງ
+      latitude: 20.733054
+      longitude: 103.07962
+    - code: '06120002'
+      name_en: Nachan
+      name_lo: ນາແຈ່ນ
+      latitude: 20.704175
+      longitude: 103.042992
+    - code: '06120003'
+      name_en: Houylan
+      name_lo: ຫ້ວຍລານ
+      latitude: 20.884907
+      longitude: 103.092556
+    - code: '06120004'
+      name_en: Pakuem
+      name_lo: ປາກອຶມ
+      latitude: 20.755196
+      longitude: 103.075341
+    - code: '06120005'
+      name_en: Donengern
+      name_lo: ດອນເງິນ
+      latitude: 20.64832
+      longitude: 103.161324
+    - code: '06120006'
+      name_en: Meuanghueb
+      name_lo: ເມືອງຮືບ
+      latitude: 21.001446
+      longitude: 102.951297
+    - code: '06120007'
+      name_en: Vungpan
+      name_lo: ວັງປ່ານ
+      latitude: 20.709537
+      longitude: 103.088364
+    - code: '06120008'
+      name_en: Longyang
+      name_lo: ລ້ອງຍາງ
+      latitude: 20.80026
+      longitude: 103.28956
+    - code: '06120009'
+      name_en: Poungbor
+      name_lo: ປຸ່ງບໍ່
+      latitude: 20.734679
+      longitude: 103.125765
+    - code: '06120010'
+      name_en: Vungnaek
+      name_lo: ວັງແນກ
+      latitude: 20.749317
+      longitude: 103.049062
+    - code: '06120011'
+      name_en: Bomkor
+      name_lo: ບວມກໍ່
+      latitude: 20.955191
+      longitude: 102.998762
+    - code: '06120012'
+      name_en: Kang
+      name_lo: ກາງ
+      latitude: 20.793448
+      longitude: 102.990765
+    - code: '06120013'
+      name_en: Navat
+      name_lo: ນາວັດ
+      latitude: 21.110038
+      longitude: 102.851599
+    - code: '06120014'
+      name_en: Nasone
+      name_lo: ນາຊອນ
+      latitude: 20.8676
+      longitude: 103.200264
+    - code: '06120015'
+      name_en: Done
+      name_lo: ດອນເງິນ
+      latitude: 20.759898
+      longitude: 103.156902
+    - code: '06120016'
+      name_en: Namluang
+      name_lo: ນໍ້າລວງ
+      latitude: 21.00907
+      longitude: 102.828704
+    - code: '06120017'
+      name_en: Houyvan
+      name_lo: ຫ້ວຍແວ່ນ
+      latitude: 21.101664
+      longitude: 102.930112
+    - code: '06120018'
+      name_en: Nasamphan
+      name_lo: ນາສຳພັນ
+      latitude: 20.87078
+      longitude: 103.028594
+    - code: '06120019'
+      name_en: Naberng
+      name_lo: ນາເບິງ
+      latitude: 20.59302
+      longitude: 103.088641
+    - code: '06120020'
+      name_en: Namai
+      name_lo: ນາໃໝ່
+      latitude: 20.814494
+      longitude: 103.046851
+    - code: '06120021'
+      name_en: Sammeun
+      name_lo: ສາມໝື່ນ
+      latitude: 20.899413
+      longitude: 102.868889
+    - code: '06120022'
+      name_en: Phonesouk
+      name_lo: ໂພນສຸກ
+      latitude: 21.055848
+      longitude: 102.827213
+    - code: '06120023'
+      name_en: Sobphone
+      name_lo: ສົບພົນ
+      latitude: 21.061202
+      longitude: 102.887059
+    - code: '06120024'
+      name_en: Pounghone
+      name_lo: ປຸ່ງຮ້ອນ
+      latitude: 20.808221
+      longitude: 103.142019
+    - code: '06120025'
+      name_en: Thong tai
+      name_lo: ທອງໃຕ້
+      latitude: 20.750962
+      longitude: 102.895578
+- code: LA-HO
+  name_en: Houaphanh
+  name_lo: ຫົວພັນ
+  districts:
+  - code: '0701'
+    name_en: Xam Neua
+    name_lo: ຊຳເໜືອ
+  - code: '0702'
+    name_en: Xiengkho
+    name_lo: ຊຽງຄໍ້
+  - code: '0703'
+    name_en: Hiam
+    name_lo: ຮ້ຽມ
+  - code: '0704'
+    name_en: Viengxay
+    name_lo: ວຽງໄຊ
+  - code: '0705'
+    name_en: Houameuang
+    name_lo: ຫົວເມືອງ
+  - code: '0706'
+    name_en: Samtay
+    name_lo: ຊຳໃຕ້
+  - code: '0707'
+    name_en: Sop Bao
+    name_lo: ສົບເບົາ
+  - code: '0708'
+    name_en: Et
+    name_lo: ແອດ
+  - code: '0709'
+    name_en: Kone
+    name_lo: ກວັນ
+  - code: '0710'
+    name_en: Xon
+    name_lo: ຊ່ອນ
+- code: LA-XA
+  name_en: Sainyabuli
+  name_lo: ໄຊຍະບູລີ
+  districts:
+  - code: '0801'
+    name_en: Sainyabuli
+    name_lo: ໄຊຍະບູລີ
+  - code: '0802'
+    name_en: Khop
+    name_lo: ຄອບ
+  - code: '0803'
+    name_en: Hongsa
+    name_lo: ຫົງສາ
+  - code: '0804'
+    name_en: Ngeun
+    name_lo: ເງີນ
+  - code: '0805'
+    name_en: Xienghone
+    name_lo: ຊຽງຮ່ອນ
+  - code: '0806'
+    name_en: Phiang
+    name_lo: ພຽງ
+    villages:
+    - code: '08060001'
+      name_en: Natane
+      name_lo: ນາຕານ
+      latitude: 18.993298
+      longitude: 101.520932
+    - code: '08060002'
+      name_en: Nampouy
+      name_lo: ນາປຸຍ
+      latitude: 18.899648
+      longitude: 101.501335
+    - code: '08060003'
+      name_en: Nakhaem
+      name_lo: ນາແຄມ
+      latitude: 18.974465
+      longitude: 101.541246
+    - code: '08060004'
+      name_en: Viengchaluern
+      name_lo: ວຽງຈະເລີນ
+      latitude: 18.929129
+      longitude: 101.520067
+    - code: '08060005'
+      name_en: Huoi oum
+      name_lo: ຫ້ວຍອຸມ
+      latitude: 18.940999
+      longitude: 101.519001
+    - code: '08060006'
+      name_en: Nongbouathong
+      name_lo: ໜອງບົວທອງ
+      latitude: 18.982215
+      longitude: 101.502971
+    - code: '08060007'
+      name_en: Nonghoung
+      name_lo: ນາໜອງຮຸ່ງ
+      latitude: 18.947201
+      longitude: 101.483025
+    - code: '08060008'
+      name_en: Viengkham
+      name_lo: ວຽງຄຳ
+      latitude: 18.955098
+      longitude: 101.510189
+    - code: '08060009'
+      name_en: Phonesack
+      name_lo: ໂພນສັກ
+      latitude: 18.59717
+      longitude: 101.401219
+    - code: '08060010'
+      name_en: Nasom
+      name_lo: ນາໂສມ
+      latitude: 19.0143
+      longitude: 101.531108
+    - code: '08060011'
+      name_en: Navaen
+      name_lo: ນາແວນ
+      latitude: 18.765948
+      longitude: 101.336918
+    - code: '08060012'
+      name_en: Nalae
+      name_lo: ນາແລ
+      latitude: 18.746788
+      longitude: 101.603337
+    - code: '08060013'
+      name_en: Nam song
+      name_lo: ນໍ້າສົງ
+      latitude: 18.971029
+      longitude: 101.622785
+    - code: '08060014'
+      name_en: Moueng phieng
+      name_lo: ເມືອງພຽງ
+      latitude: 19.14405
+      longitude: 101.52122
+    - code: '08060015'
+      name_en: Phonethong
+      name_lo: ໂພນທອງ
+      latitude: 18.623783
+      longitude: 101.496581
+    - code: '08060016'
+      name_en: Naxing
+      name_lo: ນາຊິງ
+      latitude: 19.006727
+      longitude: 101.5024
+    - code: '08060017'
+      name_en: Pong vang
+      name_lo: ປົ່ງວາງ
+      latitude: 19.14971
+      longitude: 101.598022
+    - code: '08060018'
+      name_en: Huana
+      name_lo: ຫົວນາ
+      latitude: 18.974152
+      longitude: 101.475704
+    - code: '08060019'
+      name_en: Huay xak
+      name_lo: ຫ້ວຍຊາກ
+      latitude: 19.199319
+      longitude: 101.473755
+    - code: '08060020'
+      name_en: Vangkham
+      name_lo: ວັງຄຳ
+      latitude: 18.705775
+      longitude: 101.456038
+    - code: '08060021'
+      name_en: Nakong
+      name_lo: ນາກອກ
+      latitude: 18.589624
+      longitude: 101.498132
+    - code: '08060022'
+      name_en: Nam hear
+      name_lo: ນໍ້າເຮ້ຍ
+      latitude: 19.061883
+      longitude: 101.507805
+    - code: '08060023'
+      name_en: Somsawath
+      name_lo: ສົມສະຫວາດ
+      latitude: 18.635802
+      longitude: 101.572219
+    - code: '08060024'
+      name_en: Na oum
+      name_lo: ນາອຸມ
+      latitude: 18.660856
+      longitude: 101.510568
+    - code: '08060025'
+      name_en: Namor
+      name_lo: ນາມໍ້
+      latitude: 18.801113
+      longitude: 101.58322
+    - code: '08060026'
+      name_en: Pakxong
+      name_lo: ປາກຊອງ
+      latitude: 18.905839
+      longitude: 101.362953
+    - code: '08060027'
+      name_en: Phon xai
+      name_lo: ໂພນໄຊ
+      latitude: 19.142728
+      longitude: 101.442628
+    - code: '08060028'
+      name_en: Phonexieng
+      name_lo: ໂພນຊຽງ
+      latitude: 19.002851
+      longitude: 101.404123
+    - code: '08060029'
+      name_en: Don tiew
+      name_lo: ດອນຕິ້ວ
+      latitude: 19.213022
+      longitude: 101.517358
+    - code: '08060030'
+      name_en: Huoihane
+      name_lo: ຫ້ວຍຫານ
+      latitude: 18.735002
+      longitude: 101.537872
+    - code: '08060031'
+      name_en: Sybounhoueng
+      name_lo: ສີບຸນເຮືອງ
+      latitude: 19.024827
+      longitude: 101.546499
+    - code: '08060032'
+      name_en: Nampang
+      name_lo: ນໍ້າປັງ
+      latitude: 19.077142
+      longitude: 101.452986
+    - code: '08060033'
+      name_en: Kiew kaem
+      name_lo: ກິ່ວແຄ່ມ
+      latitude: 19.139844
+      longitude: 101.572499
+    - code: '08060034'
+      name_en: Phonesa ath
+      name_lo: ໂພນສະອາດ
+      latitude: 18.684061
+      longitude: 101.601808
+    - code: '08060035'
+      name_en: Khounphone
+      name_lo: ຂຸນພອນ
+      latitude: 18.811634
+      longitude: 101.531323
+    - code: '08060036'
+      name_en: Namngim
+      name_lo: ນໍ້າງິມ
+      latitude: 19.154567
+      longitude: 101.325717
+    - code: '08060037'
+      name_en: Namnharb
+      name_lo: ນໍ້າຍາບ
+      latitude: 18.844257
+      longitude: 101.505951
+    - code: '08060038'
+      name_en: Dong luag
+      name_lo: ດົງຫຼວງ
+      latitude: 19.091368
+      longitude: 101.508809
+    - code: '08060039'
+      name_en: Kang
+      name_lo: ກາງ
+      latitude: 19.057505
+      longitude: 101.56108
+  - code: '0807'
+    name_en: Parklai
+    name_lo: ປາກລາຍ
+    villages:
+    - code: '08070001'
+      name_en: Souvanhnaphoum
+      name_lo: ສຸວັນນະພູມ
+      latitude: 18.405789
+      longitude: 101.488246
+    - code: '08070002'
+      name_en: Kang
+      name_lo: ກາງ
+      latitude: 18.409612
+      longitude: 101.526294
+    - code: '08070003'
+      name_en: Thapor
+      name_lo: ທ່າປໍ
+      latitude: 18.385434
+      longitude: 101.535577
+    - code: '08070004'
+      name_en: Thathdaii
+      name_lo: ຕາກແດດ
+      latitude: 18.436662
+      longitude: 101.492429
+    - code: '08070005'
+      name_en: Saenglai
+      name_lo: ແສງລາຍ
+      latitude: 18.230435
+      longitude: 101.406217
+    - code: '08070006'
+      name_en: Phonexai
+      name_lo: ໂພນໄຊ
+      latitude: 18.374358
+      longitude: 101.509801
+    - code: '08070007'
+      name_en: Sysawang
+      name_lo: ສິສະຫວ່າງ
+      latitude: 18.222382
+      longitude: 101.402437
+    - code: '08070008'
+      name_en: Phonengam
+      name_lo: ໂພນງາມ
+      latitude: 18.477227
+      longitude: 101.489552
+    - code: '08070009'
+      name_en: Namxong
+      name_lo: ນໍ້າຊົ້ງ
+      latitude: 18.302226
+      longitude: 101.42178
+    - code: '08070010'
+      name_en: Tarkdaeth
+      name_lo: ຕາກແດດ
+      latitude: 18.103703
+      longitude: 101.348441
+    - code: '08070011'
+      name_en: Napho
+      name_lo: ນາໂພ
+      latitude: 18.477004
+      longitude: 101.5652
+    - code: '08070012'
+      name_en: Mouengpa
+      name_lo: ເມືອງປາ
+      latitude: 18.550898
+      longitude: 101.595001
+    - code: '08070013'
+      name_en: Ponekham
+      name_lo: ປອນຂ້າມ
+      latitude: 18.168195
+      longitude: 101.199073
+    - code: '08070014'
+      name_en: Pathtoung
+      name_lo: ປາກຕຸງ
+      latitude: 18.750732
+      longitude: 101.792844
+    - code: '08070015'
+      name_en: Mouangnuea
+      name_lo: ມ່ວງເໜືອ
+      latitude: 18.408465
+      longitude: 101.573576
+    - code: '08070016'
+      name_en: Palai
+      name_lo: ປ່າໄລ່
+      latitude: 18.191166
+      longitude: 101.303708
+    - code: '08070017'
+      name_en: Lathsawang
+      name_lo: ລາດສະຫວ່າງ
+      latitude: 18.210746
+      longitude: 101.332588
+    - code: '08070018'
+      name_en: Paklaeng
+      name_lo: ປາກແລງ
+      latitude: 18.058046
+      longitude: 101.362113
+    - code: '08070019'
+      name_en: Phone
+      name_lo: ໂພນ
+      latitude: 18.296967
+      longitude: 101.277234
+    - code: '08070020'
+      name_en: Thana
+      name_lo: ທ່ານາ
+      latitude: 18.391033
+      longitude: 101.525205
+    - code: '08070021'
+      name_en: Na kha nhang
+      name_lo: ນາຄະຍາງ
+      latitude: 18.510621
+      longitude: 101.474425
+    - code: '08070022'
+      name_en: Khae
+      name_lo: ແຄ
+      latitude: 18.318004
+      longitude: 101.464464
+    - code: '08070023'
+      name_en: Boungma
+      name_lo: ບຸ່ງມາ
+      latitude: 18.115332
+      longitude: 101.393212
+    - code: '08070024'
+      name_en: Mouengva
+      name_lo: ເມືອງວາ
+      latitude: 18.28089
+      longitude: 101.340473
+    - code: '08070025'
+      name_en: Don
+      name_lo: ດອນ
+      latitude: 18.333988
+      longitude: 101.502111
+    - code: '08070026'
+      name_en: Vangphamone
+      name_lo: ວັງພະໝອນ
+      latitude: 18.472168
+      longitude: 101.400493
+    - code: '08070027'
+      name_en: Xaiyamoungkhoun
+      name_lo: ໄຊຍະມຸງຄຸນ
+      latitude: 18.197753
+      longitude: 101.383774
+    - code: '08070028'
+      name_en: Pangkham
+      name_lo: ປາງຄຳ
+      latitude: 18.396549
+      longitude: 101.413811
+    - code: '08070029'
+      name_en: Vangnhao
+      name_lo: ວັງຍາວ
+      latitude: 18.188444
+      longitude: 101.254267
+    - code: '08070030'
+      name_en: Vangthoum
+      name_lo: ວັງທຸ່ມ
+      latitude: 18.266337
+      longitude: 101.358322
+    - code: '08070031'
+      name_en: Mouangtai
+      name_lo: ມ່ວງໃຕ້
+      latitude: 18.35158
+      longitude: 101.53166
+    - code: '08070032'
+      name_en: Sysaathxomphou
+      name_lo: ສີສະອາດຊົມພູ
+      latitude: 18.210322
+      longitude: 101.40503
+    - code: '08070033'
+      name_en: Huoihai
+      name_lo: ຫ້ວຍໄຮ
+      latitude: 18.010988
+      longitude: 101.339039
+    - code: '08070034'
+      name_en: Nasack
+      name_lo: ນາສັກ
+      latitude: 18.168881
+      longitude: 101.364437
+    - code: '08070035'
+      name_en: Bouabane
+      name_lo: ບົວບານ
+      latitude: 18.271149
+      longitude: 101.318454
+    - code: '08070036'
+      name_en: Huoikhuoi
+      name_lo: ຫ້ວຍຄວາຍ
+      latitude: 18.222785
+      longitude: 101.227775
+    - code: '08070037'
+      name_en: Kaengsao
+      name_lo: ແກ້ງສາວ
+      latitude: 18.139218
+      longitude: 101.34847
+    - code: '08070038'
+      name_en: Natoung
+      name_lo: ນາຕຸງ
+      latitude: 18.817346
+      longitude: 101.738845
+    - code: '08070039'
+      name_en: Huoilainoy
+      name_lo: ຫ້ວຍລາຍນ້ອຍ
+      latitude: 18.242634
+      longitude: 101.410814
+    - code: '08070040'
+      name_en: Namai
+      name_lo: ນາໃໝ່
+      latitude: 18.303772
+      longitude: 101.311905
+    - code: '08070041'
+      name_en: Bouamlaao
+      name_lo: ບວມເລົາ-ຜາແກ້ວ
+      latitude: 18.128164
+      longitude: 101.282507
+    - code: '08070042'
+      name_en: Nachanh
+      name_lo: ນາຈັນ
+      latitude: 18.613778
+      longitude: 101.655692
+    - code: '08070043'
+      name_en: Nata
+      name_lo: ນາຕ້າ
+      latitude: 18.443658
+      longitude: 101.527802
+    - code: '08070044'
+      name_en: Pongkhor
+      name_lo: ປົ່ງຄໍ້
+      latitude: 18.224849
+      longitude: 101.361703
+    - code: '08070045'
+      name_en: Dongsanguane
+      name_lo: ດົງສະຫງວນ
+      latitude: 17.987391
+      longitude: 101.356638
+    - code: '08070046'
+      name_en: Huoimothsom
+      name_lo: ຫ້ວຍມົດສົ້ມ
+      latitude: 18.321642
+      longitude: 101.318888
+    - code: '08070047'
+      name_en: Nongkhai
+      name_lo: ໜອງໄຄ້
+      latitude: 18.603763
+      longitude: 101.732601
+    - code: '08070048'
+      name_en: Ornkaen
+      name_lo: ຂອນແກ່ນ
+      latitude: 18.098319
+      longitude: 101.227562
+    - code: '08070049'
+      name_en: Phalieb
+      name_lo: ຜາລຽບ
+      latitude: 18.505635
+      longitude: 101.667656
+    - code: '08070050'
+      name_en: Nakang
+      name_lo: ນາກາງ
+      latitude: 18.415551
+      longitude: 101.44333
+    - code: '08070051'
+      name_en: Namnhang
+      name_lo: ນໍ້າຍາງ
+      latitude: 18.059892
+      longitude: 101.232509
+    - code: '08070052'
+      name_en: Huoidueawane
+      name_lo: ຫ້ວຍເດື່ອຫວານ
+      latitude: 18.055406
+      longitude: 101.307995
+    - code: '08070053'
+      name_en: Huoitang
+      name_lo: ຫ້ວຍຕ່າງ
+      latitude: 18.08152
+      longitude: 101.363047
+    - code: '08070054'
+      name_en: Namlin
+      name_lo: ນໍ້າລິນ
+      latitude: 18.364921
+      longitude: 101.468755
+    - code: '08070055'
+      name_en: Sivilay
+      name_lo: ສີວິໄລ
+      latitude: 18.035007
+      longitude: 101.358697
+    - code: '08070056'
+      name_en: Huoilak
+      name_lo: ຫ້ວຍເຫຼັກ
+      latitude: 18.036395
+      longitude: 101.267649
+    - code: '08070057'
+      name_en: Saenphon
+      name_lo: ແສນພົນ
+      latitude: 18.160157
+      longitude: 101.276879
+    - code: '08070058'
+      name_en: Huoixaykhao
+      name_lo: ຫ້ວຍຊາຍຂາວ
+      latitude: 18.249016
+      longitude: 101.25554
+    - code: '08070059'
+      name_en: Huoixaykham
+      name_lo: ຫ້ວຍຊາຍຄຳ
+      latitude: 18.21485
+      longitude: 101.397093
+    - code: '08070060'
+      name_en: Khoksawanh
+      name_lo: ໂຄກສະຫວັນ
+      latitude: 18.366052
+      longitude: 101.384402
+    - code: '08070061'
+      name_en: Nakham
+      name_lo: ນາຄຳ
+      latitude: 18.257449
+      longitude: 101.303343
+    - code: '08070062'
+      name_en: Nakhane
+      name_lo: ນາຄານ
+      latitude: 18.717691
+      longitude: 101.667999
+    - code: '08070063'
+      name_en: Nasawang
+      name_lo: ນາສະຫວ່າງ
+      latitude: 18.215347
+      longitude: 101.410352
+  - code: '0808'
+    name_en: Kenethao
+    name_lo: ແກ່ນທ້າວ
+  - code: '0809'
+    name_en: Botene
+    name_lo: ບໍ່ແຕນ
+  - code: '0810'
+    name_en: Thongmyxay
+    name_lo: ທົ່ງມີໄຊ
+    villages:
+    - code: '08100001'
+      name_en: Daeth
+      name_lo: ແດດ
+      latitude: 18.371702
+      longitude: 101.179062
+    - code: '08100002'
+      name_en: Dane
+      name_lo: ດ່ານ
+      latitude: 18.532311
+      longitude: 101.224682
+    - code: '08100003'
+      name_en: Thath
+      name_lo: ທາດ
+      latitude: 18.411711
+      longitude: 101.174806
+    - code: '08100004'
+      name_en: Mai
+      name_lo: ໃໝ່
+      latitude: 18.381727
+      longitude: 101.126658
+    - code: '08100005'
+      name_en: Yaai
+      name_lo: ໃຫຍ່
+      latitude: 18.39844
+      longitude: 101.15775
+    - code: '08100006'
+      name_en: Khaen
+      name_lo: ແຄ່ນ
+      latitude: 18.456429
+      longitude: 101.108926
+    - code: '08100007'
+      name_en: Donphou
+      name_lo: ດອນພູນ
+      latitude: 18.414883
+      longitude: 101.185874
+    - code: '08100008'
+      name_en: Namonh
+      name_lo: ນາມົນ
+      latitude: 18.448
+      longitude: 101.24826
+    - code: '08100009'
+      name_en: Namouang
+      name_lo: ນາມ່ວງ
+      latitude: 18.301205
+      longitude: 101.208348
+    - code: '08100010'
+      name_en: Naphay
+      name_lo: ນາຝາຍ
+      latitude: 18.358326
+      longitude: 101.159599
+    - code: '08100011'
+      name_en: Napueay
+      name_lo: ນາເປືອຍ
+      latitude: 18.469808
+      longitude: 101.315541
+    - code: '08100012'
+      name_en: Namok
+      name_lo: ນາໝອກ
+      latitude: 18.404569
+      longitude: 101.198914
+    - code: '08100013'
+      name_en: Sawang
+      name_lo: ສະຫວ່າງ
+      latitude: 18.372769
+      longitude: 101.109826
+  - code: '0811'
+    name_en: Xaisathan
+    name_lo: ໄຊສະຖານ
+- code: LA-XI
+  name_en: Xiangkhouang
+  name_lo: ຊຽງຂວາງ
+  districts:
+  - code: '0901'
+    name_en: Pek
+    name_lo: ແປກ
+  - code: '0902'
+    name_en: Kham
+    name_lo: ຄຳ
+  - code: '0903'
+    name_en: Nong Het
+    name_lo: ໜອງແຮດ
+  - code: '0904'
+    name_en: Khoune
+    name_lo: ຄູນ
+  - code: '0905'
+    name_en: Mok May
+    name_lo: ໝອກໄໝ່
+  - code: '0906'
+    name_en: Phou Kout
+    name_lo: ພູກູດ
+  - code: '0907'
+    name_en: Phaxay
+    name_lo: ຜາໄຊ
+- code: LA-VI
+  name_en: Vientiane
+  name_lo: ວຽງຈັນ
+  districts:
+  - code: '1001'
+    name_en: Phonhong
+    name_lo: ໂພນໂຮງ
+  - code: '1002'
+    name_en: Thoulakhom
+    name_lo: ທຸລະຄົມ
+  - code: '1003'
+    name_en: Keo Oudom
+    name_lo: ແກ້ວອຸດົມ
+  - code: '1004'
+    name_en: Kasy
+    name_lo: ກາສີ
+  - code: '1005'
+    name_en: Vangvieng
+    name_lo: ວັງວຽງ
+  - code: '1006'
+    name_en: Feuang
+    name_lo: ເຟືອງ
+  - code: '1007'
+    name_en: Xanakharm
+    name_lo: ຊະນະຄາມ
+  - code: '1008'
+    name_en: Mad
+    name_lo: ແມດ
+  - code: '1009'
+    name_en: Viengkham
+    name_lo: ວຽງຄໍາ
+  - code: '1010'
+    name_en: Hinhurp
+    name_lo: ຫີນເຫີບ
+  - code: '1011'
+    name_en: Meun
+    name_lo: ໜື່ນ
+- code: LA-BL
+  name_en: Bolikhamsai
+  name_lo: ບໍລິຄໍາໄຊ
+  districts:
+  - code: '1101'
+    name_en: Pakxan
+    name_lo: ປາກຊັນ
+  - code: '1102'
+    name_en: Thaphabat
+    name_lo: ທ່າພະບາດ
+  - code: '1103'
+    name_en: Pakkading
+    name_lo: ປາກກະດິງ
+    villages:
+    - code: '11030001'
+      name_en: Huoaileuk
+      name_lo: ຫ້ວຍເລິກ
+      latitude: 18.452855
+      longitude: 104.04518
+    - code: '11030002'
+      name_en: Phakphang
+      name_lo: ປາກປາງ
+      latitude: 18.401396
+      longitude: 103.959653
+    - code: '11030003'
+      name_en: Phakthone
+      name_lo: ປາກທອນ
+      latitude: 18.091984
+      longitude: 104.144747
+    - code: '11030004'
+      name_en: Boungkouang
+      name_lo: ບຸ່ງກວາງ
+      latitude: 17.984623
+      longitude: 104.25909
+    - code: '11030005'
+      name_en: Phaksa
+      name_lo: ປາກສາ
+      latitude: 18.354394
+      longitude: 103.947458
+    - code: '11030006'
+      name_en: Donesay
+      name_lo: ດອນໄຊ
+      latitude: 18.330045
+      longitude: 104.017098
+    - code: '11030007'
+      name_en: Thasaaath
+      name_lo: ທ່າສະອາດ
+      latitude: 18.042359
+      longitude: 104.20921
+    - code: '11030008'
+      name_en: Naphong
+      name_lo: ນາພົງ
+      latitude: 18.238518
+      longitude: 104.367712
+    - code: '11030009'
+      name_en: Hathsaickam
+      name_lo: ຫາດຊາຍຄຳ
+      latitude: 18.300156
+      longitude: 104.042844
+    - code: '11030010'
+      name_en: Thakanhthin
+      name_lo: ທ່າກັນຖິນ
+      latitude: 18.171954
+      longitude: 104.099339
+    - code: '11030011'
+      name_en: Phakkadingnuea
+      name_lo: ປາກກະດິງເໜືອ
+      latitude: 18.335576
+      longitude: 103.984994
+    - code: '11030012'
+      name_en: Somsanook
+      name_lo: ສົມສະໜຸກ
+      latitude: 18.234123
+      longitude: 104.075676
+    - code: '11030013'
+      name_en: Thonghab
+      name_lo: ທົ່ງຮາບ
+      latitude: 18.183606
+      longitude: 104.164419
+    - code: '11030014'
+      name_en: Nongboua
+      name_lo: ໜອງບົວ
+      latitude: 18.140204
+      longitude: 104.197873
+    - code: '11030015'
+      name_en: Namkou
+      name_lo: ນໍ້າຄູ້
+      latitude: 18.191721
+      longitude: 104.220761
+    - code: '11030016'
+      name_en: Khonekouang
+      name_lo: ຂອນກວ້າງ
+      latitude: 18.131243
+      longitude: 104.118669
+    - code: '11030017'
+      name_en: Phakkadingtay
+      name_lo: ປາກກະດິງໃຕ້
+      latitude: 18.300179
+      longitude: 104.013249
+    - code: '11030018'
+      name_en: Phaksum
+      name_lo: ປາກຊຸນ
+      latitude: 18.333345
+      longitude: 104.059056
+    - code: '11030019'
+      name_en: Thongnoy
+      name_lo: ທົ່ງນ້ອຍ
+      latitude: 18.064758
+      longitude: 104.177009
+    - code: '11030020'
+      name_en: Nakueanodk
+      name_lo: ນາເຄືອນອກ
+      latitude: 18.216011
+      longitude: 104.199323
+    - code: '11030021'
+      name_en: Namduea
+      name_lo: ນໍ້າເດື່ອ
+      latitude: 18.251385
+      longitude: 104.165119
+    - code: '11030022'
+      name_en: Khonesong
+      name_lo: ຄອນສົງ
+      latitude: 18.052189
+      longitude: 104.280027
+    - code: '11030023'
+      name_en: Thongnaminuea
+      name_lo: ທົ່ງນາມີເໜືອ
+      latitude: 18.17157
+      longitude: 104.27555
+    - code: '11030024'
+      name_en: Huoaiphet
+      name_lo: ຫ້ວຍເພັດ
+      latitude: 18.118316
+      longitude: 104.359817
+    - code: '11030025'
+      name_en: Kanglouang
+      name_lo: ແກ້ງຫຼວງ
+      latitude: 18.100059
+      longitude: 104.177997
+    - code: '11030026'
+      name_en: Nanam
+      name_lo: ນານໍ້າ
+      latitude: 17.931592
+      longitude: 104.276798
+    - code: '11030027'
+      name_en: Nasang
+      name_lo: ນາສັງ
+      latitude: 18.076847
+      longitude: 104.238552
+    - code: '11030028'
+      name_en: Phonhthong
+      name_lo: ໂພນທອງ
+      latitude: 18.076699
+      longitude: 104.348197
+    - code: '11030029'
+      name_en: Sord
+      name_lo: ຊອດ
+      latitude: 18.19817
+      longitude: 104.083385
+    - code: '11030030'
+      name_en: Done
+      name_lo: ດອນ
+      latitude: 17.951443
+      longitude: 104.258018
+    - code: '11030031'
+      name_en: Phonhxay
+      name_lo: ໂພນໄຊ
+      latitude: 18.264398
+      longitude: 104.077515
+    - code: '11030032'
+      name_en: Namthone
+      name_lo: ນໍ້າທອນ
+      latitude: 18.066918
+      longitude: 104.30854
+    - code: '11030033'
+      name_en: Phonesavang
+      name_lo: ໂພນສະຫວ່າງ
+      latitude: 18.134745
+      longitude: 104.16213
+    - code: '11030034'
+      name_en: Viengkham
+      name_lo: ວຽງຄຳ
+      latitude: 18.094863
+      longitude: 104.280688
+    - code: '11030035'
+      name_en: Nabouay
+      name_lo: ນາບວຍ
+      latitude: 18.230686
+      longitude: 104.279122
+    - code: '11030036'
+      name_en: Bone
+      name_lo: ບອນ/ນາບອນ
+      latitude: 18.3848
+      longitude: 103.930732
+    - code: '11030037'
+      name_en: Nalouang
+      name_lo: ນາຫຼວງ
+      latitude: 18.014246
+      longitude: 104.237537
+    - code: '11030038'
+      name_en: Sonephunxay
+      name_lo: ຊອນພັນໄຊ
+      latitude: 18.125832
+      longitude: 104.326993
+    - code: '11030039'
+      name_en: Nalieng
+      name_lo: ນາລຽງ
+      latitude: 17.992367
+      longitude: 104.308172
+  - code: '1104'
+    name_en: Borikhane
+    name_lo: ບໍລິຄັນ
+    villages:
+    - code: '11040001'
+      name_en: Xomxeun
+      name_lo: ຊົມຊື່ນ
+      latitude: 18.531762
+      longitude: 103.638086
+    - code: '11040002'
+      name_en: Thasy
+      name_lo: ທ່າສີ
+      latitude: 18.840176
+      longitude: 103.806937
+    - code: '11040003'
+      name_en: Thongphanhkham
+      name_lo: ທົ່ງພັນຄຳ
+      latitude: 18.513081
+      longitude: 103.904284
+    - code: '11040004'
+      name_en: Kokpho
+      name_lo: ກົກໂພ
+      latitude: 18.78054
+      longitude: 103.880801
+    - code: '11040005'
+      name_en: Nakoun
+      name_lo: ນາກຸນ
+      latitude: 18.77976
+      longitude: 103.937125
+    - code: '11040006'
+      name_en: Namteck
+      name_lo: ນໍ້າເຕັກ
+      latitude: 18.536871
+      longitude: 104.114926
+    - code: '11040007'
+      name_en: Pakhueng
+      name_lo: ປາກເຫືອງ
+      latitude: 18.678285
+      longitude: 103.805583
+    - code: '11040008'
+      name_en: Phadai
+      name_lo: ຜາໄດ
+      latitude: 18.835426
+      longitude: 103.678271
+    - code: '11040009'
+      name_en: Thaheua
+      name_lo: ທ່າເຮືອ
+      latitude: 18.63773
+      longitude: 103.626161
+    - code: '11040010'
+      name_en: Phonhthong
+      name_lo: ໂພນທອງ
+      latitude: 18.627126
+      longitude: 103.770099
+    - code: '11040011'
+      name_en: Hadyeun
+      name_lo: ຫາດຢື້ນ
+      latitude: 18.64588
+      longitude: 103.53619
+    - code: '11040012'
+      name_en: Nonsomboun
+      name_lo: ໂນນສົມບູນ
+      latitude: 18.565119
+      longitude: 103.615724
+    - code: '11040013'
+      name_en: Phonhmyxai
+      name_lo: ໂພນມີໄຊ
+      latitude: 18.643198
+      longitude: 103.904026
+    - code: '11040014'
+      name_en: Phukham
+      name_lo: ພູຄຳ
+      latitude: 18.605333
+      longitude: 104.008096
+    - code: '11040015'
+      name_en: Khaenyong
+      name_lo: ແຄນຢ່ອງ
+      latitude: 18.749012
+      longitude: 103.809599
+    - code: '11040016'
+      name_en: Bor
+      name_lo: ບໍ່
+      latitude: 18.793591
+      longitude: 103.609708
+    - code: '11040017'
+      name_en: Hadxiengtom
+      name_lo: ຊຽງຕອມ
+      latitude: 18.571722
+      longitude: 103.761222
+    - code: '11040018'
+      name_en: Phamueng
+      name_lo: ຜາເມືອງ
+      latitude: 18.758068
+      longitude: 103.676424
+    - code: '11040019'
+      name_en: Nampa
+      name_lo: ນໍ້າປາ
+      latitude: 18.525634
+      longitude: 103.570084
+    - code: '11040020'
+      name_en: Hinngonh
+      name_lo: ຫີນໂງ່ນ
+      latitude: 18.492561
+      longitude: 103.985258
+    - code: '11040021'
+      name_en: Sysawath
+      name_lo: ສີສະຫວາດ
+      latitude: 18.593499
+      longitude: 103.680169
+    - code: '11040022'
+      name_en: Pakphoy
+      name_lo: ປາກໂພຍ
+      latitude: 18.548297
+      longitude: 103.954029
+    - code: '11040023'
+      name_en: Huana
+      name_lo: ຫົວນາ
+      latitude: 18.719905
+      longitude: 103.655736
+    - code: '11040024'
+      name_en: Dong
+      name_lo: ດົງ
+      latitude: 18.737606
+      longitude: 103.731751
+    - code: '11040025'
+      name_en: Phonhxai
+      name_lo: ໂພນໄຊ
+      latitude: 18.711581
+      longitude: 103.602087
+    - code: '11040026'
+      name_en: Don
+      name_lo: ດອນ
+      latitude: 18.550824
+      longitude: 103.7284
+    - code: '11040027'
+      name_en: Phonhsawath
+      name_lo: ໂພນສະຫວາດ
+      latitude: 18.677835
+      longitude: 103.700499
+    - code: '11040028'
+      name_en: Songkhornmai
+      name_lo: ສອງຄອນໃໝ່
+      latitude: 18.483571
+      longitude: 103.688155
+    - code: '11040029'
+      name_en: Phonsong
+      name_lo: ໂພນສົງ
+      latitude: 18.848921
+      longitude: 103.515847
+    - code: '11040030'
+      name_en: Huoikhoun
+      name_lo: ຫ້ວຍຄູນ
+      latitude: 18.481257
+      longitude: 103.65855
+    - code: '11040031'
+      name_en: Vadthath
+      name_lo: ວັດທາດ
+      latitude: 18.575036
+      longitude: 103.717094
+    - code: '11040032'
+      name_en: Phonjeng
+      name_lo: ໂພນແຍງ
+      latitude: 18.795739
+      longitude: 103.544389
+    - code: '11040033'
+      name_en: Phonhsy
+      name_lo: ໂພນສີ
+      latitude: 18.567428
+      longitude: 103.73415
+    - code: '11040034'
+      name_en: Nongdaeng
+      name_lo: ໜອງແດງ
+      latitude: 18.811436
+      longitude: 103.857374
+    - code: '11040035'
+      name_en: Hadpho
+      name_lo: ຫາດໂພ
+      latitude: 18.536287
+      longitude: 103.71392
+    - code: '11040036'
+      name_en: Phiengdy
+      name_lo: ພຽງດີ
+      latitude: 18.508148
+      longitude: 103.692082
+    - code: '11040037'
+      name_en: Wa
+      name_lo: ຫວ້າ
+      latitude: 18.714262
+      longitude: 103.957544
+    - code: '11040038'
+      name_en: Xiengxien
+      name_lo: ຊຽງຊ່ຽນ
+      latitude: 18.756903
+      longitude: 104.002268
+    - code: '11040039'
+      name_en: Na oh
+      name_lo: ນາໂອ
+      latitude: 18.518972
+      longitude: 103.76194
+    - code: '11040040'
+      name_en: Nahan
+      name_lo: ນາຫັນ
+      latitude: 18.739016
+      longitude: 103.521443
+  - code: '1105'
+    name_en: Khamkeut
+    name_lo: ຄຳເກີດ
+  - code: '1106'
+    name_en: Viengthong
+    name_lo: ວຽງທອງ
+    villages:
+    - code: '11060001'
+      name_en: Sobna
+      name_lo: ສົບນາ
+      latitude: 18.538726
+      longitude: 104.478903
+    - code: '11060002'
+      name_en: Namyang
+      name_lo: ນໍ້າຢ້າງ
+      latitude: 18.49159
+      longitude: 104.459615
+    - code: '11060003'
+      name_en: Chomthong
+      name_lo: ຈອມທອງ
+      latitude: 18.75455
+      longitude: 104.330332
+    - code: '11060004'
+      name_en: Thaphae
+      name_lo: ທ່າແພ
+      latitude: 18.45502
+      longitude: 104.382495
+    - code: '11060005'
+      name_en: Xaichaluern
+      name_lo: ໄຊຈະເລີນ
+      latitude: 18.686687
+      longitude: 104.12888
+    - code: '11060006'
+      name_en: Namtong
+      name_lo: ນໍ້າຕ້ອງ
+      latitude: 18.798452
+      longitude: 104.191355
+    - code: '11060007'
+      name_en: Hinngonh
+      name_lo: ຫີນໂງ່ນ
+      latitude: 18.326781
+      longitude: 104.531789
+    - code: '11060008'
+      name_en: Naphern
+      name_lo: ນາເພີນ
+      latitude: 18.906907
+      longitude: 104.304739
+    - code: '11060009'
+      name_en: Vangphieng
+      name_lo: ວັງພຽງ
+      latitude: 18.866028
+      longitude: 104.49533
+    - code: '11060010'
+      name_en: Vanghin
+      name_lo: ວັງຫີນ
+      latitude: 18.62667
+      longitude: 104.519392
+    - code: '11060011'
+      name_en: Vangpan
+      name_lo: ວັງແປ້ນ
+      latitude: 18.537917
+      longitude: 104.312248
+    - code: '11060012'
+      name_en: Namkang
+      name_lo: ນໍ້າກ້າງ
+      latitude: 18.413309
+      longitude: 104.479622
+    - code: '11060013'
+      name_en: Namkou
+      name_lo: ນໍ້າກູ້
+      latitude: 18.725251
+      longitude: 104.463243
+    - code: '11060014'
+      name_en: Phabor
+      name_lo: ຜາບໍ່
+      latitude: 18.584998
+      longitude: 104.624545
+    - code: '11060015'
+      name_en: Oudomxai
+      name_lo: ອຸດົມໄຊ
+      latitude: 18.432931
+      longitude: 104.505507
+    - code: '11060016'
+      name_en: Natho
+      name_lo: ນາໂທ
+      latitude: 18.711836
+      longitude: 104.072879
+    - code: '11060017'
+      name_en: Nongpath
+      name_lo: ໜອງປາດ
+      latitude: 18.462765
+      longitude: 104.48046
+    - code: '11060018'
+      name_en: Homchalern
+      name_lo: ໂຮມຈະເລີນ
+      latitude: 19.057007
+      longitude: 104.296913
+    - code: '11060019'
+      name_en: Nady
+      name_lo: ນາດີ
+      latitude: 18.499901
+      longitude: 104.568283
+    - code: '11060020'
+      name_en: Myxai
+      name_lo: ມີໄຊ
+      latitude: 18.59273
+      longitude: 104.243117
+    - code: '11060021'
+      name_en: Natanh
+      name_lo: ນາຕັນ
+      latitude: 18.703599
+      longitude: 104.610391
+    - code: '11060022'
+      name_en: Naxuang
+      name_lo: ນາຊວງ
+      latitude: 18.37363
+      longitude: 104.4434
+    - code: '11060023'
+      name_en: Phonhmueng ( muannoy )
+      name_lo: ໂພນເມືອງ
+      latitude: 18.617975
+      longitude: 104.351199
+    - code: '11060024'
+      name_en: Phakord
+      name_lo: ຜາຂອດ
+      latitude: 18.415904
+      longitude: 104.653936
+    - code: '11060025'
+      name_en: Muengmuan
+      name_lo: ເມືອງມ່ວນ
+      latitude: 18.397166
+      longitude: 104.570315
+    - code: '11060026'
+      name_en: Phonhdou
+      name_lo: ໂພນດູ່
+      latitude: 18.546388
+      longitude: 104.423384
+    - code: '11060027'
+      name_en: Nanhang
+      name_lo: ນາຍາງ
+      latitude: 18.747501
+      longitude: 104.571004
+  - code: '1107'
+    name_en: Xaichamphon
+    name_lo: ໄຊຈຳພອນ
+- code: LA-KH
+  name_en: Khammouane
+  name_lo: ຄໍາມ່ວນ
+  districts:
+  - code: '1201'
+    name_en: Thakhek
+    name_lo: ທ່າແຂກ
+    villages:
+    - code: '12010001'
+      name_en: Nabong
+      name_lo: ນາບົງ
+      latitude: 17.409897
+      longitude: 104.815317
+    - code: '12010002'
+      name_en: Thakhek
+      name_lo: ທ່າແຂກ
+      latitude: 17.372776
+      longitude: 104.808291
+    - code: '12010003'
+      name_en: Donekheuanxang
+      name_lo: ດອນເຄື່ອນຊ້າງ
+      latitude: 17.389521
+      longitude: 104.814283
+    - code: '12010004'
+      name_en: Somsanouk
+      name_lo: ສົມສະໜຸກ
+      latitude: 17.395821
+      longitude: 104.810071
+    - code: '12010005'
+      name_en: Laophokham
+      name_lo: ເຫຼົາໂພຄຳ
+      latitude: 17.366886
+      longitude: 104.819431
+    - code: '12010006'
+      name_en: Xiengvenh
+      name_lo: ຊຽງແຫວນ
+      latitude: 17.414911
+      longitude: 104.899345
+    - code: '12010007'
+      name_en: Houaynangly
+      name_lo: ຫ້ວຍນາງລີ້
+      latitude: 17.414071
+      longitude: 104.793523
+    - code: '12010008'
+      name_en: Chomcheng
+      name_lo: ຈອມແຈ້ງ
+      latitude: 17.379026
+      longitude: 104.812425
+    - code: '12010009'
+      name_en: Thakekkang
+      name_lo: ທ່າແຂກກາງ
+      latitude: 17.391966
+      longitude: 104.803054
+    - code: '12010010'
+      name_en: Mouangsoum
+      name_lo: ມ່ວງສຸມ
+      latitude: 17.344675
+      longitude: 104.813699
+    - code: '12010011'
+      name_en: Nameuang
+      name_lo: ນາເມືອງ
+      latitude: 17.428731
+      longitude: 104.788329
+    - code: '12010012'
+      name_en: Tham
+      name_lo: ຖໍ້າ
+      latitude: 17.429153
+      longitude: 104.866677
+    - code: '12010013'
+      name_en: Dongkasaen
+      name_lo: ດົງກະແສນ
+      latitude: 17.293069
+      longitude: 104.986104
+    - code: '12010014'
+      name_en: Dongmouangkhai
+      name_lo: ດົງມ່ວງໄຂ່
+      latitude: 17.438901
+      longitude: 104.861037
+    - code: '12010015'
+      name_en: Phonsanam
+      name_lo: ໂພນສະໜາມ
+      latitude: 17.403266
+      longitude: 104.818505
+    - code: '12010016'
+      name_en: Thakhekneua
+      name_lo: ທ່າແຂກເໜືອ
+      latitude: 17.39991
+      longitude: 104.800328
+    - code: '12010017'
+      name_en: Phonphim
+      name_lo: ໂພນພິມ
+      latitude: 17.383083
+      longitude: 104.84906
+    - code: '12010018'
+      name_en: Viengvilay
+      name_lo: ວຽງວິໄລ
+      latitude: 17.400712
+      longitude: 104.836174
+    - code: '12010019'
+      name_en: Thakhae
+      name_lo: ທ່າແຄ
+      latitude: 17.459394
+      longitude: 104.839487
+    - code: '12010020'
+      name_en: Vern
+      name_lo: ເວີນ
+      latitude: 17.503599
+      longitude: 104.732683
+    - code: '12010021'
+      name_en: Thangam
+      name_lo: ທ່າງາມ
+      latitude: 17.265936
+      longitude: 104.826574
+    - code: '12010022'
+      name_en: Doy
+      name_lo: ດ່ອຍ
+      latitude: 17.553076
+      longitude: 104.836601
+    - code: '12010023'
+      name_en: Khamkhykai
+      name_lo: ຄຳຂີ້ໄກ່
+      latitude: 17.320736
+      longitude: 104.944367
+    - code: '12010024'
+      name_en: Namdon
+      name_lo: ນໍ້າໂດນ
+      latitude: 17.482203
+      longitude: 104.756066
+    - code: '12010025'
+      name_en: Pakdong
+      name_lo: ປາກດົງ
+      latitude: 17.381683
+      longitude: 104.828999
+    - code: '12010026'
+      name_en: Laophoxai
+      name_lo: ເຫົ່າໂພໄຊ
+      latitude: 17.385397
+      longitude: 104.809391
+    - code: '12010027'
+      name_en: Phin
+      name_lo: ພິນ
+      latitude: 17.443708
+      longitude: 104.971724
+    - code: '12010028'
+      name_en: Phonsaat
+      name_lo: ໂພນສະອາດ
+      latitude: 17.413753
+      longitude: 104.832032
+    - code: '12010029'
+      name_en: Chormkeo
+      name_lo: ຈອມແກ້ວ
+      latitude: 17.412013
+      longitude: 104.801623
+    - code: '12010030'
+      name_en: Nadon
+      name_lo: ນາໂດນ
+      latitude: 17.344877
+      longitude: 104.90337
+    - code: '12010031'
+      name_en: Nakhangxang
+      name_lo: ນາຂ້າງຊ້າງ
+      latitude: 17.477157
+      longitude: 104.869704
+    - code: '12010032'
+      name_en: Phositha
+      name_lo: ໂພນສີທ່າ
+      latitude: 17.442515
+      longitude: 104.814831
+    - code: '12010033'
+      name_en: Nonsavang
+      name_lo: ໂນນສະຫວ່າງ
+      latitude: 17.561195
+      longitude: 104.69936
+    - code: '12010034'
+      name_en: Phonsung
+      name_lo: ໂພນສູງ
+      latitude: 17.467608
+      longitude: 104.767561
+    - code: '12010035'
+      name_en: Sa ngom
+      name_lo: ສະໂງມ
+      latitude: 17.494326
+      longitude: 104.806774
+    - code: '12010036'
+      name_en: Tanh
+      name_lo: ຕານ
+      latitude: 17.414253
+      longitude: 104.852364
+    - code: '12010037'
+      name_en: Donedon
+      name_lo: ດອນໂດນ
+      latitude: 17.449566
+      longitude: 104.760306
+    - code: '12010038'
+      name_en: Maiphosi
+      name_lo: ໃໝ່ໂພສີ
+      latitude: 17.454966
+      longitude: 104.778452
+    - code: '12010039'
+      name_en: Nakaikheer
+      name_lo: ນາໄກ່ເຂ່ຍ
+      latitude: 17.524827
+      longitude: 104.76322
+    - code: '12010040'
+      name_en: Nasa at
+      name_lo: ນາສະອາດ
+      latitude: 17.328835
+      longitude: 104.987522
+    - code: '12010041'
+      name_en: Paksimang
+      name_lo: ປາກຊີມັງ
+      latitude: 17.359985
+      longitude: 104.811161
+    - code: '12010042'
+      name_en: Laongam
+      name_lo: ເຫຼົ່າງາມ
+      latitude: 17.404014
+      longitude: 104.867681
+    - code: '12010043'
+      name_en: Nabo
+      name_lo: ນາໂບ
+      latitude: 17.396424
+      longitude: 104.801364
+    - code: '12010044'
+      name_en: Natad
+      name_lo: ນາຕາດ
+      latitude: 17.478326
+      longitude: 104.743308
+    - code: '12010045'
+      name_en: Nongpheu
+      name_lo: ໜອງຜື
+      latitude: 17.322756
+      longitude: 104.833139
+    - code: '12010046'
+      name_en: Nangaew
+      name_lo: ນາແງວ
+      latitude: 17.537657
+      longitude: 104.718698
+    - code: '12010047'
+      name_en: Phondou
+      name_lo: ໂພນດູ່
+      latitude: 17.536398
+      longitude: 104.913296
+    - code: '12010048'
+      name_en: Koktong
+      name_lo: ກົກຕ້ອງ
+      latitude: 17.511495
+      longitude: 104.776395
+    - code: '12010049'
+      name_en: Dongtai
+      name_lo: ດົງໃຕ້
+      latitude: 17.236895
+      longitude: 104.84391
+    - code: '12010050'
+      name_en: Pakpeng
+      name_lo: ປາກເປັ່ງ
+      latitude: 17.189036
+      longitude: 104.821639
+    - code: '12010051'
+      name_en: Phalaem
+      name_lo: ຜາແຫຼມ
+      latitude: 17.579441
+      longitude: 104.812384
+    - code: '12010052'
+      name_en: Thadeua
+      name_lo: ທ່າເດື່ອ
+      latitude: 17.295105
+      longitude: 104.820733
+  - code: '1202'
+    name_en: Mahaxay
+    name_lo: ມະຫາໄຊ
+  - code: '1203'
+    name_en: Nong Bok
+    name_lo: ໜອງບົກ
+  - code: '1204'
+    name_en: Hineboune
+    name_lo: ຫີນບູນ
+  - code: '1205'
+    name_en: Yommalath
+    name_lo: ຍົມມະລາດ
+    villages:
+    - code: '12050001'
+      name_en: Pomkhoun
+      name_lo: ປອມຄູນ
+      latitude: 17.603026
+      longitude: 104.947276
+    - code: '12050002'
+      name_en: Nasok
+      name_lo: ນາໂຊກ
+      latitude: 17.539538
+      longitude: 105.299476
+    - code: '12050003'
+      name_en: Natherd
+      name_lo: ນາເທີດ
+      latitude: 17.603685
+      longitude: 105.292836
+    - code: '12050004'
+      name_en: Kaengmouang
+      name_lo: ແກ້ງມ່ວງ
+      latitude: 17.467278
+      longitude: 105.495551
+    - code: '12050005'
+      name_en: Gnommaladtai
+      name_lo: ຍົມມະລາດໃຕ້
+      latitude: 17.588308
+      longitude: 105.148261
+    - code: '12050006'
+      name_en: Nadenh
+      name_lo: ນາແດນ
+      latitude: 17.50493
+      longitude: 105.388735
+    - code: '12050007'
+      name_en: Sangkeo
+      name_lo: ສ້າງແກ້ວ
+      latitude: 17.668968
+      longitude: 105.166448
+    - code: '12050008'
+      name_en: Kouanphanh
+      name_lo: ກວນພັນ
+      latitude: 17.548259
+      longitude: 105.110108
+    - code: '12050009'
+      name_en: Thathod
+      name_lo: ທ່າໂທດ
+      latitude: 17.621296
+      longitude: 105.134174
+    - code: '12050010'
+      name_en: Phathung
+      name_lo: ຜາທຸງ
+      latitude: 17.530084
+      longitude: 105.168131
+    - code: '12050011'
+      name_en: Bungbao
+      name_lo: ບຸ່ງເບົາ
+      latitude: 17.579647
+      longitude: 105.227869
+    - code: '12050012'
+      name_en: Nakatang
+      name_lo: ນາກະຕັງ
+      latitude: 17.529708
+      longitude: 105.227042
+    - code: '12050013'
+      name_en: Hadxone
+      name_lo: ຫາດຊອນ
+      latitude: 17.460887
+      longitude: 105.457272
+    - code: '12050014'
+      name_en: Thachon
+      name_lo: ທ່າໂຈນ
+      latitude: 17.447717
+      longitude: 105.566265
+    - code: '12050015'
+      name_en: Nalardkhouy
+      name_lo: ນາລາດຄວາຍ
+      latitude: 17.60344
+      longitude: 105.133006
+    - code: '12050016'
+      name_en: Meuang
+      name_lo: ເໝືອງ
+      latitude: 17.608738
+      longitude: 105.224035
+    - code: '12050017'
+      name_en: Talak
+      name_lo: ຕະຫຼາກ
+      latitude: 17.592954
+      longitude: 105.626906
+    - code: '12050018'
+      name_en: Houayyen
+      name_lo: ຫ້ວຍເຢັນ
+      latitude: 17.565193
+      longitude: 105.244955
+    - code: '12050019'
+      name_en: Gnommaladneua
+      name_lo: ຍົມມະລາດເໜືອ
+      latitude: 17.615353
+      longitude: 105.170608
+    - code: '12050020'
+      name_en: Nongping
+      name_lo: ໜອງປີງ
+      latitude: 17.593832
+      longitude: 105.186382
+    - code: '12050021'
+      name_en: Tumphuang
+      name_lo: ຖໍ້າພວງ
+      latitude: 17.565155
+      longitude: 105.161317
+    - code: '12050022'
+      name_en: Phonsed
+      name_lo: ໂພນແສດ
+      latitude: 17.508303
+      longitude: 105.271389
+    - code: '12050023'
+      name_en: Khamhae
+      name_lo: ຄຳແຮ່
+      latitude: 17.594737
+      longitude: 105.460617
+    - code: '12050024'
+      name_en: Nabor
+      name_lo: ນາບໍ່
+      latitude: 17.565968
+      longitude: 105.395076
+    - code: '12050025'
+      name_en: Thard
+      name_lo: ທາດ
+      latitude: 17.631889
+      longitude: 105.180827
+    - code: '12050026'
+      name_en: Houaytad
+      name_lo: ຫ້ວຍຕາດ
+      latitude: 17.538948
+      longitude: 105.036769
+    - code: '12050027'
+      name_en: Kaenglek
+      name_lo: ແກ້ງເຫຼັກ
+      latitude: 17.585568
+      longitude: 105.197841
+    - code: '12050028'
+      name_en: Thongkong
+      name_lo: ທົ່ງກອງ
+      latitude: 17.618299
+      longitude: 105.434067
+    - code: '12050029'
+      name_en: Chakouan
+      name_lo: ຈະກວ້ນ
+      latitude: 17.500631
+      longitude: 105.515363
+    - code: '12050030'
+      name_en: Khoksavang
+      name_lo: ໂຄກສະຫວ່າງ
+      latitude: 17.481997
+      longitude: 105.127837
+    - code: '12050031'
+      name_en: Luang
+      name_lo: ຫຼວງ
+      latitude: 17.595639
+      longitude: 105.01647
+  - code: '1206'
+    name_en: Boualapha
+    name_lo: ບົວລະພາ
+    villages:
+    - code: '12060001'
+      name_en: Thaphachom
+      name_lo: ທ່າພະໂຈ້ນ
+      latitude: 17.235773
+      longitude: 105.80969
+    - code: '12060002'
+      name_en: Khaymaeb
+      name_lo: ຄວາຍແມບ
+      latitude: 17.160376
+      longitude: 106.165276
+    - code: '12060003'
+      name_en: Napeng
+      name_lo: ນາເປງ
+      latitude: 17.327717
+      longitude: 105.689096
+    - code: '12060004'
+      name_en: Hinlab
+      name_lo: ຫີນລັບ
+      latitude: 17.148878
+      longitude: 106.048063
+    - code: '12060005'
+      name_en: Gnarvaed
+      name_lo: ຫຍ້າແວດ
+      latitude: 17.334076
+      longitude: 105.949077
+    - code: '12060006'
+      name_en: Katae
+      name_lo: ກະແຕ້
+      latitude: 17.475575
+      longitude: 105.653634
+    - code: '12060007'
+      name_en: Houayhaed
+      name_lo: ຫ້ວຍແຮດ
+      latitude: 17.066716
+      longitude: 106.240259
+    - code: '12060008'
+      name_en: Thongkham
+      name_lo: ທົ່ງຂາມ
+      latitude: 17.558539
+      longitude: 105.66847
+    - code: '12060009'
+      name_en: Saenphanh
+      name_lo: ແສນພັນ
+      latitude: 17.498391
+      longitude: 105.690119
+    - code: '12060010'
+      name_en: Pakouaytai
+      name_lo: ປ່າກ້ວຍໃຕ້
+      latitude: 17.314448
+      longitude: 105.728186
+    - code: '12060011'
+      name_en: Talong
+      name_lo: ຕະຫຼອງ
+      latitude: 17.370606
+      longitude: 105.655614
+    - code: '12060012'
+      name_en: Nongnar
+      name_lo: ໜອງໂນ
+      latitude: 17.272076
+      longitude: 106.183474
+    - code: '12060013'
+      name_en: Nam orkhu
+      name_lo: ນໍ້າອອກຮູ
+      latitude: 17.148597
+      longitude: 105.791201
+    - code: '12060014'
+      name_en: Langkhang
+      name_lo: ຫຼັງຄັງ
+      latitude: 17.616906
+      longitude: 105.759891
+    - code: '12060015'
+      name_en: Kaenggnarlouan
+      name_lo: ແກ້ງຫຍ້າລວນ
+      latitude: 17.412851
+      longitude: 105.715345
+    - code: '12060016'
+      name_en: Nongkapad
+      name_lo: ໜອງກະປາດ
+      latitude: 17.084708
+      longitude: 105.832122
+    - code: '12060017'
+      name_en: Kachamnoy
+      name_lo: ກະຈາມນ້ອຍ
+      latitude: 17.517802
+      longitude: 105.624459
+    - code: '12060018'
+      name_en: Nongboua
+      name_lo: ໜອງບົວ
+      latitude: 17.567202
+      longitude: 105.765992
+    - code: '12060019'
+      name_en: Sobpeng
+      name_lo: ສົບເປງ
+      latitude: 17.351569
+      longitude: 105.718374
+    - code: '12060020'
+      name_en: Thahae
+      name_lo: ທ່າແຮ່
+      latitude: 17.269727
+      longitude: 105.750167
+    - code: '12060021'
+      name_en: Vat
+      name_lo: ວັດ
+      latitude: 17.112139
+      longitude: 106.172035
+    - code: '12060022'
+      name_en: Namchala
+      name_lo: ນໍ້າຈະຫຼາ
+      latitude: 17.163135
+      longitude: 106.087024
+    - code: '12060023'
+      name_en: Naphanang
+      name_lo: ນາພະນັງ
+      latitude: 17.309472
+      longitude: 105.755245
+    - code: '12060024'
+      name_en: Nasomboun
+      name_lo: ນາສົມບູນ
+      latitude: 17.300927
+      longitude: 105.729133
+    - code: '12060025'
+      name_en: Phakhiad
+      name_lo: ຜາຂຽດ
+      latitude: 17.229269
+      longitude: 105.904674
+    - code: '12060026'
+      name_en: Kaengvak
+      name_lo: ແກ້ງວັກ
+      latitude: 17.461799
+      longitude: 105.684628
+    - code: '12060027'
+      name_en: Khok
+      name_lo: ໂຄກ
+      latitude: 17.246863
+      longitude: 105.850553
+    - code: '12060028'
+      name_en: Sa ang
+      name_lo: ສະອາງ
+      latitude: 17.452079
+      longitude: 105.775028
+    - code: '12060029'
+      name_en: Phanom
+      name_lo: ຜານົບ
+      latitude: 17.525016
+      longitude: 105.749667
+    - code: '12060030'
+      name_en: Ngeuk
+      name_lo: ງຶກ
+      latitude: 17.177192
+      longitude: 106.205748
+    - code: '12060031'
+      name_en: Pakouayneua
+      name_lo: ປ່າກ້ວຍເໜືອ
+      latitude: 17.102586
+      longitude: 105.9054
+    - code: '12060032'
+      name_en: Nongseng
+      name_lo: ໜອງແສງ
+      latitude: 17.524376
+      longitude: 105.79098
+    - code: '12060033'
+      name_en: Soeui
+      name_lo: ໂສຍ
+      latitude: 17.410278
+      longitude: 105.693761
+    - code: '12060034'
+      name_en: Thakachanh
+      name_lo: ທ່າກະຈັນ
+      latitude: 17.325997
+      longitude: 105.714537
+    - code: '12060035'
+      name_en: Khagnou
+      name_lo: ຂະຍູ້
+      latitude: 17.440996
+      longitude: 105.704795
+    - code: '12060036'
+      name_en: Vangkhon
+      name_lo: ວັນງຄົນ
+      latitude: 17.500579
+      longitude: 105.747722
+    - code: '12060037'
+      name_en: Pakphanang
+      name_lo: ປາກພະນັງ
+      latitude: 17.397489
+      longitude: 105.735507
+    - code: '12060038'
+      name_en: Phonsangphai
+      name_lo: ໂພນສ້າງໄພ
+      latitude: 17.432582
+      longitude: 105.64192
+    - code: '12060039'
+      name_en: Kang
+      name_lo: ກາງ
+      latitude: 17.410467
+      longitude: 105.669915
+    - code: '12060040'
+      name_en: Nakhagnom
+      name_lo: ນາຂະໂຍມ/ກວນຂະໂຍມ
+      latitude: 17.392327
+      longitude: 105.807798
+    - code: '12060041'
+      name_en: Natangchai
+      name_lo: ນາຕັ້ງໃຈ
+      latitude: 17.32264
+      longitude: 105.7658
+    - code: '12060042'
+      name_en: Vangmaner
+      name_lo: ວັງມະເນີ
+      latitude: 17.477261
+      longitude: 105.912367
+    - code: '12060043'
+      name_en: Gnarvay
+      name_lo: ຫຍ້າຫວາຍ
+      latitude: 17.412059
+      longitude: 105.775421
+    - code: '12060044'
+      name_en: Houaytha
+      name_lo: ຫ້ວຍທ່າ
+      latitude: 17.191628
+      longitude: 105.952505
+  - code: '1207'
+    name_en: Nakai
+    name_lo: ນາກາຍ
+  - code: '1208'
+    name_en: Sebangphay
+    name_lo: ເຊບັ້ງໄຟ
+  - code: '1209'
+    name_en: Xaibouathong
+    name_lo: ໄຊບົວທອງ
+  - code: '1210'
+    name_en: Kounkham
+    name_lo: ຄູນຄຳ
+- code: LA-SV
+  name_en: Savannakhet
+  name_lo: ສະຫວັນນະເຂດ
+  districts:
+  - code: '1301'
+    name_en: Kaysone Phomvihane
+    name_lo: ໄກສອນ ພົມວິຫານ
+  - code: '1302'
+    name_en: Outhoumphone
+    name_lo: ອຸທຸມພອນ
+  - code: '1303'
+    name_en: Atsaphangthong
+    name_lo: ອາດສະພັງທອງ
+  - code: '1304'
+    name_en: Phine
+    name_lo: ພິນ
+    villages:
+    - code: '13040001'
+      name_en: Pha som xai
+      name_lo: ຜາສົມໄຊ
+      latitude: 16.541264
+      longitude: 106.012192
+    - code: '13040002'
+      name_en: Phine
+      name_lo: ພີນ
+      latitude: 16.501995
+      longitude: 106.03497
+    - code: '13040003'
+      name_en: Ta moun
+      name_lo: ຕາມູນ
+      latitude: 16.507584
+      longitude: 105.909654
+    - code: '13040004'
+      name_en: Koy
+      name_lo: ກອຍ
+      latitude: 16.534449
+      longitude: 105.931948
+    - code: '13040005'
+      name_en: Xai som boun
+      name_lo: ໄຊສົມບູນ
+      latitude: 16.55919
+      longitude: 105.910245
+    - code: '13040006'
+      name_en: Nonh nhang
+      name_lo: ໂພນຍາງ
+      latitude: 16.562655
+      longitude: 106.065855
+    - code: '13040007'
+      name_en: Na phor
+      name_lo: ນາພໍ
+      latitude: 16.529585
+      longitude: 106.001298
+    - code: '13040008'
+      name_en: Ou dom xai
+      name_lo: ອຸດົມໄຊ
+      latitude: 16.585789
+      longitude: 105.889592
+    - code: '13040009'
+      name_en: Sa khouang
+      name_lo: ສະຂວ້າງ
+      latitude: 16.547124
+      longitude: 106.03837
+    - code: '13040010'
+      name_en: Vern hong kham
+      name_lo: ເວີນໂຮງຄຳ
+      latitude: 16.551869
+      longitude: 106.022669
+    - code: '13040011'
+      name_en: Tad hai khok
+      name_lo: ຕາດໄຮ່ໂຄກ
+      latitude: 16.173773
+      longitude: 106.058863
+    - code: '13040012'
+      name_en: Na thong
+      name_lo: ນາທົ່ງ
+      latitude: 16.660132
+      longitude: 105.761704
+    - code: '13040013'
+      name_en: Ar pork
+      name_lo: ອ່າພອກ
+      latitude: 16.622314
+      longitude: 106.049964
+    - code: '13040014'
+      name_en: Ka yong
+      name_lo: ກະລຶງ (ກາຍອງ)
+      latitude: 16.581726
+      longitude: 105.913704
+    - code: '13040015'
+      name_en: Na chane
+      name_lo: ນາຈານ
+      latitude: 16.523222
+      longitude: 105.986197
+    - code: '13040016'
+      name_en: Na ka thane
+      name_lo: ນາກະແຕນ
+      latitude: 16.524402
+      longitude: 106.05793
+    - code: '13040017'
+      name_en: Mai lek 9
+      name_lo: ຫຼັກ 9 (ໃໝ່)
+      latitude: 16.558152
+      longitude: 105.926408
+    - code: '13040018'
+      name_en: Na ka nor
+      name_lo: ນາກະໜໍ
+      latitude: 16.489549
+      longitude: 105.958008
+    - code: '13040019'
+      name_en: Pa xear
+      name_lo: ປ່າເສື້ອ
+      latitude: 16.320967
+      longitude: 106.115969
+    - code: '13040020'
+      name_en: Na tha lang
+      name_lo: ນ່າທ່າຫຼັງ
+      latitude: 16.546633
+      longitude: 106.062577
+    - code: '13040021'
+      name_en: Nonh soung
+      name_lo: ໂພນສູງ
+      latitude: 16.502278
+      longitude: 106.093392
+    - code: '13040022'
+      name_en: Dong phou nguen
+      name_lo: ດົງພູເງິນ
+      latitude: 16.547451
+      longitude: 105.944912
+    - code: '13040023'
+      name_en: Bork
+      name_lo: ບອກ
+      latitude: 16.350664
+      longitude: 105.869085
+    - code: '13040024'
+      name_en: Ar nou sanh nha
+      name_lo: ອະນຸສັນຍາ
+      latitude: 16.569213
+      longitude: 105.850072
+    - code: '13040025'
+      name_en: Nong bour
+      name_lo: ໜອງບົວ
+      latitude: 16.418287
+      longitude: 105.89458
+    - code: '13040026'
+      name_en: Na thou
+      name_lo: ນາຖູ
+      latitude: 16.690211
+      longitude: 105.84687
+    - code: '13040027'
+      name_en: Hin sa ngorm
+      name_lo: ຫີນສະງອມ
+      latitude: 16.585221
+      longitude: 106.083959
+    - code: '13040028'
+      name_en: Pha long
+      name_lo: ຜາຫຼົງ
+      latitude: 16.678674
+      longitude: 106.030111
+    - code: '13040029'
+      name_en: Phon
+      name_lo: ໂພນ
+      latitude: 16.483298
+      longitude: 106.001274
+    - code: '13040030'
+      name_en: Sa lae neua
+      name_lo: ສະແລເໜືອ
+      latitude: 16.523927
+      longitude: 105.856516
+    - code: '13040031'
+      name_en: Xa loy
+      name_lo: ຊາລອຍ
+      latitude: 16.590687
+      longitude: 106.039222
+    - code: '13040032'
+      name_en: Na por
+      name_lo: ນາປໍ
+      latitude: 16.538917
+      longitude: 105.987901
+    - code: '13040033'
+      name_en: Pa lek
+      name_lo: ປ່າເລັກ
+      latitude: 16.577517
+      longitude: 105.938887
+    - code: '13040034'
+      name_en: Phonh sei
+      name_lo: ໂພນໄຊ
+      latitude: 16.324202
+      longitude: 106.063708
+    - code: '13040035'
+      name_en: Song puey
+      name_lo: ສອງເປືອຍ
+      latitude: 16.596954
+      longitude: 105.938924
+    - code: '13040036'
+      name_en: Kae
+      name_lo: ແກ້
+      latitude: 16.310311
+      longitude: 105.874903
+    - code: '13040037'
+      name_en: Kham sa ee
+      name_lo: ຄຳສະອີ
+      latitude: 16.652142
+      longitude: 105.901305
+    - code: '13040038'
+      name_en: La kai
+      name_lo: ລາໄກ່
+      latitude: 16.391093
+      longitude: 106.229314
+    - code: '13040039'
+      name_en: Nhang
+      name_lo: ຍາງ
+      latitude: 16.337875
+      longitude: 106.025588
+    - code: '13040040'
+      name_en: Ar louy nhai
+      name_lo: ອ່າລຸຍໃຫຍ່
+      latitude: 16.653523
+      longitude: 105.68169
+    - code: '13040041'
+      name_en: Kaeng sa lang
+      name_lo: ແກ້ງສະຫຼ້າງ
+      latitude: 16.22014
+      longitude: 106.307391
+    - code: '13040042'
+      name_en: Na kha nok
+      name_lo: ນາຄານົກ
+      latitude: 16.664305
+      longitude: 105.941505
+    - code: '13040043'
+      name_en: Norn sa ad
+      name_lo: ໂພນສະອາດ
+      latitude: 16.541493
+      longitude: 105.966307
+    - code: '13040044'
+      name_en: Therm kao
+      name_lo: ເທີມເກົ່າ
+      latitude: 16.617074
+      longitude: 105.985669
+    - code: '13040045'
+      name_en: Kaeng kua
+      name_lo: ແກ້ງເກືອ
+      latitude: 16.363549
+      longitude: 105.954938
+    - code: '13040046'
+      name_en: Tang ar lai
+      name_lo: ຕັງອ່າໄລ
+      latitude: 16.287854
+      longitude: 105.754951
+    - code: '13040047'
+      name_en: Vong sy keo
+      name_lo: ວົງສີແກ້ວ
+      latitude: 16.407139
+      longitude: 106.022359
+    - code: '13040048'
+      name_en: Phai
+      name_lo: ໄຜ່
+      latitude: 16.27113
+      longitude: 106.054684
+    - code: '13040049'
+      name_en: Ar larn
+      name_lo: ອ່າລານ
+      latitude: 16.344609
+      longitude: 106.290856
+    - code: '13040050'
+      name_en: Huoi hoy neua
+      name_lo: ຫ້ວຍຫອຍເໜືອ
+      latitude: 16.411822
+      longitude: 106.158688
+    - code: '13040051'
+      name_en: Na thom xei
+      name_lo: ນາທົ່ມໄຊ
+      latitude: 16.632236
+      longitude: 105.916229
+    - code: '13040052'
+      name_en: Pa thong
+      name_lo: ປ່າທົ່ງ
+      latitude: 16.469024
+      longitude: 106.149465
+    - code: '13040053'
+      name_en: Phor xai
+      name_lo: ພໍໄຊ
+      latitude: 16.293153
+      longitude: 105.828665
+    - code: '13040054'
+      name_en: Therm mai
+      name_lo: ເທີມໃໝ່
+      latitude: 16.591692
+      longitude: 106.006811
+    - code: '13040055'
+      name_en: Ka maeb sei
+      name_lo: ກະແມບໄຊ
+      latitude: 16.286269
+      longitude: 105.903694
+    - code: '13040056'
+      name_en: Ka pang
+      name_lo: ກະປາງ
+      latitude: 16.24365
+      longitude: 106.102189
+    - code: '13040057'
+      name_en: Tad hai sei
+      name_lo: ຕາດໄຮ່ໄຊ
+      latitude: 16.29539
+      longitude: 105.974943
+    - code: '13040058'
+      name_en: Xa na my xai
+      name_lo: ຊະນະມີໄຊ
+      latitude: 16.575896
+      longitude: 105.921426
+    - code: '13040059'
+      name_en: Xei sa wang
+      name_lo: ເຊສະຫວ່າງ
+      latitude: 16.573172
+      longitude: 105.912878
+    - code: '13040060'
+      name_en: Kang kao
+      name_lo: ກ້າງເກົ່າ
+      latitude: 16.609124
+      longitude: 105.924817
+    - code: '13040061'
+      name_en: Kha nin
+      name_lo: ຄະນິນ
+      latitude: 16.661785
+      longitude: 106.070264
+    - code: '13040062'
+      name_en: Nong luang
+      name_lo: ໜອງຫຼວງ
+      latitude: 16.722858
+      longitude: 105.915109
+    - code: '13040063'
+      name_en: Pa ok
+      name_lo: ປ່າອກ
+      latitude: 16.283389
+      longitude: 106.244742
+    - code: '13040064'
+      name_en: Sa loun
+      name_lo: ສະລູນ
+      latitude: 16.321471
+      longitude: 106.164298
+    - code: '13040065'
+      name_en: Sob bon
+      name_lo: ສົບບອນ
+      latitude: 16.442774
+      longitude: 106.160347
+    - code: '13040066'
+      name_en: Thoun kharm
+      name_lo: ຖູນຂາມ
+      latitude: 16.346871
+      longitude: 106.163932
+    - code: '13040067'
+      name_en: Vang bouang
+      name_lo: ວັງບວງ
+      latitude: 16.614234
+      longitude: 106.11025
+    - code: '13040068'
+      name_en: Kaeng la thaeng
+      name_lo: ແກ້ງລະແທ່ງ
+      latitude: 16.562984
+      longitude: 106.150988
+  - code: '1305'
+    name_en: Seponh
+    name_lo: ເຊໂປນ
+  - code: '1306'
+    name_en: Nong
+    name_lo: ໜອງ
+  - code: '1307'
+    name_en: Thapangthong
+    name_lo: ທາພັງທອງ
+    villages:
+    - code: '13070001'
+      name_en: Na huoi lai
+      name_lo: ນາຫ້ວຍໄລ່
+      latitude: 16.011395
+      longitude: 105.610999
+    - code: '13070002'
+      name_en: Mai khok
+      name_lo: ໃໝ່ໂພສີ
+      latitude: 16.033046
+      longitude: 105.818041
+    - code: '13070003'
+      name_en: Phou ma ly
+      name_lo: ແກ້ງພູມາລີ
+      latitude: 16.035214
+      longitude: 105.910148
+    - code: '13070004'
+      name_en: Bark khoum kham
+      name_lo: ບາກຂຸມຄຳ
+      latitude: 16.152817
+      longitude: 105.678754
+    - code: '13070005'
+      name_en: Xei keu
+      name_lo: ເຊກື
+      latitude: 16.012504
+      longitude: 106.047642
+    - code: '13070006'
+      name_en: Na xeuak
+      name_lo: ນາເຊືອກ
+      latitude: 16.013731
+      longitude: 105.670005
+    - code: '13070007'
+      name_en: Nong saeng
+      name_lo: ໜອງແສງ
+      latitude: 16.052931
+      longitude: 105.781235
+    - code: '13070008'
+      name_en: Na tha mane
+      name_lo: ນາທະມານ
+      latitude: 16.240126
+      longitude: 105.672277
+    - code: '13070009'
+      name_en: Pa dong
+      name_lo: ປ່າດ໋ອງ
+      latitude: 16.135386
+      longitude: 105.999666
+    - code: '13070010'
+      name_en: Tha phy
+      name_lo: ທ່າພີ່
+      latitude: 16.212089
+      longitude: 105.627225
+    - code: '13070011'
+      name_en: Huoi meun
+      name_lo: ຫ້ວຍໝື່ນ
+      latitude: 15.949796
+      longitude: 105.802452
+    - code: '13070012'
+      name_en: Koud hy
+      name_lo: ກຸດຮີ
+      latitude: 15.985289
+      longitude: 105.782313
+    - code: '13070013'
+      name_en: Nong kanh
+      name_lo: ໜອງກັນ
+      latitude: 16.012501
+      longitude: 105.7566
+    - code: '13070014'
+      name_en: Houylai
+      name_lo: ຫ້ວຍໄລ່
+      latitude: 16.181949
+      longitude: 105.914836
+    - code: '13070015'
+      name_en: Na chanh thang
+      name_lo: ນາຈັນທ້າງ
+      latitude: 16.13605
+      longitude: 105.867483
+    - code: '13070016'
+      name_en: Bouth ta phane
+      name_lo: ບຸດຕະພານ
+      latitude: 15.937754
+      longitude: 105.855419
+    - code: '13070017'
+      name_en: Na sa no
+      name_lo: ນາສະໂນ
+      latitude: 16.062006
+      longitude: 105.701676
+    - code: '13070018'
+      name_en: La vang nhai
+      name_lo: ລະວາງໃຫຍ່
+      latitude: 16.252517
+      longitude: 105.845271
+    - code: '13070019'
+      name_en: Na pheu
+      name_lo: ຜືວຽງຄຳ
+      latitude: 16.10947
+      longitude: 105.822529
+    - code: '13070020'
+      name_en: Tha sa la kham
+      name_lo: ທ່າສາລາຄຳ
+      latitude: 15.992489
+      longitude: 105.758153
+    - code: '13070021'
+      name_en: Na hua khuoi
+      name_lo: ນາຫົວຄວາຍ
+      latitude: 16.021039
+      longitude: 105.768204
+    - code: '13070022'
+      name_en: Thong pho kham
+      name_lo: ທົ່ງປາງ
+      latitude: 16.017689
+      longitude: 105.851557
+    - code: '13070023'
+      name_en: Don khao
+      name_lo: ດອນຂາວ
+      latitude: 16.220457
+      longitude: 105.554742
+    - code: '13070024'
+      name_en: Kaeng sang kou
+      name_lo: ແກ້ງສັງກູ
+      latitude: 16.285912
+      longitude: 105.710804
+    - code: '13070025'
+      name_en: Xei pong
+      name_lo: ເຊປ໋ອງ
+      latitude: 16.211409
+      longitude: 105.821821
+    - code: '13070026'
+      name_en: Kaeng ping
+      name_lo: ແກ້ງປິງ
+      latitude: 16.0226
+      longitude: 105.719333
+    - code: '13070027'
+      name_en: Dong noy
+      name_lo: ດົງນ້ອຍ
+      latitude: 15.953784
+      longitude: 105.706083
+    - code: '13070028'
+      name_en: Na tang tai
+      name_lo: ນາຕັງ
+      latitude: 16.14183
+      longitude: 105.54392
+    - code: '13070029'
+      name_en: Huoi hang
+      name_lo: ພູຜານາງ
+      latitude: 15.944833
+      longitude: 105.925055
+    - code: '13070030'
+      name_en: Na tham nou
+      name_lo: ນາຖ້ຳໜູ
+      latitude: 16.123616
+      longitude: 105.60547
+    - code: '13070031'
+      name_en: Nieng
+      name_lo: ໄຊສົມບູນ
+      latitude: 16.008736
+      longitude: 106.085665
+    - code: '13070032'
+      name_en: Nonh chane
+      name_lo: ໂນນຈານ
+      latitude: 15.989508
+      longitude: 105.736269
+    - code: '13070033'
+      name_en: Nonh sa wang
+      name_lo: ໂນນສະຫວ່າງ
+      latitude: 16.114738
+      longitude: 105.733289
+    - code: '13070034'
+      name_en: Pa toy neua
+      name_lo: ໂນນສິວິໄລວັນ
+      latitude: 16.235494
+      longitude: 105.773117
+  - code: '1308'
+    name_en: Songkhone
+    name_lo: ສອງຄອນ
+    villages:
+    - code: '13080001'
+      name_en: Phak kha
+      name_lo: ຜັກຂາ
+      latitude: 16.110805
+      longitude: 105.282987
+    - code: '13080002'
+      name_en: Kaeng ta ngarn
+      name_lo: ແກ້ງຕ່າງານ
+      latitude: 16.080654
+      longitude: 105.36273
+    - code: '13080003'
+      name_en: Tha pa xoum
+      name_lo: ທ່າປະຊຸມ
+      latitude: 16.075778
+      longitude: 105.224909
+    - code: '13080004'
+      name_en: Nong bua tha
+      name_lo: ໜອງບົວທ່າ
+      latitude: 16.098261
+      longitude: 105.1129
+    - code: '13080005'
+      name_en: Xei bang nuan neua
+      name_lo: ເຊບັ້ງນວນເໜືອ
+      latitude: 16.00699
+      longitude: 105.479915
+    - code: '13080006'
+      name_en: Dong sa wang
+      name_lo: ດົງສະຫວ່າງ
+      latitude: 16.260825
+      longitude: 105.311967
+    - code: '13080007'
+      name_en: Puey khao
+      name_lo: ເປືອຍເຂົ້າ
+      latitude: 16.09355
+      longitude: 105.272522
+    - code: '13080008'
+      name_en: Song khon tai
+      name_lo: ສອງຄອນໃຕ້
+      latitude: 16.28065
+      longitude: 105.297684
+    - code: '13080009'
+      name_en: Xei bang hieng tha
+      name_lo: ເຊບັ້ງຮຽງທ່າ
+      latitude: 16.090923
+      longitude: 105.395236
+    - code: '13080010'
+      name_en: La ha nam thong
+      name_lo: ລາຫານ້ຳທົ່ງ
+      latitude: 16.292211
+      longitude: 105.26615
+    - code: '13080011'
+      name_en: Tha deua nhai
+      name_lo: ທ່າເດື່ອໃຫຍ່
+      latitude: 16.080297
+      longitude: 105.177611
+    - code: '13080012'
+      name_en: My yiem
+      name_lo: ໄໝ່ຢ້ຽມ
+      latitude: 16.090057
+      longitude: 105.331378
+    - code: '13080013'
+      name_en: Nonh tao tharn
+      name_lo: ໂພນເຕົ່າຖ່ານ
+      latitude: 16.114062
+      longitude: 105.378906
+    - code: '13080014'
+      name_en: Nonh sa wang
+      name_lo: ໂພນສະຫວ່າງ
+      latitude: 16.175903
+      longitude: 105.295722
+    - code: '13080015'
+      name_en: Nong khon
+      name_lo: ໜອງຄອນ
+      latitude: 16.100222
+      longitude: 105.457637
+    - code: '13080016'
+      name_en: Pha laeng
+      name_lo: ຜາແລ້ງ
+      latitude: 16.266408
+      longitude: 105.469225
+    - code: '13080017'
+      name_en: Na kha nhom
+      name_lo: ນາຂະໂຍມ
+      latitude: 16.005634
+      longitude: 105.439659
+    - code: '13080018'
+      name_en: Tha phae
+      name_lo: ທ່າແພ
+      latitude: 16.060417
+      longitude: 105.262978
+    - code: '13080019'
+      name_en: Na nhoung
+      name_lo: ນາຍູງ
+      latitude: 16.117282
+      longitude: 105.077489
+    - code: '13080020'
+      name_en: Hin khok
+      name_lo: ຫີນໂຄກ
+      latitude: 16.030904
+      longitude: 105.387112
+    - code: '13080021'
+      name_en: Don nhai
+      name_lo: ດອນໃຫຍ່
+      latitude: 16.019667
+      longitude: 105.535015
+    - code: '13080022'
+      name_en: Na thang
+      name_lo: ນາຖາງ
+      latitude: 16.250687
+      longitude: 105.510989
+    - code: '13080023'
+      name_en: Nonh kham soung
+      name_lo: ໂພນຄຳສູງ
+      latitude: 16.166639
+      longitude: 105.349638
+    - code: '13080024'
+      name_en: Na wa
+      name_lo: ນາວ້າ
+      latitude: 16.182012
+      longitude: 105.068204
+    - code: '13080025'
+      name_en: Kaeng donh
+      name_lo: ແກ້ງດອນ
+      latitude: 16.194797
+      longitude: 105.320972
+    - code: '13080026'
+      name_en: Na ou dom
+      name_lo: ນາອຸດົມ
+      latitude: 16.064566
+      longitude: 105.413643
+    - code: '13080027'
+      name_en: Na pho
+      name_lo: ນາໂພ
+      latitude: 16.091596
+      longitude: 105.145664
+    - code: '13080028'
+      name_en: Hua harth
+      name_lo: ຫົວຮາດ
+      latitude: 16.212655
+      longitude: 105.284823
+    - code: '13080029'
+      name_en: Nonh fay
+      name_lo: ໂພນຝ້າຍ
+      latitude: 16.224165
+      longitude: 105.241182
+    - code: '13080030'
+      name_en: Khok kong
+      name_lo: ໂຄກກ່ອງ
+      latitude: 16.049769
+      longitude: 105.36045
+    - code: '13080031'
+      name_en: Nong dern
+      name_lo: ໜອງເດີນ
+      latitude: 16.238512
+      longitude: 105.35069
+    - code: '13080032'
+      name_en: Tha kham lien
+      name_lo: ທ່າຄຳຫຼຽນ
+      latitude: 16.251624
+      longitude: 105.268586
+    - code: '13080033'
+      name_en: Na phong tha
+      name_lo: ນາໂພນທ່າ
+      latitude: 16.177217
+      longitude: 105.046439
+    - code: '13080034'
+      name_en: Don wai
+      name_lo: ດອນໄວ
+      latitude: 16.024384
+      longitude: 105.418469
+    - code: '13080035'
+      name_en: Na kho
+      name_lo: ນາຄໍ້
+      latitude: 16.049355
+      longitude: 105.313986
+    - code: '13080036'
+      name_en: Nong khanh nhou
+      name_lo: ໜອງແຄນຍູ
+      latitude: 16.133288
+      longitude: 105.360229
+    - code: '13080037'
+      name_en: Huoi khor
+      name_lo: ຫ້ວຍຄໍ້
+      latitude: 16.172438
+      longitude: 105.433743
+    - code: '13080038'
+      name_en: Koud hy
+      name_lo: ກຸດໄຮ
+      latitude: 16.301884
+      longitude: 105.225668
+    - code: '13080039'
+      name_en: Na larm
+      name_lo: ນາຫຼາມ
+      latitude: 16.140381
+      longitude: 105.276688
+    - code: '13080040'
+      name_en: Sing tha
+      name_lo: ສິງທ່າ
+      latitude: 16.246378
+      longitude: 105.296381
+    - code: '13080041'
+      name_en: Na kham
+      name_lo: ນາຄຳ
+      latitude: 16.048607
+      longitude: 105.483129
+    - code: '13080042'
+      name_en: Na phong tiew neua
+      name_lo: ນາໂພນຕິ້ວເໜືອ
+      latitude: 16.137451
+      longitude: 105.055543
+    - code: '13080043'
+      name_en: Huoi khai
+      name_lo: ຫ້ວຍໄຂ່
+      latitude: 16.155109
+      longitude: 105.483694
+    - code: '13080044'
+      name_en: Na hoy pang
+      name_lo: ນາຫອຍປັງ
+      latitude: 16.205162
+      longitude: 105.092037
+    - code: '13080045'
+      name_en: Na nong pheu
+      name_lo: ນານ້ອງເຜືອ
+      latitude: 16.164028
+      longitude: 105.088287
+    - code: '13080046'
+      name_en: Na pong
+      name_lo: ນາປົ່ງ
+      latitude: 16.110034
+      longitude: 105.148317
+    - code: '13080047'
+      name_en: Nonh sam larn
+      name_lo: ໂພນສາມລ້ານ
+      latitude: 16.127002
+      longitude: 105.310563
+    - code: '13080048'
+      name_en: Xa nhaek neua
+      name_lo: ສະແຍກເໜືອ
+      latitude: 16.241171
+      longitude: 105.398304
+    - code: '13080049'
+      name_en: Na phork
+      name_lo: ນາພອກ
+      latitude: 16.181898
+      longitude: 105.117137
+    - code: '13080050'
+      name_en: Na dong
+      name_lo: ນາດົງ
+      latitude: 16.079196
+      longitude: 105.302917
+    - code: '13080051'
+      name_en: Na hang khae
+      name_lo: ນາຫາງແຂ້
+      latitude: 16.046478
+      longitude: 105.516927
+    - code: '13080052'
+      name_en: Na xa no
+      name_lo: ນາສະໂນ
+      latitude: 16.237936
+      longitude: 105.457748
+    - code: '13080053'
+      name_en: Sa bou xai hai
+      name_lo: ສະບູ່ໄຊໄຮ່
+      latitude: 16.086472
+      longitude: 105.163798
+    - code: '13080054'
+      name_en: Thong sy mueng
+      name_lo: ທົ່ງສີເມືອງ
+      latitude: 16.217689
+      longitude: 105.191859
+    - code: '13080055'
+      name_en: Dane tae
+      name_lo: ແດນແຕ່
+      latitude: 15.982725
+      longitude: 105.551124
+    - code: '13080056'
+      name_en: Don khiew
+      name_lo: ດອນຂຽວ
+      latitude: 16.188563
+      longitude: 105.370547
+    - code: '13080057'
+      name_en: Mai nong luang
+      name_lo: ໃໝ່ໜອງຫຼວງ
+      latitude: 16.19573
+      longitude: 105.154389
+    - code: '13080058'
+      name_en: Muang khai
+      name_lo: ເມືອງໄຂ່
+      latitude: 16.300584
+      longitude: 105.190196
+    - code: '13080059'
+      name_en: "N"
+      name_lo: ນາ
+      latitude: 16.246955
+      longitude: 105.200663
+    - code: '13080060'
+      name_en: Na saen theb
+      name_lo: ນາແສນເທບ
+      latitude: 16.161902
+      longitude: 105.24359
+    - code: '13080061'
+      name_en: Xok xai
+      name_lo: ໂຊກໄຊ
+      latitude: 16.258272
+      longitude: 105.221064
+  - code: '1309'
+    name_en: Champhone
+    name_lo: ຈຳພອນ
+    villages:
+    - code: '13090001'
+      name_en: Tuad tai
+      name_lo: ທວດໃຕ້
+      latitude: 16.507419
+      longitude: 105.259037
+    - code: '13090002'
+      name_en: Don daeng
+      name_lo: ດອນແດງ
+      latitude: 16.353218
+      longitude: 105.264104
+    - code: '13090003'
+      name_en: Phorn moung
+      name_lo: ໂພນມ່ວງ
+      latitude: 16.567523
+      longitude: 105.200482
+    - code: '13090004'
+      name_en: Nong lam tiane kang
+      name_lo: ລຳຈັນ
+      latitude: 16.549417
+      longitude: 105.304419
+    - code: '13090005'
+      name_en: Norn hang
+      name_lo: ໂນງຮັງ
+      latitude: 16.606174
+      longitude: 105.135307
+    - code: '13090006'
+      name_en: Na ka thang
+      name_lo: ນາກະທ້າງ
+      latitude: 16.438904
+      longitude: 105.260395
+    - code: '13090007'
+      name_en: Norn koun
+      name_lo: ໂນນຄູນ
+      latitude: 16.601773
+      longitude: 105.180872
+    - code: '13090008'
+      name_en: Ta laew mai
+      name_lo: ຕາແຫລວໃໝ່
+      latitude: 16.420309
+      longitude: 105.236081
+    - code: '13090009'
+      name_en: Kaeng poun
+      name_lo: ແກ້ງປູນ
+      latitude: 16.514434
+      longitude: 105.199567
+    - code: '13090010'
+      name_en: Nonh soung
+      name_lo: ໂນນສູງ
+      latitude: 16.6519
+      longitude: 105.200028
+    - code: '13090011'
+      name_en: Na xeuak
+      name_lo: ນາເຊືອກ
+      latitude: 16.625859
+      longitude: 105.179517
+    - code: '13090012'
+      name_en: Nong ka dork
+      name_lo: ໜອງກະໂດກ
+      latitude: 16.508139
+      longitude: 105.280742
+    - code: '13090013'
+      name_en: Norn sy tan
+      name_lo: ໂນນສິທັນ
+      latitude: 16.491204
+      longitude: 105.18673
+    - code: '13090014'
+      name_en: Phorn dork
+      name_lo: ໂພນໂດກ
+      latitude: 16.593215
+      longitude: 105.2
+    - code: '13090015'
+      name_en: Hua mueng
+      name_lo: ຫົວເມື່ອງ
+      latitude: 16.466589
+      longitude: 105.203238
+    - code: '13090016'
+      name_en: Kor
+      name_lo: ຄໍ້
+      latitude: 16.523959
+      longitude: 105.109978
+    - code: '13090017'
+      name_en: Vad ta na
+      name_lo: ວັດທະນາ
+      latitude: 16.574013
+      longitude: 105.128965
+    - code: '13090018'
+      name_en: Lao marth
+      name_lo: ເລົ່າໝາດ
+      latitude: 16.378388
+      longitude: 105.19526
+    - code: '13090019'
+      name_en: Dong mueng
+      name_lo: ດົງເມືອງ
+      latitude: 16.55883
+      longitude: 105.241281
+    - code: '13090020'
+      name_en: Kam tao
+      name_lo: ຂາມເຖົ້າ
+      latitude: 16.515829
+      longitude: 105.124524
+    - code: '13090021'
+      name_en: Sa keun neua
+      name_lo: ສະຄືນເໜືອ
+      latitude: 16.537569
+      longitude: 105.222376
+    - code: '13090022'
+      name_en: Koud bon neua
+      name_lo: ກຸດບອນເໜືອ
+      latitude: 16.625693
+      longitude: 105.192935
+    - code: '13090023'
+      name_en: Don nhaeng
+      name_lo: ດອນແຍງ
+      latitude: 16.515023
+      longitude: 105.180529
+    - code: '13090024'
+      name_en: Na sane
+      name_lo: ນາສານ
+      latitude: 16.426104
+      longitude: 105.109135
+    - code: '13090025'
+      name_en: Hua nam sang
+      name_lo: ຫົວນໍ້າສາງ
+      latitude: 16.362654
+      longitude: 105.162302
+    - code: '13090026'
+      name_en: Lam bong
+      name_lo: ລຳບອງ
+      latitude: 16.495546
+      longitude: 105.225604
+    - code: '13090027'
+      name_en: Nonh vi lai vanh
+      name_lo: ໂນນວິໄລວັນ
+      latitude: 16.446009
+      longitude: 105.219006
+    - code: '13090028'
+      name_en: Phia kao
+      name_lo: ເພຍກ່າ
+      latitude: 16.491753
+      longitude: 105.21028
+    - code: '13090029'
+      name_en: Sy boun hueng
+      name_lo: ສີບຸນເຮືອງ
+      latitude: 16.622022
+      longitude: 105.242413
+    - code: '13090030'
+      name_en: Tha moung
+      name_lo: ທ່າເມືອງ
+      latitude: 16.530998
+      longitude: 105.253301
+    - code: '13090031'
+      name_en: Dongkhuangton
+      name_lo: ດົງກວາງໂຕນ
+      latitude: 16.403024
+      longitude: 105.1294
+    - code: '13090032'
+      name_en: Na tay
+      name_lo: ນາຕ້າຍ
+      latitude: 16.389804
+      longitude: 105.240556
+    - code: '13090033'
+      name_en: Rao sou ly nhar
+      name_lo: ເລົ່າສຸລີຍາ
+      latitude: 16.617395
+      longitude: 105.161064
+    - code: '13090034'
+      name_en: Kham noy
+      name_lo: ຂາມນ້ອຍ
+      latitude: 16.496742
+      longitude: 105.075997
+    - code: '13090035'
+      name_en: Phorn sa ard
+      name_lo: ໂພນສະອາດ
+      latitude: 16.571737
+      longitude: 105.154361
+    - code: '13090036'
+      name_en: Sand
+      name_lo: ແສນ
+      latitude: 16.582352
+      longitude: 105.281729
+    - code: '13090037'
+      name_en: Beuk thong
+      name_lo: ບຶກທົ່ງ
+      latitude: 16.527206
+      longitude: 105.153149
+    - code: '13090038'
+      name_en: Kae kok kang
+      name_lo: ແກ້ງກອກກາງ
+      latitude: 16.442368
+      longitude: 105.198121
+    - code: '13090039'
+      name_en: Sakeun tai
+      name_lo: ສະຄືນໃຕ້
+      latitude: 16.518718
+      longitude: 105.236928
+    - code: '13090040'
+      name_en: Tane soum
+      name_lo: ຕານສຸມ
+      latitude: 16.341586
+      longitude: 105.208259
+    - code: '13090041'
+      name_en: Dong ta baeng
+      name_lo: ດົງຕະແບງ
+      latitude: 16.479014
+      longitude: 105.245406
+    - code: '13090042'
+      name_en: Nok kok
+      name_lo: ນົກກົກ
+      latitude: 16.455524
+      longitude: 105.248675
+    - code: '13090043'
+      name_en: Nong vaeng
+      name_lo: ໜອງແວງ
+      latitude: 16.501119
+      longitude: 105.102365
+    - code: '13090044'
+      name_en: Houi nhang
+      name_lo: ຫ້ວຍຍາງ
+      latitude: 16.537888
+      longitude: 105.020526
+    - code: '13090045'
+      name_en: Kaeng kok neua
+      name_lo: ແກ້ງກອກເໜືອ
+      latitude: 16.448149
+      longitude: 105.191303
+    - code: '13090046'
+      name_en: Dong dork mai
+      name_lo: ດົງດອກໄມ້
+      latitude: 16.528053
+      longitude: 105.128757
+    - code: '13090047'
+      name_en: Dong mon
+      name_lo: ດົງມົນ
+      latitude: 16.509807
+      longitude: 105.141445
+    - code: '13090048'
+      name_en: Laomarkkhay
+      name_lo: ເລົ່າໝາກຄ່າ
+      latitude: 16.363825
+      longitude: 105.135111
+    - code: '13090049'
+      name_en: Na nork kaen
+      name_lo: ນານົກຂຽນ
+      latitude: 16.554434
+      longitude: 105.073566
+    - code: '13090050'
+      name_en: Nong tong
+      name_lo: ໜອງຕ໋ອງ
+      latitude: 16.520471
+      longitude: 105.069594
+    - code: '13090051'
+      name_en: Ka dane
+      name_lo: ກະດັນ
+      latitude: 16.409201
+      longitude: 105.176199
+    - code: '13090052'
+      name_en: Kham tong long
+      name_lo: ຄຳຕອງລອງ
+      latitude: 16.498882
+      longitude: 105.357451
+    - code: '13090053'
+      name_en: Muangkhai
+      name_lo: ມ່ວງໄຂ່
+      latitude: 16.620645
+      longitude: 105.207947
+    - code: '13090054'
+      name_en: Na khou khou
+      name_lo: ນາຄູຄູ
+      latitude: 16.48074
+      longitude: 105.133888
+    - code: '13090055'
+      name_en: Nonng nha mar
+      name_lo: ໜາມຫຍ້າມານ
+      latitude: 16.60813
+      longitude: 105.222807
+    - code: '13090056'
+      name_en: Pha laeng
+      name_lo: ຜາແລງ
+      latitude: 16.491808
+      longitude: 105.159648
+    - code: '13090057'
+      name_en: Sa li pa kua
+      name_lo: ສະລິປ່າກ້ວຍ
+      latitude: 16.439756
+      longitude: 105.293028
+    - code: '13090058'
+      name_en: Ta laew noy
+      name_lo: ຕະແຫລວນ້ອຍ
+      latitude: 16.41615
+      longitude: 105.272268
+    - code: '13090059'
+      name_en: Nong hai
+      name_lo: ໜອງໄຮ
+      latitude: 16.630252
+      longitude: 105.132967
+    - code: '13090060'
+      name_en: Na hai diew
+      name_lo: ນາໄຮ່ດຽວ
+      latitude: 16.500038
+      longitude: 105.307155
+    - code: '13090061'
+      name_en: Nhang soung
+      name_lo: ຍາງສູງ
+      latitude: 16.586938
+      longitude: 105.089213
+    - code: '13090062'
+      name_en: Phai
+      name_lo: ໃຜ່
+      latitude: 16.4515
+      longitude: 105.106602
+    - code: '13090063'
+      name_en: Sy vy lai
+      name_lo: ສີວິໄລ
+      latitude: 16.518487
+      longitude: 105.030358
+    - code: '13090064'
+      name_en: Houi mark bao
+      name_lo: ຫ້ວນໝາກເຍົາ
+      latitude: 16.532835
+      longitude: 105.403617
+    - code: '13090065'
+      name_en: Lao hua kham
+      name_lo: ເລົ່າຫົວຂາມ
+      latitude: 16.320708
+      longitude: 105.199226
+    - code: '13090066'
+      name_en: Dong kan kou
+      name_lo: ດົງຄັນຄູ
+      latitude: 16.534907
+      longitude: 105.086249
+    - code: '13090067'
+      name_en: Dong kham meun
+      name_lo: ດົງຄຳໝື່ນ
+      latitude: 16.429611
+      longitude: 105.184059
+    - code: '13090068'
+      name_en: Kaeng kok dong
+      name_lo: ແກ້ງກອດດົງ
+      latitude: 16.434406
+      longitude: 105.206862
+    - code: '13090069'
+      name_en: Phorn tong
+      name_lo: ໂພນຕ້ອງ
+      latitude: 16.533862
+      longitude: 105.178079
+  - code: '1310'
+    name_en: Xonaboury
+    name_lo: ຊົນນະບູລີ
+  - code: '1311'
+    name_en: Xayboury
+    name_lo: ໄຊບູລີ
+  - code: '1312'
+    name_en: Viraboury
+    name_lo: ວີລະບຸລີ
+  - code: '1313'
+    name_en: Assaphone
+    name_lo: ອາດສະພອນ
+  - code: '1314'
+    name_en: Xonboury
+    name_lo: ໄຊພູທອງ
+  - code: '1315'
+    name_en: Thaphalanxay
+    name_lo: ພະລານໄຊ
+- code: LA-SL
+  name_en: Salavan
+  name_lo: ສາລະວັນ
+  districts:
+  - code: '1401'
+    name_en: Saravane
+    name_lo: ສາລະວັນ
+    villages:
+    - code: '14010001'
+      name_en: Nongbouayai
+      name_lo: ໜອງບົວໃຫຍ່
+      latitude: 15.676459
+      longitude: 106.550149
+    - code: '14010002'
+      name_en: Phonethan
+      name_lo: ໂພນຖານ
+      latitude: 15.667274
+      longitude: 106.47966
+    - code: '14010003'
+      name_en: Nalak
+      name_lo: ນາຫຼັກ
+      latitude: 15.708359
+      longitude: 106.420109
+    - code: '14010004'
+      name_en: Kaesim
+      name_lo: ແກ້ວສິມ
+      latitude: 15.847877
+      longitude: 106.28546
+    - code: '14010005'
+      name_en: Sanvung
+      name_lo: ສັນວັງ
+      latitude: 15.535408
+      longitude: 106.279297
+    - code: '14010006'
+      name_en: Nakokpho
+      name_lo: ນາກົກໂພ
+      latitude: 15.718208
+      longitude: 106.414116
+    - code: '14010007'
+      name_en: Buangyai
+      name_lo: ບວງໃຫຍ່
+      latitude: 15.647995
+      longitude: 106.667524
+    - code: '14010008'
+      name_en: Taopoun
+      name_lo: ເຕົາປູນ
+      latitude: 15.719795
+      longitude: 106.438374
+    - code: '14010009'
+      name_en: Phonkeo
+      name_lo: ໂພນແກ້ວ
+      latitude: 15.726907
+      longitude: 106.419087
+    - code: '14010010'
+      name_en: Harfkornam
+      name_lo: ຫາດກໍ່ນ້ຳ
+      latitude: 15.628921
+      longitude: 106.591282
+    - code: '14010011'
+      name_en: Daneneua
+      name_lo: ແດນເໜືອ
+      latitude: 15.782942
+      longitude: 106.294115
+    - code: '14010012'
+      name_en: Houylanong
+      name_lo: ຫ້ວຍລານອງ
+      latitude: 15.497439
+      longitude: 106.296402
+    - code: '14010013'
+      name_en: Phukkhayai
+      name_lo: ຜັກຂາໃຫຍ່
+      latitude: 15.724068
+      longitude: 106.482584
+    - code: '14010014'
+      name_en: Nadone
+      name_lo: ນາດອນ
+      latitude: 15.719798
+      longitude: 106.38408
+    - code: '14010015'
+      name_en: Beungkham
+      name_lo: ບຶງຄຳ
+      latitude: 15.709072
+      longitude: 106.142192
+    - code: '14010016'
+      name_en: Haphougnai
+      name_lo: ຫາບພູໃຫຍ່
+      latitude: 15.527454
+      longitude: 106.437718
+    - code: '14010017'
+      name_en: Ko
+      name_lo: ກໍ
+      latitude: 15.644563
+      longitude: 106.370463
+    - code: '14010018'
+      name_en: Sung
+      name_lo: ຊຸງ
+      latitude: 15.611427
+      longitude: 106.357376
+    - code: '14010019'
+      name_en: Channeua
+      name_lo: ຈານເໜືອ
+      latitude: 15.635819
+      longitude: 106.237286
+    - code: '14010020'
+      name_en: Naxainoy
+      name_lo: ນາໄຊນ້ອຍ
+      latitude: 15.578138
+      longitude: 106.460358
+    - code: '14010021'
+      name_en: Beungxaineua
+      name_lo: ບຶງໄຊເໜືອ
+      latitude: 15.707842
+      longitude: 106.233211
+    - code: '14010022'
+      name_en: Phonebork
+      name_lo: ໂພນບອກ
+      latitude: 15.709491
+      longitude: 106.430013
+    - code: '14010023'
+      name_en: Boungsouy
+      name_lo: ບຶງຊຸຍ
+      latitude: 15.701389
+      longitude: 106.5049
+    - code: '14010024'
+      name_en: Kaxakao
+      name_lo: ກະຊາຂາວ
+      latitude: 15.757507
+      longitude: 106.372782
+    - code: '14010025'
+      name_en: Nabone
+      name_lo: ນາບ້ອນ
+      latitude: 15.878302
+      longitude: 106.226248
+    - code: '14010026'
+      name_en: Vungngoua
+      name_lo: ວັງງົວ
+      latitude: 15.664752
+      longitude: 106.255895
+    - code: '14010027'
+      name_en: Nathankouai
+      name_lo: ນາຖານຄວາຍ
+      latitude: 15.652527
+      longitude: 106.356478
+    - code: '14010028'
+      name_en: Nomgsai
+      name_lo: ໜອງໄຊ
+      latitude: 15.72194
+      longitude: 106.179195
+    - code: '14010029'
+      name_en: Lernpaoup
+      name_lo: ເຫລີນເປົ້າ
+      latitude: 15.769569
+      longitude: 106.276118
+    - code: '14010030'
+      name_en: Naphoyai
+      name_lo: ນາໂພໃຫຍ່
+      latitude: 15.570289
+      longitude: 106.604484
+    - code: '14010031'
+      name_en: Nongsakerng
+      name_lo: ໜອງສະເກີງ
+      latitude: 15.75304
+      longitude: 106.418971
+    - code: '14010032'
+      name_en: Soutavaly
+      name_lo: ສຸດຕາວະລີ
+      latitude: 15.604457
+      longitude: 106.234221
+    - code: '14010033'
+      name_en: Nabak
+      name_lo: ນາບາກ
+      latitude: 15.735118
+      longitude: 106.395991
+    - code: '14010034'
+      name_en: Pakpong
+      name_lo: ປາກປົ່ງ
+      latitude: 15.85297
+      longitude: 106.443232
+    - code: '14010035'
+      name_en: Nongbouanoy
+      name_lo: ໜອງບົ່ວນ້ອຍ
+      latitude: 15.661326
+      longitude: 106.132049
+    - code: '14010036'
+      name_en: Thameuangxe
+      name_lo: ທ່າມືອງເຊ
+      latitude: 15.756906
+      longitude: 106.344239
+    - code: '14010037'
+      name_en: Nadonekhuang
+      name_lo: ນາດອນຂວ້າງ
+      latitude: 15.714632
+      longitude: 106.328035
+    - code: '14010038'
+      name_en: Naphonoy
+      name_lo: ນາໂພນ້ອຍ
+      latitude: 15.590482
+      longitude: 106.555908
+    - code: '14010039'
+      name_en: Nongkhar
+      name_lo: ໜອງຄາ
+      latitude: 15.826445
+      longitude: 106.213404
+    - code: '14010040'
+      name_en: Nongmor
+      name_lo: ໜອງໝໍ
+      latitude: 15.75067
+      longitude: 106.250169
+    - code: '14010041'
+      name_en: Nongmarkyang
+      name_lo: ໜອງໝາກຢາງ
+      latitude: 15.788637
+      longitude: 106.348219
+    - code: '14010042'
+      name_en: Maisivilay
+      name_lo: ໃໝ່ສີວິໄລ
+      latitude: 15.698185
+      longitude: 106.308661
+    - code: '14010043'
+      name_en: Kaengmeuanglao
+      name_lo: ແກ້ງເມືອງລາວ
+      latitude: 15.794906
+      longitude: 106.32617
+    - code: '14010044'
+      name_en: Marknaoyai
+      name_lo: ໝາກໜາວໃຫຍ່
+      latitude: 15.700695
+      longitude: 106.457713
+    - code: '14010045'
+      name_en: Natou
+      name_lo: ນາຕູ້
+      latitude: 15.5718
+      longitude: 106.252077
+    - code: '14010046'
+      name_en: Phonetan
+      name_lo: ໂພນຖານ
+      latitude: 15.699708
+      longitude: 106.429682
+    - code: '14010047'
+      name_en: Vatkang
+      name_lo: ວັດກາງ
+      latitude: 15.716788
+      longitude: 106.42754
+    - code: '14010048'
+      name_en: Khanngoua
+      name_lo: ຂັນງົວ
+      latitude: 15.830038
+      longitude: 106.251775
+    - code: '14010049'
+      name_en: Nonesavanh
+      name_lo: ໂພນສະຫວັນ
+      latitude: 15.817331
+      longitude: 106.2934
+    - code: '14010050'
+      name_en: Lernthone
+      name_lo: ເຫລີນໂທນ
+      latitude: 15.629785
+      longitude: 106.258226
+    - code: '14010051'
+      name_en: Khokmai
+      name_lo: ໂຄກໃໝ່
+      latitude: 15.74347
+      longitude: 106.466643
+    - code: '14010052'
+      name_en: Phonephai
+      name_lo: ໂພນໄຜ່
+      latitude: 15.709215
+      longitude: 106.365278
+    - code: '14010053'
+      name_en: Nadonebong
+      name_lo: ນາດອນບົ້ງ
+      latitude: 15.774133
+      longitude: 106.157189
+    - code: '14010054'
+      name_en: Nakhok
+      name_lo: ນາໂຄກ
+      latitude: 15.673995
+      longitude: 106.426913
+    - code: '14010055'
+      name_en: Nathonglouang
+      name_lo: ນາທົ່ງຫຼວງ
+      latitude: 15.612308
+      longitude: 106.463235
+    - code: '14010056'
+      name_en: Nathongluang
+      name_lo: ນາທົ່ງຫຼວງ
+      latitude: 15.738645
+      longitude: 106.429361
+    - code: '14010057'
+      name_en: Nongpherng
+      name_lo: ໜອງເພິ້ງ
+      latitude: 15.816149
+      longitude: 106.32444
+    - code: '14010058'
+      name_en: Thongnakham
+      name_lo: ທົ່ງນາຄຳ
+      latitude: 15.732633
+      longitude: 106.202742
+    - code: '14010059'
+      name_en: Thongpaborhnai
+      name_lo: ທົ່ງປະບ່ໍໃນ
+      latitude: 15.642113
+      longitude: 106.336936
+    - code: '14010060'
+      name_en: Chantai
+      name_lo: ຈານໃຕ້
+      latitude: 15.687594
+      longitude: 106.203233
+    - code: '14010061'
+      name_en: Nathounnoy
+      name_lo: ນາຖູນນ້ອຍ
+      latitude: 15.671903
+      longitude: 106.36458
+    - code: '14010062'
+      name_en: Kadup
+      name_lo: ກະດຸບ
+      latitude: 15.548944
+      longitude: 106.345364
+    - code: '14010063'
+      name_en: Khamthong
+      name_lo: ຄຳທອງ
+      latitude: 15.879373
+      longitude: 106.399785
+    - code: '14010064'
+      name_en: Nahinlong
+      name_lo: ນາຫີນໂລ່ງ
+      latitude: 15.789242
+      longitude: 106.206785
+    - code: '14010065'
+      name_en: Nakhou
+      name_lo: ນາຄູ່
+      latitude: 15.842
+      longitude: 106.335428
+    - code: '14010066'
+      name_en: Napholern
+      name_lo: ນາໂພເຫລີນ
+      latitude: 15.768588
+      longitude: 106.247747
+    - code: '14010067'
+      name_en: Dongnong
+      name_lo: ດົງໜອງ
+      latitude: 15.672732
+      longitude: 106.334878
+    - code: '14010068'
+      name_en: Navar
+      name_lo: ນາວາ
+      latitude: 15.798462
+      longitude: 106.290443
+    - code: '14010069'
+      name_en: Nongphek
+      name_lo: ໜອງເພັກ
+      latitude: 15.862977
+      longitude: 106.340852
+    - code: '14010070'
+      name_en: Nongphungyong
+      name_lo: ໜອງຜຶ້ງຍອງ
+      latitude: 15.841889
+      longitude: 106.315668
+    - code: '14010071'
+      name_en: Phukpheothong
+      name_lo: ຜັກແພວທົ່ງ
+      latitude: 15.723781
+      longitude: 106.248232
+    - code: '14010072'
+      name_en: Thardhouy
+      name_lo: ທາດຫ້ວຍ
+      latitude: 15.682319
+      longitude: 106.403506
+    - code: '14010073'
+      name_en: Tongyai
+      name_lo: ຕົ່ງໃຫຍ່
+      latitude: 15.720344
+      longitude: 106.269397
+  - code: '1402'
+    name_en: Ta Oy
+    name_lo: ຕະໂອ້ຍ
+    villages:
+    - code: '14020001'
+      name_en: Kang
+      name_lo: ກັງ
+      latitude: 16.089254
+      longitude: 106.575515
+    - code: '14020002'
+      name_en: Katen
+      name_lo: ກະແຕນ
+      latitude: 16.08836
+      longitude: 106.710392
+    - code: '14020003'
+      name_en: Kokbok
+      name_lo: ກົກບົກ
+      latitude: 15.93009
+      longitude: 106.550361
+    - code: '14020004'
+      name_en: Paten
+      name_lo: ປະເຕນ
+      latitude: 16.053521
+      longitude: 106.71485
+    - code: '14020005'
+      name_en: Laxaeng
+      name_lo: ລະແຊງ
+      latitude: 16.040148
+      longitude: 106.645905
+    - code: '14020006'
+      name_en: Houkayo( talounghou )
+      name_lo: ຮູກະໂຍ ຕະຫລຸງຫຼ
+      latitude: 16.059385
+      longitude: 106.606462
+    - code: '14020007'
+      name_en: Taen
+      name_lo: ແຕ່ນ
+      latitude: 16.132299
+      longitude: 106.539849
+    - code: '14020008'
+      name_en: Kape
+      name_lo: ກະປຶ
+      latitude: 16.114841
+      longitude: 106.669473
+    - code: '14020009'
+      name_en: Thetsabanmeuang
+      name_lo: ເທດສະບານເມືອງ
+      latitude: 16.083812
+      longitude: 106.631723
+    - code: '14020010'
+      name_en: Toub
+      name_lo: ຕູບ
+      latitude: 16.131658
+      longitude: 106.711562
+    - code: '14020011'
+      name_en: Padu
+      name_lo: ປະດູ
+      latitude: 15.900127
+      longitude: 106.497271
+    - code: '14020012'
+      name_en: Prouay
+      name_lo: ປລ່ວຍ
+      latitude: 15.97757
+      longitude: 106.564915
+    - code: '14020013'
+      name_en: Houayngoua
+      name_lo: ຫ້ວຍງົວ
+      latitude: 15.959334
+      longitude: 106.441877
+    - code: '14020014'
+      name_en: Sabongkokhai
+      name_lo: ສະບອງກົກໄຮ
+      latitude: 16.006875
+      longitude: 106.598135
+    - code: '14020015'
+      name_en: Singtamong
+      name_lo: ສີງຕາມ່ອງ
+      latitude: 16.080398
+      longitude: 106.53231
+    - code: '14020016'
+      name_en: Chorlavieng
+      name_lo: ຈໍລະແວງ
+      latitude: 16.168699
+      longitude: 106.533927
+  - code: '1403'
+    name_en: Toumlane
+    name_lo: ຕຸ້ມລານ
+  - code: '1404'
+    name_en: Lakhonepheng
+    name_lo: ລະຄອນເພັງ
+    villages:
+    - code: '14040001'
+      name_en: Taphankang
+      name_lo: ຕະພານກາງ
+      latitude: 15.921997
+      longitude: 105.352096
+    - code: '14040002'
+      name_en: Vangtalaew
+      name_lo: ວັງຕາແຫຼວ
+      latitude: 15.788871
+      longitude: 105.434716
+    - code: '14040003'
+      name_en: Thakhanxoumxon
+      name_lo: ທ່າຂັນຊຸມຊົນ
+      latitude: 15.791714
+      longitude: 105.521718
+    - code: '14040004'
+      name_en: Hongsaythong
+      name_lo: ໂຮງສາຍທອງ
+      latitude: 15.93229
+      longitude: 105.367272
+    - code: '14040005'
+      name_en: Pakkhonekaen
+      name_lo: ປາກໂຄນແຄນ
+      latitude: 15.890999
+      longitude: 105.378222
+    - code: '14040006'
+      name_en: Pakxanom
+      name_lo: ປາກສະໂນມ
+      latitude: 15.962069
+      longitude: 105.380908
+    - code: '14040007'
+      name_en: Donemarkkeua
+      name_lo: ດອນໝາກເຂືອ
+      latitude: 15.836764
+      longitude: 105.412347
+    - code: '14040008'
+      name_en: Phouangsavanh
+      name_lo: ພວງສະຫວັນ
+      latitude: 15.975033
+      longitude: 105.494342
+    - code: '14040009'
+      name_en: Donedaeng
+      name_lo: ດອນແດງ
+      latitude: 15.874274
+      longitude: 105.412977
+    - code: '14040010'
+      name_en: Boudtaphanh
+      name_lo: ບຸດຕະພານ
+      latitude: 15.703291
+      longitude: 105.645479
+    - code: '14040011'
+      name_en: Lakhonesay
+      name_lo: ລະຄອນໄຊ
+      latitude: 15.892139
+      longitude: 105.559247
+    - code: '14040012'
+      name_en: Na
+      name_lo: ນາ
+      latitude: 15.821747
+      longitude: 105.709714
+    - code: '14040013'
+      name_en: Nongtabaeng
+      name_lo: ໜອງຕະແບງ
+      latitude: 15.689117
+      longitude: 105.810867
+    - code: '14040014'
+      name_en: Nonsamlandane6khoum
+      name_lo: ໂພນສຳລານດານ 6 ຂຸມ
+      latitude: 15.736842
+      longitude: 105.790725
+    - code: '14040015'
+      name_en: Rakhonephengnoy
+      name_lo: ລະຄອນເພັງນ້ອຍ
+      latitude: 15.919463
+      longitude: 105.569952
+    - code: '14040016'
+      name_en: Phonngam2
+      name_lo: ໂພນງາມ 2
+      latitude: 15.733829
+      longitude: 105.81974
+    - code: '14040017'
+      name_en: Lak 90
+      name_lo: ຫຼັກ 90
+      latitude: 15.752437
+      longitude: 105.718374
+    - code: '14040018'
+      name_en: Dane1
+      name_lo: ດານ 1
+      latitude: 15.732054
+      longitude: 105.771582
+    - code: '14040019'
+      name_en: Danekhoum
+      name_lo: ດານຂຸມ
+      latitude: 15.749977
+      longitude: 105.765127
+    - code: '14040020'
+      name_en: Koudlamphong
+      name_lo: ກຸດລຳພອງ
+      latitude: 15.681078
+      longitude: 105.830255
+    - code: '14040021'
+      name_en: Nanglao
+      name_lo: ນາງລາວ
+      latitude: 15.700679
+      longitude: 105.802864
+    - code: '14040022'
+      name_en: Nongsaeng
+      name_lo: ໜອງແສງ
+      latitude: 15.901971
+      longitude: 105.420359
+    - code: '14040023'
+      name_en: Nadoumai
+      name_lo: ນາດູ່ໃໝ່
+      latitude: 15.844793
+      longitude: 105.673524
+    - code: '14040024'
+      name_en: Lak 94
+      name_lo: ຫຼັກ 94
+      latitude: 15.792149
+      longitude: 105.725166
+    - code: '14040025'
+      name_en: Nongtae
+      name_lo: ໜອງແຕ້
+      latitude: 15.704764
+      longitude: 105.828063
+    - code: '14040026'
+      name_en: Nameuang
+      name_lo: ນາເມືອງ
+      latitude: 15.915333
+      longitude: 105.435303
+    - code: '14040027'
+      name_en: Nongxano2
+      name_lo: ໜອງສະໂນ 2
+      latitude: 15.968071
+      longitude: 105.423324
+    - code: '14040028'
+      name_en: Nonsing
+      name_lo: ໂພນສິງ
+      latitude: 15.888549
+      longitude: 105.427046
+    - code: '14040029'
+      name_en: Sakhonesitai
+      name_lo: ສະຄອນສີໃຕ້
+      latitude: 15.851037
+      longitude: 105.59712
+    - code: '14040030'
+      name_en: Baengdane
+      name_lo: ແບ່ງດານ
+      latitude: 15.72353
+      longitude: 105.804316
+    - code: '14040031'
+      name_en: Navieng
+      name_lo: ນາວຽງ
+      latitude: 15.946102
+      longitude: 105.564924
+    - code: '14040032'
+      name_en: Nong aen
+      name_lo: ໜອງແອນ
+      latitude: 15.860945
+      longitude: 105.714818
+    - code: '14040033'
+      name_en: Phoukasi
+      name_lo: ພູກະສີ
+      latitude: 15.927908
+      longitude: 105.546305
+    - code: '14040034'
+      name_en: Phonsavanh
+      name_lo: ໂພນສະຫວັນ
+      latitude: 15.870729
+      longitude: 105.475503
+    - code: '14040035'
+      name_en: Navasouk
+      name_lo: ນາວາສຸກ
+      latitude: 15.916885
+      longitude: 105.61956
+    - code: '14040036'
+      name_en: Okat
+      name_lo: ໂອກາດ
+      latitude: 15.910001
+      longitude: 105.485786
+    - code: '14040037'
+      name_en: Vangkaed
+      name_lo: ວັງແກດ
+      latitude: 15.836201
+      longitude: 105.764523
+    - code: '14040038'
+      name_en: Kaengthan
+      name_lo: ແກ້ງຖານ
+      latitude: 15.929971
+      longitude: 105.404798
+    - code: '14040039'
+      name_en: Nakala
+      name_lo: ນາກະລາ
+      latitude: 15.864531
+      longitude: 105.455364
+    - code: '14040040'
+      name_en: Nongsichae
+      name_lo: ໜອງສີແຈະ
+      latitude: 15.70177
+      longitude: 105.753425
+    - code: '14040041'
+      name_en: Dongtaloung
+      name_lo: ດົງຕະລຸງ
+      latitude: 15.748687
+      longitude: 105.73171
+    - code: '14040042'
+      name_en: Lakhonesikang
+      name_lo: ລະຄອນສີກາງ
+      latitude: 15.861626
+      longitude: 105.578684
+    - code: '14040043'
+      name_en: Nonggnao
+      name_lo: ໜອງງາວ
+      latitude: 15.96102
+      longitude: 105.40198
+    - code: '14040044'
+      name_en: Nonsavang
+      name_lo: ໂພນສະຫວ່າງ
+      latitude: 15.941528
+      longitude: 105.510159
+    - code: '14040045'
+      name_en: Kaengsaphangthong
+      name_lo: ແກ້ງສະພັງທອງ
+      latitude: 15.908302
+      longitude: 105.552673
+    - code: '14040046'
+      name_en: Luck 90
+      name_lo: ຫຼັກ 90
+      latitude: 15.790442
+      longitude: 105.693514
+    - code: '14040047'
+      name_en: Nakadao
+      name_lo: ນາກະເດົາ
+      latitude: 15.895269
+      longitude: 105.585233
+    - code: '14040048'
+      name_en: Naphabangnoy
+      name_lo: ນາຜາບັງນ້ອຍ
+      latitude: 15.874831
+      longitude: 105.493324
+    - code: '14040049'
+      name_en: Nongpho
+      name_lo: ໜອງໂພ
+      latitude: 15.850142
+      longitude: 105.520906
+    - code: '14040050'
+      name_en: Lerngnoktha
+      name_lo: ເຫລີນນົກທາ
+      latitude: 15.973154
+      longitude: 105.450757
+  - code: '1405'
+    name_en: Vapy
+    name_lo: ວາປີ
+    villages:
+    - code: '14050001'
+      name_en: Vapineua
+      name_lo: ວາປີເໜືອ
+      latitude: 15.673892
+      longitude: 105.914291
+    - code: '14050002'
+      name_en: Phakkha
+      name_lo: ຜັກຄະ
+      latitude: 15.688094
+      longitude: 105.946939
+    - code: '14050003'
+      name_en: Kaengsuthi
+      name_lo: ແກ້ງສຸດທິ
+      latitude: 15.709143
+      longitude: 106.01127
+    - code: '14050004'
+      name_en: Mouangvernkham
+      name_lo: ມ່ວງເວີນຄຳ
+      latitude: 15.707379
+      longitude: 105.988744
+    - code: '14050005'
+      name_en: Maed
+      name_lo: ແມດ
+      latitude: 15.68251
+      longitude: 106.011347
+    - code: '14050006'
+      name_en: Houaykhon
+      name_lo: ຫ້ວຍໂຄນ
+      latitude: 15.650995
+      longitude: 105.90672
+    - code: '14050007'
+      name_en: Saphath
+      name_lo: ສະພາດ
+      latitude: 15.701483
+      longitude: 105.958787
+    - code: '14050008'
+      name_en: Khorxong
+      name_lo: ເກາະຊ່ອງ
+      latitude: 15.624371
+      longitude: 105.903344
+    - code: '14050009'
+      name_en: Naphontanh
+      name_lo: ນາໂພນຕານ
+      latitude: 15.725474
+      longitude: 105.973552
+    - code: '14050010'
+      name_en: Tansoum
+      name_lo: ຕານສຸມ
+      latitude: 15.632753
+      longitude: 105.872859
+    - code: '14050011'
+      name_en: Sameer
+      name_lo: ສະເໝ້ຍ
+      latitude: 15.687606
+      longitude: 106.03892
+    - code: '14050012'
+      name_en: Bangkhannam
+      name_lo: ບັງຄານໍ້າ
+      latitude: 15.676644
+      longitude: 105.932067
+    - code: '14050013'
+      name_en: Nongngong
+      name_lo: ໜອງໂຄ້ງ
+      latitude: 15.653494
+      longitude: 105.85716
+    - code: '14050014'
+      name_en: Napheemanh
+      name_lo: ນາຜິມານ
+      latitude: 15.741416
+      longitude: 105.939535
+    - code: '14050015'
+      name_en: Hindanh
+      name_lo: ຫີນດ່ານ
+      latitude: 15.651642
+      longitude: 105.93408
+    - code: '14050016'
+      name_en: Noyxe
+      name_lo: ນ້ອຍແຊ
+      latitude: 15.669866
+      longitude: 105.963068
+    - code: '14050017'
+      name_en: Kongleugnai
+      name_lo: ກອງລືໃຫຍ່
+      latitude: 15.90169
+      longitude: 105.956664
+    - code: '14050018'
+      name_en: Navar
+      name_lo: ນາຫວ້າ
+      latitude: 15.719517
+      longitude: 105.950535
+    - code: '14050019'
+      name_en: Nalaong
+      name_lo: ນາລະໂອງ
+      latitude: 15.64362
+      longitude: 105.887005
+    - code: '14050020'
+      name_en: Kaengku
+      name_lo: ແກ້ງກຸ
+      latitude: 15.706938
+      longitude: 106.048409
+    - code: '14050021'
+      name_en: Lao
+      name_lo: ເລົ້າ
+      latitude: 15.714194
+      longitude: 106.032899
+    - code: '14050022'
+      name_en: Nonkhor
+      name_lo: ໂນນຄໍ້
+      latitude: 15.680762
+      longitude: 105.846619
+    - code: '14050023'
+      name_en: Khonesay
+      name_lo: ຄອນສາຍ
+      latitude: 15.688249
+      longitude: 105.906792
+    - code: '14050024'
+      name_en: Donekham
+      name_lo: ດອນຄຳ
+      latitude: 15.585951
+      longitude: 105.930002
+    - code: '14050025'
+      name_en: Had
+      name_lo: ຫາດ
+      latitude: 15.695744
+      longitude: 106.021766
+    - code: '14050026'
+      name_en: Kaengnoy
+      name_lo: ແກ້ງນ້ອຍ
+      latitude: 15.720877
+      longitude: 106.068845
+    - code: '14050027'
+      name_en: Nongpho
+      name_lo: ໜອງໂພ
+      latitude: 15.675308
+      longitude: 106.09344
+    - code: '14050028'
+      name_en: Khanao
+      name_lo: ຂະເໜົາ
+      latitude: 15.632143
+      longitude: 106.00999
+    - code: '14050029'
+      name_en: Nalanh
+      name_lo: ນາລັນ
+      latitude: 15.844886
+      longitude: 106.040005
+    - code: '14050030'
+      name_en: Lanh
+      name_lo: ບັນ
+      latitude: 15.684793
+      longitude: 105.98417
+    - code: '14050031'
+      name_en: Nakoktan
+      name_lo: ນາກົກຕານ
+      latitude: 15.66284
+      longitude: 105.877703
+    - code: '14050032'
+      name_en: Nasiad
+      name_lo: ນາສຽດ
+      latitude: 15.607609
+      longitude: 105.964077
+    - code: '14050033'
+      name_en: Naxanh
+      name_lo: ນາຊັນ
+      latitude: 15.780031
+      longitude: 106.066872
+    - code: '14050034'
+      name_en: Nongboua
+      name_lo: ໜອງບົວ
+      latitude: 15.774066
+      longitude: 105.915787
+    - code: '14050035'
+      name_en: Nahongkham
+      name_lo: ນາຮ່ອງຂາມ
+      latitude: 15.773825
+      longitude: 106.116732
+    - code: '14050036'
+      name_en: Sim
+      name_lo: ສິມ
+      latitude: 15.655641
+      longitude: 105.985542
+    - code: '14050037'
+      name_en: Donekhaomin
+      name_lo: ດອນໝິ້ນ
+      latitude: 15.720885
+      longitude: 105.913634
+    - code: '14050038'
+      name_en: Nakang
+      name_lo: ນາກາງ
+      latitude: 15.700833
+      longitude: 105.925059
+    - code: '14050039'
+      name_en: Nongpherng
+      name_lo: ໜອງເຜິ້ງ
+      latitude: 15.744078
+      longitude: 105.856753
+    - code: '14050040'
+      name_en: Phailorm
+      name_lo: ໃຜ່ລ້ອມ
+      latitude: 15.687128
+      longitude: 105.864739
+    - code: '14050041'
+      name_en: Nonsavanh
+      name_lo: ໂນນສະຫວັນ
+      latitude: 15.685473
+      longitude: 106.061469
+    - code: '14050042'
+      name_en: Chong
+      name_lo: ຈອງ
+      latitude: 15.645374
+      longitude: 106.058789
+    - code: '14050043'
+      name_en: Dongla ou
+      name_lo: ດົງລະອູ
+      latitude: 15.665455
+      longitude: 106.02582
+    - code: '14050044'
+      name_en: Thongkhian
+      name_lo: ທົ່ງຂຽນ
+      latitude: 15.597312
+      longitude: 105.941059
+    - code: '14050045'
+      name_en: Namouang
+      name_lo: ນາມ່ວງ
+      latitude: 15.744718
+      longitude: 105.97454
+    - code: '14050046'
+      name_en: Naxad
+      name_lo: ນາຊາດ
+      latitude: 15.722588
+      longitude: 105.890198
+  - code: '1406'
+    name_en: Khongsedone
+    name_lo: ຄົງເຊໂດນ
+    villages:
+    - code: '14060001'
+      name_en: Tanpiew
+      name_lo: ຕານປຽວ
+      latitude: 15.606115
+      longitude: 105.840839
+    - code: '14060002'
+      name_en: Houysao
+      name_lo: ຫ້ວຍສາວ
+      latitude: 15.489472
+      longitude: 105.760054
+    - code: '14060003'
+      name_en: Thakhor
+      name_lo: ທ່າຄໍ້
+      latitude: 15.55983
+      longitude: 105.781038
+    - code: '14060004'
+      name_en: Khamteu
+      name_lo: ຄຳເຕີ
+      latitude: 15.471069
+      longitude: 105.645284
+    - code: '14060005'
+      name_en: Thongchalern
+      name_lo: ທົ່ງຈະເລີນ
+      latitude: 15.586368
+      longitude: 105.810554
+    - code: '14060006'
+      name_en: Thuangxe
+      name_lo: ທ່ອງເຊ
+      latitude: 15.483279
+      longitude: 105.800548
+    - code: '14060007'
+      name_en: Khamkhor
+      name_lo: ຄຳຄໍ້
+      latitude: 15.606772
+      longitude: 105.883401
+    - code: '14060008'
+      name_en: Donephaiban
+      name_lo: ດອນໄຜ່
+      latitude: 15.623207
+      longitude: 105.852176
+    - code: '14060009'
+      name_en: Nongkulu
+      name_lo: ໜອງກູລູ
+      latitude: 15.513891
+      longitude: 105.774635
+    - code: '14060010'
+      name_en: Harddou
+      name_lo: ຫາດດູ່
+      latitude: 15.473523
+      longitude: 105.7604
+    - code: '14060011'
+      name_en: Kaenghod
+      name_lo: ແກ້ງຮົດ
+      latitude: 15.461885
+      longitude: 105.773596
+    - code: '14060012'
+      name_en: Khanthoungxai
+      name_lo: ຂັນທຸງໄຊ
+      latitude: 15.583367
+      longitude: 105.670773
+    - code: '14060013'
+      name_en: Khongkhoum5
+      name_lo: ໂຄ້ງຂຸມ 5
+      latitude: 15.583772
+      longitude: 105.788674
+    - code: '14060014'
+      name_en: Naphoulao
+      name_lo: ນາພູລາວ
+      latitude: 15.453398
+      longitude: 105.763821
+    - code: '14060015'
+      name_en: Dinkok
+      name_lo: ດິນກົກ
+      latitude: 15.639285
+      longitude: 105.829559
+    - code: '14060016'
+      name_en: Nateun
+      name_lo: ນາເຕີນ
+      latitude: 15.455196
+      longitude: 105.782741
+    - code: '14060017'
+      name_en: Nonekhor
+      name_lo: ໂພນຄໍ້
+      latitude: 15.567997
+      longitude: 105.809638
+    - code: '14060018'
+      name_en: Nongkorxong
+      name_lo: ໜອງກໍ້ຊອງ
+      latitude: 15.55054
+      longitude: 105.798721
+    - code: '14060019'
+      name_en: Hinsiew
+      name_lo: ຫີນສ່ຽວ
+      latitude: 15.54612
+      longitude: 105.761027
+    - code: '14060020'
+      name_en: Nonesamlan
+      name_lo: ໂພນສຳລານ
+      latitude: 15.514452
+      longitude: 105.765105
+    - code: '14060021'
+      name_en: Boualapha
+      name_lo: ບົວລະພາ
+      latitude: 15.578966
+      longitude: 105.822264
+    - code: '14060022'
+      name_en: Koudmixai
+      name_lo: ກຸດມີໄຊ
+      latitude: 15.654335
+      longitude: 105.838821
+    - code: '14060023'
+      name_en: Kaengtavang
+      name_lo: ແກ້ງຕາວັງ
+      latitude: 15.542529
+      longitude: 105.826061
+    - code: '14060024'
+      name_en: Koudhin
+      name_lo: ກຸດຫີນ
+      latitude: 15.523534
+      longitude: 105.744685
+    - code: '14060025'
+      name_en: Hangheng
+      name_lo: ຫ້າງແຮ້ງ
+      latitude: 15.437107
+      longitude: 105.798253
+    - code: '14060026'
+      name_en: Tandiew
+      name_lo: ຕານດ່ຽວ
+      latitude: 15.484769
+      longitude: 105.778104
+    - code: '14060027'
+      name_en: Nongtang
+      name_lo: ໜອງຕ່າງ
+      latitude: 15.500855
+      longitude: 105.770249
+    - code: '14060028'
+      name_en: Donemeuang
+      name_lo: ດອນເມືອງ
+      latitude: 15.533287
+      longitude: 105.76137
+    - code: '14060029'
+      name_en: Okadyai
+      name_lo: ໂອກາດໃຫຍ່
+      latitude: 15.50937
+      longitude: 105.789625
+    - code: '14060030'
+      name_en: Pakzeuak
+      name_lo: ປາກເຊືອກ
+      latitude: 15.601174
+      longitude: 105.8212
+    - code: '14060031'
+      name_en: Khongnoy
+      name_lo: ໂຄ້ງນ້ອຍ
+      latitude: 15.5689
+      longitude: 105.798221
+    - code: '14060032'
+      name_en: Nanong
+      name_lo: ນານອງ
+      latitude: 15.497243
+      longitude: 105.727681
+    - code: '14060033'
+      name_en: Namek
+      name_lo: ນາເມັກ
+      latitude: 15.547366
+      longitude: 105.862921
+    - code: '14060034'
+      name_en: Khamthong
+      name_lo: ຄຳທອງ
+      latitude: 15.526766
+      longitude: 105.765686
+    - code: '14060035'
+      name_en: Saymone
+      name_lo: ສາຍມົນ
+      latitude: 15.492029
+      longitude: 105.746939
+    - code: '14060036'
+      name_en: Vungkanhoung
+      name_lo: ວັງກັນຮຸ້ງ
+      latitude: 15.602094
+      longitude: 105.809471
+    - code: '14060037'
+      name_en: Hardsaykham
+      name_lo: ຫາດຊາຍຄຳ
+      latitude: 15.465502
+      longitude: 105.79239
+    - code: '14060038'
+      name_en: Khokhinkhong
+      name_lo: ໂຄກຫີນຄົງ
+      latitude: 15.534891
+      longitude: 105.752282
+    - code: '14060039'
+      name_en: Beungkang
+      name_lo: ບຶງກ້າງ
+      latitude: 15.555973
+      longitude: 105.807716
+    - code: '14060040'
+      name_en: Meunpou
+      name_lo: ໝື່ນໂປ້
+      latitude: 15.592626
+      longitude: 105.835655
+    - code: '14060041'
+      name_en: Saykham
+      name_lo: ສາຍຄຳ
+      latitude: 15.474196
+      longitude: 105.719259
+    - code: '14060042'
+      name_en: Hongleuaymixai
+      name_lo: ໂຮງເລື່ອຍມີໄຊ
+      latitude: 15.61786
+      longitude: 105.813236
+    - code: '14060043'
+      name_en: Chanlanxe
+      name_lo: ຈັນລານເຊ
+      latitude: 15.610534
+      longitude: 105.85404
+    - code: '14060044'
+      name_en: Elerng
+      name_lo: ອີເລີງ
+      latitude: 15.574413
+      longitude: 105.744151
+    - code: '14060045'
+      name_en: Nakhok
+      name_lo: ນາໂຄກ
+      latitude: 15.497235
+      longitude: 105.831709
+    - code: '14060046'
+      name_en: Khokhouaxang
+      name_lo: ໂຄກຫົວຊ້າງ
+      latitude: 15.547073
+      longitude: 105.743984
+    - code: '14060047'
+      name_en: Kaengkhone
+      name_lo: ແກ້ງໂຄນ
+      latitude: 15.455921
+      longitude: 105.803019
+    - code: '14060048'
+      name_en: Nakham
+      name_lo: ນາຄຳ
+      latitude: 15.592076
+      longitude: 105.86459
+    - code: '14060049'
+      name_en: Nongsaphang
+      name_lo: ໜອງສະພັງ
+      latitude: 15.574176
+      longitude: 105.764148
+    - code: '14060050'
+      name_en: Pong
+      name_lo: ປ່ອງ
+      latitude: 15.462581
+      longitude: 105.908217
+    - code: '14060051'
+      name_en: Nateuy
+      name_lo: ນາເຕີຍ
+      latitude: 15.522719
+      longitude: 105.888497
+    - code: '14060052'
+      name_en: Meuangkao
+      name_lo: ເມືອງເກົ່າ
+      latitude: 15.525617
+      longitude: 105.791178
+    - code: '14060053'
+      name_en: Nahod
+      name_lo: ນາຮອດ
+      latitude: 15.550675
+      longitude: 105.944239
+    - code: '14060054'
+      name_en: Nonehintang
+      name_lo: ໂພນຫີນຕັ້ງ
+      latitude: 15.508809
+      longitude: 105.738551
+    - code: '14060055'
+      name_en: Khongkhoum6
+      name_lo: ໂຄ້ງຂຸມ 6
+      latitude: 15.576213
+      longitude: 105.803314
+    - code: '14060056'
+      name_en: Fungtannoy
+      name_lo: ຝັ່ງຕານນ້ອຍ
+      latitude: 15.533119
+      longitude: 105.80919
+    - code: '14060057'
+      name_en: Moungzoum
+      name_lo: ມຸ້ງຊຸມ
+      latitude: 15.457473
+      longitude: 105.738016
+    - code: '14060058'
+      name_en: Talang
+      name_lo: ຕະລ່າງ
+      latitude: 15.570835
+      longitude: 105.905077
+    - code: '14060059'
+      name_en: Nonghoy
+      name_lo: ໜອງຫອຍ
+      latitude: 15.467675
+      longitude: 105.80721
+    - code: '14060060'
+      name_en: Sa o
+      name_lo: ສະອໍ
+      latitude: 15.447956
+      longitude: 105.795539
+    - code: '14060061'
+      name_en: Donekeo
+      name_lo: ດອນແກ້ວ
+      latitude: 15.440404
+      longitude: 105.786183
+    - code: '14060062'
+      name_en: Tanpiaw
+      name_lo: ຕານປຽວ
+      latitude: 15.523691
+      longitude: 105.923231
+    - code: '14060063'
+      name_en: Namthang
+      name_lo: ນ້ຳທາງ
+      latitude: 15.461794
+      longitude: 105.832185
+    - code: '14060064'
+      name_en: None
+      name_lo: ໂພນ
+      latitude: 15.564735
+      longitude: 105.842898
+    - code: '14060065'
+      name_en: Somsaat
+      name_lo: ສົມສະອາດ
+      latitude: 15.669014
+      longitude: 105.794551
+    - code: '14060066'
+      name_en: Napong
+      name_lo: ນາປົ່ງ
+      latitude: 15.631649
+      longitude: 105.778386
+    - code: '14060067'
+      name_en: Donekongkhao
+      name_lo: ດອນກອງເຂົາ
+      latitude: 15.548168
+      longitude: 105.781995
+    - code: '14060068'
+      name_en: Khongyai
+      name_lo: ໂຄ້ງໃຫຍ່
+      latitude: 15.577164
+      longitude: 105.799147
+    - code: '14060069'
+      name_en: Nongsaenglao
+      name_lo: ໜອງແສງລາວ
+      latitude: 15.513641
+      longitude: 105.844435
+    - code: '14060070'
+      name_en: Okadnoy
+      name_lo: ໂອກາດນ້ອຍ
+      latitude: 15.495401
+      longitude: 105.770848
+    - code: '14060071'
+      name_en: Padxoum
+      name_lo: ແປດຊຸມ
+      latitude: 15.469921
+      longitude: 105.873875
+    - code: '14060072'
+      name_en: Satherm
+      name_lo: ສະເທີມ
+      latitude: 15.487532
+      longitude: 105.925465
+  - code: '1407'
+    name_en: Lao Ngam
+    name_lo: ເລົ່າງາມ
+  - code: '1408'
+    name_en: Sa Mouay
+    name_lo: ສະມ້ວຍ
+    villages:
+    - code: '14080001'
+      name_en: Kinae
+      name_lo: ກີນາຍ
+      latitude: 16.434964
+      longitude: 106.853446
+    - code: '14080002'
+      name_en: Adengkoutab
+      name_lo: ອະແດງກູຕັບ
+      latitude: 16.287121
+      longitude: 107.026325
+    - code: '14080003'
+      name_en: Talortai
+      name_lo: ຕະລໍ້ໃຕ້
+      latitude: 16.223745
+      longitude: 106.952969
+    - code: '14080004'
+      name_en: Lavaneua
+      name_lo: ລາວະເໜືອ
+      latitude: 16.318752
+      longitude: 106.892153
+    - code: '14080005'
+      name_en: Atouk
+      name_lo: ອະຕຸກ
+      latitude: 16.287228
+      longitude: 106.962373
+    - code: '14080006'
+      name_en: Kaboeui
+      name_lo: ກະເບືອຍ
+      latitude: 16.211339
+      longitude: 107.002279
+    - code: '14080007'
+      name_en: Agnong
+      name_lo: ອະໂຍງ
+      latitude: 16.473386
+      longitude: 106.840896
+    - code: '14080008'
+      name_en: Pheenxe
+      name_lo: ພີນເຊ
+      latitude: 16.381324
+      longitude: 106.874939
+    - code: '14080009'
+      name_en: Amai
+      name_lo: ອະໄມ
+      latitude: 16.340131
+      longitude: 106.798682
+    - code: '14080010'
+      name_en: Lalor
+      name_lo: ລະລໍ
+      latitude: 16.347824
+      longitude: 106.944326
+- code: LA-XE
+  name_en: Sekong
+  name_lo: ເຊກອງ
+  districts:
+  - code: '1501'
+    name_en: La Mam
+    name_lo: ລະມາມ
+    villages:
+    - code: '15010001'
+      name_en: Ta oune
+      name_lo: ຕາອູນ
+      latitude: 15.484969
+      longitude: 106.946036
+    - code: '15010002'
+      name_en: Ponephai
+      name_lo: ໂພນໄຜ່
+      latitude: 15.546176
+      longitude: 106.965876
+    - code: '15010003'
+      name_en: Lavisamphan
+      name_lo: ລາວະສຳພັນ
+      latitude: 15.31974
+      longitude: 106.637296
+    - code: '15010004'
+      name_en: Donechanh
+      name_lo: ດອນຈັນ
+      latitude: 15.253603
+      longitude: 106.715392
+    - code: '15010005'
+      name_en: Pakthontai
+      name_lo: ປາກທອນໃຕ້
+      latitude: 15.314571
+      longitude: 106.718247
+    - code: '15010006'
+      name_en: Phiamay
+      name_lo: ເພຍໃໝ່
+      latitude: 15.34256
+      longitude: 106.715673
+    - code: '15010007'
+      name_en: Mo
+      name_lo: ໝໍ
+      latitude: 15.349039
+      longitude: 106.678778
+    - code: '15010008'
+      name_en: Nang yong
+      name_lo: ນາງຍອງ
+      latitude: 15.505933
+      longitude: 106.653282
+    - code: '15010009'
+      name_en: Pa or
+      name_lo: ປ່າອໍ້
+      latitude: 15.358523
+      longitude: 106.967593
+    - code: '15010010'
+      name_en: Kasangkang
+      name_lo: ກະຊັງກາງ
+      latitude: 15.283883
+      longitude: 106.947895
+    - code: '15010011'
+      name_en: Naver
+      name_lo: ນາເວີນ
+      latitude: 15.460061
+      longitude: 106.980603
+    - code: '15010012'
+      name_en: Touydane
+      name_lo: ຕຸ້ຍດານ
+      latitude: 15.273441
+      longitude: 106.766856
+    - code: '15010013'
+      name_en: Tork ongkeo
+      name_lo: ຕັອກອົງແກ້ວ
+      latitude: 15.440659
+      longitude: 106.90778
+    - code: '15010014'
+      name_en: Vatxang
+      name_lo: ວັດຊ້າງ
+      latitude: 15.303452
+      longitude: 106.784947
+    - code: '15010015'
+      name_en: Lavifangdaeng
+      name_lo: ລາວະຝັ່ງແດງ
+      latitude: 15.298428
+      longitude: 106.703357
+    - code: '15010016'
+      name_en: Kadonmai
+      name_lo: ກະດອນໃໝ່
+      latitude: 15.278352
+      longitude: 106.715053
+    - code: '15010017'
+      name_en: Songkhone
+      name_lo: ສອງຄອນ
+      latitude: 15.539284
+      longitude: 106.802874
+    - code: '15010018'
+      name_en: Dane
+      name_lo: ດານ
+      latitude: 15.232248
+      longitude: 106.72746
+    - code: '15010019'
+      name_en: Phon
+      name_lo: ໂພນ
+      latitude: 15.422433
+      longitude: 106.696212
+    - code: '15010020'
+      name_en: Namthiengmai
+      name_lo: ນ້ຳທ່ຽງໃໝ່
+      latitude: 15.304787
+      longitude: 106.872501
+    - code: '15010021'
+      name_en: Phonkham
+      name_lo: ໂພນຄຳ
+      latitude: 15.336755
+      longitude: 106.750787
+    - code: '15010022'
+      name_en: Lavinoy
+      name_lo: ລາວະນ້ອຍ
+      latitude: 15.273797
+      longitude: 106.664733
+    - code: '15010023'
+      name_en: Cha week
+      name_lo: ຈະເວັກ
+      latitude: 15.411713
+      longitude: 106.842162
+    - code: '15010024'
+      name_en: Navaneua
+      name_lo: ນາວາເໜືອ
+      latitude: 15.433759
+      longitude: 106.726974
+    - code: '15010025'
+      name_en: Nongbong
+      name_lo: ໜອງບົ້ງ
+      latitude: 15.413176
+      longitude: 106.656549
+    - code: '15010026'
+      name_en: Pakpoune
+      name_lo: ປາກປູນ
+      latitude: 15.531599
+      longitude: 106.697114
+    - code: '15010027'
+      name_en: Navasaen
+      name_lo: ນາວາແສນ
+      latitude: 15.364137
+      longitude: 106.78557
+    - code: '15010028'
+      name_en: Patheung
+      name_lo: ປະເທິງ
+      latitude: 15.519609
+      longitude: 106.894049
+    - code: '15010029'
+      name_en: Torksaming
+      name_lo: ຕັອກສະໝິງ
+      latitude: 15.365672
+      longitude: 106.639715
+    - code: '15010030'
+      name_en: Honglai
+      name_lo: ໂຮ່ງໄລ່
+      latitude: 15.384127
+      longitude: 106.711337
+    - code: '15010031'
+      name_en: Taneum
+      name_lo: ຕານຶມ
+      latitude: 15.621495
+      longitude: 106.70553
+    - code: '15010032'
+      name_en: Chanamtai
+      name_lo: ຈະນຳໃຕ້
+      latitude: 15.560466
+      longitude: 106.905426
+    - code: '15010033'
+      name_en: Heung
+      name_lo: ເຮືອງ
+      latitude: 15.588414
+      longitude: 106.715818
+    - code: '15010034'
+      name_en: Pakkayong
+      name_lo: ປາກກະຢອງ
+      latitude: 15.477973
+      longitude: 106.749845
+    - code: '15010035'
+      name_en: Xeinoy
+      name_lo: ເຊນ້ອຍ
+      latitude: 15.176968
+      longitude: 106.70806
+  - code: '1502'
+    name_en: Kaleum
+    name_lo: ກະເລິມ
+    villages:
+    - code: '15020001'
+      name_en: Chalork
+      name_lo: ຈຼອກ
+      latitude: 15.77594
+      longitude: 106.884768
+    - code: '15020002'
+      name_en: Songkhone
+      name_lo: ສອງຄອນ
+      latitude: 15.794322
+      longitude: 106.826263
+    - code: '15020003'
+      name_en: Aror gnai
+      name_lo: ໂຣະນ້ອຍ
+      latitude: 16.042704
+      longitude: 107.216442
+    - code: '15020004'
+      name_en: Po
+      name_lo: ໂປະ
+      latitude: 15.94004
+      longitude: 106.812323
+    - code: '15020005'
+      name_en: Oung
+      name_lo: ອຸງ
+      latitude: 16.00521
+      longitude: 106.832652
+    - code: '15020006'
+      name_en: Teenteum
+      name_lo: ຕິນຕືມ
+      latitude: 15.694492
+      longitude: 106.956876
+    - code: '15020007'
+      name_en: Ching
+      name_lo: ຈິງ
+      latitude: 15.7536
+      longitude: 106.830424
+    - code: '15020008'
+      name_en: Kador
+      name_lo: ກັນດອນ
+      latitude: 15.833486
+      longitude: 106.877711
+    - code: '15020009'
+      name_en: Waktai
+      name_lo: ວັກໃຕ້
+      latitude: 15.739234
+      longitude: 106.937067
+    - code: '15020010'
+      name_en: Loeui
+      name_lo: ໂລຍ
+      latitude: 15.717725
+      longitude: 106.860744
+    - code: '15020011'
+      name_en: Bobing
+      name_lo: ໂບບີງຕະລອງ
+      latitude: 15.854514
+      longitude: 107.119537
+    - code: '15020012'
+      name_en: Wakneua
+      name_lo: ວັກເໜືອ
+      latitude: 15.784051
+      longitude: 106.949736
+    - code: '15020013'
+      name_en: Kaengkien
+      name_lo: ແກ່ງກຽນ
+      latitude: 15.704677
+      longitude: 106.754399
+    - code: '15020014'
+      name_en: Ling
+      name_lo: ລິງ
+      latitude: 15.627377
+      longitude: 106.939459
+    - code: '15020015'
+      name_en: Chale
+      name_lo: ຈະເລ
+      latitude: 15.674825
+      longitude: 106.896166
+    - code: '15020016'
+      name_en: Paley
+      name_lo: ປະເລ
+      latitude: 15.931638
+      longitude: 107.309187
+    - code: '15020017'
+      name_en: Lonoi
+      name_lo: ໂຣະນ້ອຍ
+      latitude: 15.87484
+      longitude: 106.97581
+    - code: '15020018'
+      name_en: Pom
+      name_lo: ໂປ່ມ
+      latitude: 15.933052
+      longitude: 106.896917
+    - code: '15020019'
+      name_en: Bark
+      name_lo: ບາກ
+      latitude: 15.876746
+      longitude: 106.76155
+    - code: '15020020'
+      name_en: Laipor
+      name_lo: ໄລປໍ
+      latitude: 15.878551
+      longitude: 106.904129
+    - code: '15020021'
+      name_en: Kaengkhouy
+      name_lo: ແກ່ງກຸຍ
+      latitude: 15.759548
+      longitude: 106.756089
+    - code: '15020022'
+      name_en: Tamor
+      name_lo: ຕະມໍ
+      latitude: 15.82551
+      longitude: 107.063996
+    - code: '15020023'
+      name_en: Abeun
+      name_lo: ອາບືນ
+      latitude: 15.749272
+      longitude: 107.177289
+    - code: '15020024'
+      name_en: Talui
+      name_lo: ຕະລຸຍ
+      latitude: 15.995607
+      longitude: 106.951109
+    - code: '15020025'
+      name_en: Yeub
+      name_lo: ຢຶບ
+      latitude: 15.779915
+      longitude: 107.041007
+    - code: '15020026'
+      name_en: Tangpang
+      name_lo: ຕັງປັງ
+      latitude: 15.606057
+      longitude: 106.894983
+    - code: '15020027'
+      name_en: Thongkai
+      name_lo: ທົງແຄນ
+      latitude: 15.75213
+      longitude: 106.71129
+    - code: '15020028'
+      name_en: Tanang
+      name_lo: ຕະໜາງ
+      latitude: 15.910469
+      longitude: 107.015681
+    - code: '15020029'
+      name_en: Tangkard
+      name_lo: ຕັງກາດ
+      latitude: 15.610597
+      longitude: 106.860672
+    - code: '15020030'
+      name_en: Alod
+      name_lo: ອາໂລດ
+      latitude: 15.916385
+      longitude: 107.052297
+    - code: '15020031'
+      name_en: Klung
+      name_lo: ກຸງຕະສິງ
+      latitude: 15.80972
+      longitude: 106.739004
+    - code: '15020032'
+      name_en: Parkxai
+      name_lo: ປາກໄຊ
+      latitude: 15.759585
+      longitude: 106.679949
+    - code: '15020033'
+      name_en: Ploy
+      name_lo: ຕະລາງໃຫມ່
+      latitude: 15.858683
+      longitude: 106.818785
+    - code: '15020034'
+      name_en: Aching
+      name_lo: ອາສິງ
+      latitude: 15.872784
+      longitude: 107.264501
+    - code: '15020035'
+      name_en: Hanong neua
+      name_lo: ຫາດນອງ ເໜືອ
+      latitude: 15.648499
+      longitude: 106.801672
+    - code: '15020036'
+      name_en: Taneung
+      name_lo: ຕະນຶງ
+      latitude: 15.827575
+      longitude: 107.013575
+    - code: '15020037'
+      name_en: Tavang
+      name_lo: ຕະວາງ
+      latitude: 15.860774
+      longitude: 107.235227
+    - code: '15020038'
+      name_en: Tangpa
+      name_lo: ຕັງປະ
+      latitude: 15.624035
+      longitude: 107.016284
+  - code: '1503'
+    name_en: Dak Cheung
+    name_lo: ດັກຈຶງ
+  - code: '1504'
+    name_en: Tha Teng
+    name_lo: ທ່າແຕງ
+    villages:
+    - code: '15040001'
+      name_en: Thong khouai
+      name_lo: ທົ່ງຫວາຍ
+      latitude: 15.355783
+      longitude: 106.473366
+    - code: '15040002'
+      name_en: Kongtayoon
+      name_lo: ໂກງຕາຢູນ
+      latitude: 15.397344
+      longitude: 106.387322
+    - code: '15040003'
+      name_en: Luckkhao
+      name_lo: ຫຼັກຂາວ
+      latitude: 15.377242
+      longitude: 106.355476
+    - code: '15040004'
+      name_en: Thoun noi tay
+      name_lo: ໂທນນ້ອຍໃຕ້
+      latitude: 15.4096
+      longitude: 106.545965
+    - code: '15040005'
+      name_en: Toldnhaimai
+      name_lo: ໂທນໃຫຍ່ໃໝ່
+      latitude: 15.39263
+      longitude: 106.584803
+    - code: '15040006'
+      name_en: Sar thoua say sam phanh
+      name_lo: ສະທົວສາຍສຳພັນ
+      latitude: 15.382456
+      longitude: 106.532008
+    - code: '15040007'
+      name_en: Don sa
+      name_lo: ດອນຊາ
+      latitude: 15.386374
+      longitude: 106.444911
+    - code: '15040008'
+      name_en: Nhouck thong
+      name_lo: ຍົກທົ່ງ
+      latitude: 15.508707
+      longitude: 106.556614
+    - code: '15040009'
+      name_en: Thong kong
+      name_lo: ທົ່ງກອງ
+      latitude: 15.338637
+      longitude: 106.519177
+    - code: '15040010'
+      name_en: Kandone
+      name_lo: ກັນດອນ
+      latitude: 15.490579
+      longitude: 106.521238
+    - code: '15040011'
+      name_en: Sar thoua tay
+      name_lo: ສະທົວໃຕ້
+      latitude: 15.353611
+      longitude: 106.573451
+    - code: '15040012'
+      name_en: Cafee
+      name_lo: ກາເຟ
+      latitude: 15.427528
+      longitude: 106.56358
+    - code: '15040013'
+      name_en: Vangmai
+      name_lo: ວາງໃໝ່
+      latitude: 15.407195
+      longitude: 106.488594
+    - code: '15040014'
+      name_en: Kam kok
+      name_lo: ກຳກອກ
+      latitude: 15.433705
+      longitude: 106.471787
+    - code: '15040015'
+      name_en: Choon la
+      name_lo: ຈຸນລາ
+      latitude: 15.431063
+      longitude: 106.534706
+    - code: '15040016'
+      name_en: Choung houng tay
+      name_lo: ຈຸງຮຸງໃຕ້
+      latitude: 15.332123
+      longitude: 106.598543
+    - code: '15040017'
+      name_en: Choung nuea
+      name_lo: ຈຸງຮຸງເໜືອ
+      latitude: 15.391019
+      longitude: 106.606799
+    - code: '15040018'
+      name_en: Par luang nuea
+      name_lo: ປະແຫຼ່ງເໜືອ
+      latitude: 15.437138
+      longitude: 106.349476
+    - code: '15040019'
+      name_en: Cha lam kow
+      name_lo: ຈະຫຼາມເກົ່າ
+      latitude: 15.466023
+      longitude: 106.503407
+    - code: '15040020'
+      name_en: Kow lar kang
+      name_lo: ເກາະລະກາງ
+      latitude: 15.485973
+      longitude: 106.448468
+    - code: '15040021'
+      name_en: Leek
+      name_lo: ຫຼີກ
+      latitude: 15.4691
+      longitude: 106.469816
+    - code: '15040022'
+      name_en: Yeubmai
+      name_lo: ຢຶບໃໝ່
+      latitude: 15.451877
+      longitude: 106.571409
+- code: LA-CH
+  name_en: Champasak
+  name_lo: ຈຳປາສັກ
+  districts:
+  - code: '1601'
+    name_en: Pakse
+    name_lo: ປາກເຊ
+    villages:
+    - code: '16010001'
+      name_en: Thahinnuea
+      name_lo: ທ່າຫີນເໜືອ
+      latitude: 15.125261
+      longitude: 105.792653
+    - code: '16010002'
+      name_en: Huoaiphoon
+      name_lo: ຫ້ວຍປູນ
+      latitude: 15.132214
+      longitude: 105.801478
+    - code: '16010003'
+      name_en: Phonhnham
+      name_lo: ໂພນງາມ
+      latitude: 15.140967
+      longitude: 105.781356
+    - code: '16010004'
+      name_en: Phaksae
+      name_lo: ຜັກແຊ່
+      latitude: 15.111608
+      longitude: 105.801103
+    - code: '16010005'
+      name_en: Huoailao
+      name_lo: ຫ້ວຍເລົ່າ
+      latitude: 15.141574
+      longitude: 105.765658
+    - code: '16010006'
+      name_en: Phonesikay
+      name_lo: ໂພນສີໄຄ
+      latitude: 15.154709
+      longitude: 105.772433
+    - code: '16010007'
+      name_en: Phonhkouang
+      name_lo: ໂພນກວ້າງ
+      latitude: 15.11226
+      longitude: 105.810892
+    - code: '16010008'
+      name_en: Kae
+      name_lo: ແກ້
+      latitude: 15.134639
+      longitude: 105.820927
+    - code: '16010009'
+      name_en: Phonesaath
+      name_lo: ໂພນສະອາດ
+      latitude: 15.120564
+      longitude: 105.812304
+    - code: '16010010'
+      name_en: Doneckong
+      name_lo: ດອນໂຂງ
+      latitude: 15.153538
+      longitude: 105.747207
+    - code: '16010011'
+      name_en: Thahai
+      name_lo: ທ່າໄຮ່
+      latitude: 15.11549
+      longitude: 105.789769
+    - code: '16010012'
+      name_en: Hongkanhom
+      name_lo: ຮ່ອງຂະຍອມ
+      latitude: 15.115706
+      longitude: 105.807557
+    - code: '16010013'
+      name_en: Saphansay
+      name_lo: ສະພານໄຊ
+      latitude: 15.132915
+      longitude: 105.789405
+    - code: '16010014'
+      name_en: Kokduea
+      name_lo: ກົກເດື່ອ
+      latitude: 15.146608
+      longitude: 105.791623
+    - code: '16010015'
+      name_en: Hae
+      name_lo: ແຮ່
+      latitude: 15.148461
+      longitude: 105.807065
+    - code: '16010016'
+      name_en: Keosumphanh
+      name_lo: ແກ້ວສຳພັນ
+      latitude: 15.121795
+      longitude: 105.818719
+    - code: '16010017'
+      name_en: Kangkeuag
+      name_lo: ກ້າງເກືອ
+      latitude: 15.127871
+      longitude: 105.776858
+    - code: '16010018'
+      name_en: Nonsavang
+      name_lo: ໂພນສະຫວ່າງ
+      latitude: 15.094542
+      longitude: 105.83917
+    - code: '16010019'
+      name_en: Photak
+      name_lo: ໂພຕັກ
+      latitude: 15.138895
+      longitude: 105.812592
+    - code: '16010020'
+      name_en: Songnhay
+      name_lo: ສ່ອງໃຫຍ່
+      latitude: 15.163706
+      longitude: 105.802366
+    - code: '16010021'
+      name_en: Luckmueang
+      name_lo: ຫຼັກເມືອງ
+      latitude: 15.117985
+      longitude: 105.798195
+    - code: '16010022'
+      name_en: Thong
+      name_lo: ທົ່ງ
+      latitude: 15.117538
+      longitude: 105.804406
+    - code: '16010023'
+      name_en: Dongkalong
+      name_lo: ດົງກະຫຼົງ
+      latitude: 15.166866
+      longitude: 105.762166
+    - code: '16010024'
+      name_en: Nachieng
+      name_lo: ນາຊຽງ
+      latitude: 15.167031
+      longitude: 105.843001
+    - code: '16010025'
+      name_en: Kankern
+      name_lo: ກັນເກີນ
+      latitude: 15.119563
+      longitude: 105.782518
+    - code: '16010026'
+      name_en: Nathaek
+      name_lo: ນາແຫກ
+      latitude: 15.14363
+      longitude: 105.841254
+    - code: '16010027'
+      name_en: Kang
+      name_lo: ກາງ
+      latitude: 15.111293
+      longitude: 105.849707
+    - code: '16010028'
+      name_en: Huoainhangkam
+      name_lo: ຫ້ວຍຍາງຄຳ
+      latitude: 15.131417
+      longitude: 105.855905
+    - code: '16010029'
+      name_en: Phatthana
+      name_lo: ພັດທະນາ
+      latitude: 15.10912
+      longitude: 105.86127
+    - code: '16010030'
+      name_en: Kangsun
+      name_lo: ກາງສູນ
+      latitude: 15.170388
+      longitude: 105.782515
+    - code: '16010031'
+      name_en: Chatsun
+      name_lo: ຈັດສູນ
+      latitude: 15.111237
+      longitude: 105.869208
+    - code: '16010032'
+      name_en: Phoumouang
+      name_lo: ພູເມືອງ
+      latitude: 15.110671
+      longitude: 105.838583
+    - code: '16010033'
+      name_en: Thalouang
+      name_lo: ທ່າຫຼວງ
+      latitude: 15.123434
+      longitude: 105.799029
+    - code: '16010034'
+      name_en: Konevai
+      name_lo: ໂຄນໄວ
+      latitude: 15.070408
+      longitude: 105.844345
+    - code: '16010035'
+      name_en: Sanamxay
+      name_lo: ສະໜາມໄຊ
+      latitude: 15.107247
+      longitude: 105.825746
+    - code: '16010036'
+      name_en: Phonh
+      name_lo: ໂພນ
+      latitude: 15.121177
+      longitude: 105.804557
+    - code: '16010037'
+      name_en: Phabath
+      name_lo: ພະບາດ
+      latitude: 15.123644
+      longitude: 105.803295
+    - code: '16010038'
+      name_en: Sangnammunh
+      name_lo: ສ້າງນ້ຳມັນ
+      latitude: 15.121125
+      longitude: 105.807869
+    - code: '16010039'
+      name_en: Phonhsavanh
+      name_lo: ໂພນສະຫວັນ
+      latitude: 15.110698
+      longitude: 105.817562
+  - code: '1602'
+    name_en: Sanasomboun
+    name_lo: ຊະນະສົມບູນ
+    villages:
+    - code: '16020001'
+      name_en: Dueanuea
+      name_lo: ເດື່ອເໜືອ
+      latitude: 15.252577
+      longitude: 105.792046
+    - code: '16020002'
+      name_en: Phaksone
+      name_lo: ຜັກສອນ
+      latitude: 15.192515
+      longitude: 105.772624
+    - code: '16020003'
+      name_en: Soula
+      name_lo: ສຸລາ
+      latitude: 15.389817
+      longitude: 105.638949
+    - code: '16020004'
+      name_en: Singckamphun
+      name_lo: ສິງຄຳພຸນ
+      latitude: 15.339438
+      longitude: 105.522195
+    - code: '16020005'
+      name_en: Solonoy
+      name_lo: ໂສລົ່ນນ້ອຍ
+      latitude: 15.282245
+      longitude: 105.805793
+    - code: '16020006'
+      name_en: Nhiew
+      name_lo: ງ້ຽວ
+      latitude: 15.219936
+      longitude: 105.683057
+    - code: '16020007'
+      name_en: Nhongkang
+      name_lo: ໜອງກ້າງ
+      latitude: 15.210824
+      longitude: 105.704205
+    - code: '16020008'
+      name_en: Saphaikang
+      name_lo: ສະພືກາງ
+      latitude: 15.198922
+      longitude: 105.721458
+    - code: '16020009'
+      name_en: Nonghoy
+      name_lo: ໜອງຫອຍ
+      latitude: 15.16833
+      longitude: 105.734273
+    - code: '16020010'
+      name_en: Kangmaiheertheuag
+      name_lo: ກ້າງໄມ້ຮີດເທືອກ
+      latitude: 15.396291
+      longitude: 105.865782
+    - code: '16020011'
+      name_en: Solonhay
+      name_lo: ໂສລົ່ນໃຫຍ່
+      latitude: 15.305883
+      longitude: 105.797607
+    - code: '16020012'
+      name_en: Doneko
+      name_lo: ດອນເກາະ
+      latitude: 15.193311
+      longitude: 105.698433
+    - code: '16020013'
+      name_en: Houainhangnhay
+      name_lo: ຫ້ວຍແຮ້ງໃຫຍ່
+      latitude: 15.240033
+      longitude: 105.681863
+    - code: '16020014'
+      name_en: Nhoua
+      name_lo: ງົວ
+      latitude: 15.214035
+      longitude: 105.792105
+    - code: '16020015'
+      name_en: Nakeo
+      name_lo: ນາແກ້ວ
+      latitude: 15.271375
+      longitude: 105.680998
+    - code: '16020016'
+      name_en: Vangvernnhay
+      name_lo: ວັງເວີນໃຫຍ່
+      latitude: 15.403331
+      longitude: 105.949442
+    - code: '16020017'
+      name_en: Thangbangvilay
+      name_lo: ທາງແບ່ງວິໄລ
+      latitude: 15.219392
+      longitude: 105.732068
+    - code: '16020018'
+      name_en: Nakouang
+      name_lo: ນາກວ້າງ
+      latitude: 15.186922
+      longitude: 105.732632
+    - code: '16020019'
+      name_en: Nackam
+      name_lo: ນາຄຳ
+      latitude: 15.417608
+      longitude: 105.798833
+    - code: '16020020'
+      name_en: Boungka
+      name_lo: ບຶງກາ
+      latitude: 15.317436
+      longitude: 105.655213
+    - code: '16020021'
+      name_en: Kangkok
+      name_lo: ກ້າງໂຄກ
+      latitude: 15.320717
+      longitude: 105.841874
+    - code: '16020022'
+      name_en: Nongno
+      name_lo: ໜອງໂນ
+      latitude: 15.391192
+      longitude: 105.897363
+    - code: '16020023'
+      name_en: Orkmeuang
+      name_lo: ອອກເມືອງ
+      latitude: 15.302584
+      longitude: 105.667419
+    - code: '16020024'
+      name_en: Na
+      name_lo: ນາ
+      latitude: 15.420908
+      longitude: 105.846592
+    - code: '16020025'
+      name_en: Nadan
+      name_lo: ນາດານ
+      latitude: 15.428582
+      longitude: 105.752627
+    - code: '16020026'
+      name_en: Kambone
+      name_lo: ຄຳບອນ
+      latitude: 15.438095
+      longitude: 105.820761
+    - code: '16020027'
+      name_en: Saelabam
+      name_lo: ເຊລະບຳ
+      latitude: 15.365824
+      longitude: 105.835936
+    - code: '16020028'
+      name_en: Thonghinoy
+      name_lo: ທົ່ງຫີນ້ອຍ
+      latitude: 15.353172
+      longitude: 105.863001
+    - code: '16020029'
+      name_en: Champhi
+      name_lo: ຈຳພີ
+      latitude: 15.255884
+      longitude: 105.823955
+    - code: '16020030'
+      name_en: Nasone
+      name_lo: ນາໂຊນ
+      latitude: 15.23273
+      longitude: 105.759823
+    - code: '16020031'
+      name_en: Nongmek
+      name_lo: ໜອງເມັກ
+      latitude: 15.339124
+      longitude: 105.613253
+    - code: '16020032'
+      name_en: Phouthongloom
+      name_lo: ພູທອງລຸ່ມ
+      latitude: 15.237842
+      longitude: 105.809302
+    - code: '16020033'
+      name_en: Donsae
+      name_lo: ດອນແຊ່
+      latitude: 15.332815
+      longitude: 105.814415
+    - code: '16020034'
+      name_en: Souvanhnakili
+      name_lo: ສຸວັນນະຄີລີ
+      latitude: 15.389695
+      longitude: 105.82302
+    - code: '16020035'
+      name_en: Nalong
+      name_lo: ນາໂລ່ງ
+      latitude: 15.264634
+      longitude: 105.759267
+    - code: '16020036'
+      name_en: Phongkerm
+      name_lo: ຜົ້ງເຄີມ
+      latitude: 15.434377
+      longitude: 105.901341
+    - code: '16020037'
+      name_en: Nongkand
+      name_lo: ໜອງແຄນ
+      latitude: 15.331649
+      longitude: 105.77136
+    - code: '16020038'
+      name_en: Sali
+      name_lo: ສາລີ
+      latitude: 15.433463
+      longitude: 105.942304
+  - code: '1603'
+    name_en: Batiengchaleunsouk
+    name_lo: ບາຈຽງຈະເລີນສຸກ
+  - code: '1604'
+    name_en: Paksong
+    name_lo: ປາກຊ່ອງ
+  - code: '1605'
+    name_en: Pathouphone
+    name_lo: ປະທຸມພອນ
+  - code: '1606'
+    name_en: Phonthong
+    name_lo: ໂພນທອງ
+    villages:
+    - code: '16060001'
+      name_en: Houayphek
+      name_lo: ຫ້ວຍເພັກ
+      latitude: 15.087417
+      longitude: 105.789196
+    - code: '16060002'
+      name_en: Khangneng
+      name_lo: ຂ້າງເນ້ງ
+      latitude: 15.094627
+      longitude: 105.806312
+    - code: '16060003'
+      name_en: Samorliap
+      name_lo: ສະເໝໍຼຫຼຽບ
+      latitude: 15.127909
+      longitude: 105.753513
+    - code: '16060004'
+      name_en: Phaling
+      name_lo: ຜາລິງ
+      latitude: 15.137456
+      longitude: 105.731747
+    - code: '16060005'
+      name_en: Sakmeuangneua
+      name_lo: ບ້ານ ສັກເມືອງເໜືອ
+      latitude: 15.19648
+      longitude: 105.663372
+    - code: '16060006'
+      name_en: Samanh
+      name_lo: ສະມານ
+      latitude: 15.172389
+      longitude: 105.689874
+    - code: '16060007'
+      name_en: Houaydon
+      name_lo: ຫ້ວຍດອນ
+      latitude: 15.1183
+      longitude: 105.764205
+    - code: '16060008'
+      name_en: Donelai
+      name_lo: ດອນໄລ່
+      latitude: 15.111746
+      longitude: 105.768542
+    - code: '16060009'
+      name_en: Nongboua
+      name_lo: ໜອງບົວ
+      latitude: 15.102539
+      longitude: 105.765213
+    - code: '16060010'
+      name_en: Chik
+      name_lo: ຈິກ
+      latitude: 15.14837
+      longitude: 105.667159
+    - code: '16060011'
+      name_en: Vernxaignai
+      name_lo: ເວີນໄຊໃຫຍ່
+      latitude: 15.260596
+      longitude: 105.638901
+    - code: '16060012'
+      name_en: Phoxai
+      name_lo: ໂພໄຊ
+      latitude: 15.106387
+      longitude: 105.780599
+    - code: '16060013'
+      name_en: Khamad
+      name_lo: ຂະໝາດ
+      latitude: 15.223778
+      longitude: 105.63944
+    - code: '16060014'
+      name_en: Xongxay
+      name_lo: ຊ່ອງໄຊ
+      latitude: 15.156089
+      longitude: 105.708239
+    - code: '16060015'
+      name_en: Nonghaitha
+      name_lo: ໜອງໄຮ່ທ່າ
+      latitude: 15.285956
+      longitude: 105.638969
+    - code: '16060016'
+      name_en: Phangded
+      name_lo: ຜັງແດດ
+      latitude: 15.047169
+      longitude: 105.636022
+    - code: '16060017'
+      name_en: Nonsavang
+      name_lo: ໂພນສະຫວ່າງ
+      latitude: 15.103047
+      longitude: 105.746223
+    - code: '16060018'
+      name_en: Nonghoy
+      name_lo: ໜອງຫອຍ
+      latitude: 15.038253
+      longitude: 105.837829
+    - code: '16060019'
+      name_en: Phonthong
+      name_lo: ໂພນທອງ
+      latitude: 15.095533
+      longitude: 105.638902
+    - code: '16060020'
+      name_en: Thalouang
+      name_lo: ທ່າຫຼວງ
+      latitude: 15.097912
+      longitude: 105.769964
+    - code: '16060021'
+      name_en: Mor
+      name_lo: ໝໍ
+      latitude: 15.169027
+      longitude: 105.639314
+    - code: '16060022'
+      name_en: Dou
+      name_lo: ດູ່
+      latitude: 15.131304
+      longitude: 105.639625
+    - code: '16060023'
+      name_en: Khangnang
+      name_lo: ຂ້າງນາງ
+      latitude: 15.308379
+      longitude: 105.595876
+    - code: '16060024'
+      name_en: Salao
+      name_lo: ສະເຫຼົາ
+      latitude: 15.078481
+      longitude: 105.821636
+    - code: '16060025'
+      name_en: Nonhhaikhok
+      name_lo: ໂພນໄຮ່ໂຄກ
+      latitude: 15.146575
+      longitude: 105.616843
+    - code: '16060026'
+      name_en: Horphakeo
+      name_lo: ຫໍພະແກ້ວ
+      latitude: 15.102424
+      longitude: 105.77578
+    - code: '16060027'
+      name_en: Oupalad
+      name_lo: ອຸປະລາດ
+      latitude: 15.112121
+      longitude: 105.680096
+    - code: '16060028'
+      name_en: Donesabaeng
+      name_lo: ບ້ານ ດອນສະແບ່ງ
+      latitude: 15.12284
+      longitude: 105.711367
+    - code: '16060029'
+      name_en: Nachan
+      name_lo: ບ້ານ ນາຈານ
+      latitude: 15.073463
+      longitude: 105.742196
+    - code: '16060030'
+      name_en: Kare
+      name_lo: ກະເຣ
+      latitude: 15.092708
+      longitude: 105.692581
+    - code: '16060031'
+      name_en: Ousu
+      name_lo: ອູ່ສຸ
+      latitude: 15.171745
+      longitude: 105.59224
+    - code: '16060032'
+      name_en: Kaengkang
+      name_lo: ແກ້ງກ້າງ
+      latitude: 15.116617
+      longitude: 105.548108
+    - code: '16060033'
+      name_en: Koudnamkhun
+      name_lo: ບ້ານ ກຸດນ້ຳຂຸ້ນ
+      latitude: 15.259049
+      longitude: 105.606416
+    - code: '16060034'
+      name_en: Vangtao
+      name_lo: ວັງເຕົ່າ
+      latitude: 15.11388
+      longitude: 105.498297
+    - code: '16060035'
+      name_en: Donechod
+      name_lo: ດອນໂຊດ
+      latitude: 15.129616
+      longitude: 105.528328
+    - code: '16060036'
+      name_en: Kouai
+      name_lo: ຄວາຍ
+      latitude: 15.071175
+      longitude: 105.771734
+    - code: '16060037'
+      name_en: Maisivilay
+      name_lo: ໃໝ່ສີວິໄລ
+      latitude: 15.06008
+      longitude: 105.703831
+    - code: '16060038'
+      name_en: Nongtaenoy
+      name_lo: ໜອງແຕ່ນ້ອຍ
+      latitude: 15.057244
+      longitude: 105.756307
+    - code: '16060039'
+      name_en: Kung
+      name_lo: ກຸ້ງ
+      latitude: 15.130353
+      longitude: 105.677765
+    - code: '16060040'
+      name_en: Mai
+      name_lo: ໃໝ່
+      latitude: 15.19364
+      longitude: 105.612102
+    - code: '16060041'
+      name_en: Nonkung
+      name_lo: ໂພນກຸ້ງ
+      latitude: 14.982008
+      longitude: 105.735449
+    - code: '16060042'
+      name_en: Khokkung
+      name_lo: ໂຄກກຸ້ງ
+      latitude: 15.074905
+      longitude: 105.576366
+    - code: '16060043'
+      name_en: Nongphy
+      name_lo: ໜອງຜີ
+      latitude: 15.015953
+      longitude: 105.657634
+    - code: '16060044'
+      name_en: Donechik
+      name_lo: ດອນຈິກ
+      latitude: 15.131283
+      longitude: 105.580057
+    - code: '16060045'
+      name_en: Angkham
+      name_lo: ອ່າງຄຳ
+      latitude: 15.010307
+      longitude: 105.68481
+    - code: '16060046'
+      name_en: Bok
+      name_lo: ບົກ
+      latitude: 15.120048
+      longitude: 105.615059
+    - code: '16060047'
+      name_en: Thongkouang
+      name_lo: ທົ່ງກວ້າງ
+      latitude: 15.19068
+      longitude: 105.515604
+    - code: '16060048'
+      name_en: Bungkeo
+      name_lo: ບຶງແກ້ວ
+      latitude: 15.003779
+      longitude: 105.807897
+    - code: '16060049'
+      name_en: Naoudom
+      name_lo: ນາອຸດົມ
+      latitude: 15.166484
+      longitude: 105.497164
+    - code: '16060050'
+      name_en: Phongnai
+      name_lo: ຜົ້ງໃນ
+      latitude: 15.046347
+      longitude: 105.741054
+    - code: '16060051'
+      name_en: Nasavang
+      name_lo: ນາສະຫວ່າງ
+      latitude: 15.022812
+      longitude: 105.729216
+    - code: '16060052'
+      name_en: Navar
+      name_lo: ນາວາ
+      latitude: 15.048734
+      longitude: 105.802666
+  - code: '1607'
+    name_en: Champassack
+    name_lo: ຈຳປາສັກ
+  - code: '1608'
+    name_en: Soukhoumma
+    name_lo: ສຸຂຸມາ
+    villages:
+    - code: '16080001'
+      name_en: Phon pheung
+      name_lo: ໂພນເຜິ້ງ
+      latitude: 14.645448
+      longitude: 105.7939
+    - code: '16080002'
+      name_en: Hae
+      name_lo: ແຮ່
+      latitude: 14.65392
+      longitude: 105.854129
+    - code: '16080003'
+      name_en: Saen meuang
+      name_lo: ແສນເມືອງ
+      latitude: 14.786346
+      longitude: 105.709135
+    - code: '16080004'
+      name_en: Ou toum mai
+      name_lo: ອູຕູ່ມໃໝ່
+      latitude: 14.526369
+      longitude: 105.801547
+    - code: '16080005'
+      name_en: Par kouai
+      name_lo: ປ່າຄວາຍ
+      latitude: 14.55666
+      longitude: 105.829074
+    - code: '16080006'
+      name_en: Thatsarmpang
+      name_lo: ທາດສາມປາງ
+      latitude: 14.706199
+      longitude: 105.751926
+    - code: '16080007'
+      name_en: Kork
+      name_lo: ກອກ
+      latitude: 14.483519
+      longitude: 105.844391
+    - code: '16080008'
+      name_en: Ngangsao
+      name_lo: ງ່າງສາວ
+      latitude: 14.755781
+      longitude: 105.733586
+    - code: '16080009'
+      name_en: Par kor
+      name_lo: ປ່າກໍ
+      latitude: 14.678698
+      longitude: 105.762796
+    - code: '16080010'
+      name_en: Houayphai
+      name_lo: ຫ້ວຍໄຜ່
+      latitude: 14.596202
+      longitude: 105.770616
+    - code: '16080011'
+      name_en: Kok nong boua
+      name_lo: ກົກໜອງບົວ
+      latitude: 14.611531
+      longitude: 105.79437
+    - code: '16080012'
+      name_en: That(done xai)
+      name_lo: ທາດ(ດອນໄຊ)
+      latitude: 14.510502
+      longitude: 105.833407
+    - code: '16080013'
+      name_en: Park xang
+      name_lo: ປາກຊ້າງ
+      latitude: 14.692248
+      longitude: 105.663387
+    - code: '16080014'
+      name_en: Thar saeng
+      name_lo: ທ່າແສງ
+      latitude: 14.596055
+      longitude: 105.839406
+    - code: '16080015'
+      name_en: Thieng
+      name_lo: ທ່ຽງ
+      latitude: 14.707791
+      longitude: 105.575193
+    - code: '16080016'
+      name_en: Boungkeo
+      name_lo: ບຶງແກ້ວ
+      latitude: 14.628531
+      longitude: 105.84432
+    - code: '16080017'
+      name_en: Done kork ngoua
+      name_lo: ດອນກອກງົວ
+      latitude: 14.763093
+      longitude: 105.687498
+    - code: '16080018'
+      name_en: Thabcharm
+      name_lo: ທັບຊາມ
+      latitude: 14.624357
+      longitude: 105.808412
+    - code: '16080019'
+      name_en: Lard
+      name_lo: ລາດ
+      latitude: 14.625137
+      longitude: 105.768538
+    - code: '16080020'
+      name_en: Non pha chao
+      name_lo: ໂພນພະເຈົ້າ
+      latitude: 14.732331
+      longitude: 105.705122
+    - code: '16080021'
+      name_en: Houa done xai
+      name_lo: ຫົວດອນໄຊ
+      latitude: 14.554185
+      longitude: 105.84983
+    - code: '16080022'
+      name_en: Thar darn
+      name_lo: ທ່າດານ
+      latitude: 14.582038
+      longitude: 105.789264
+    - code: '16080023'
+      name_en: Markmii
+      name_lo: ໝາກມີ້
+      latitude: 14.527773
+      longitude: 105.84027
+    - code: '16080024'
+      name_en: Toum gnai
+      name_lo: ຕູ່ມໃຫຍ່
+      latitude: 14.514637
+      longitude: 105.855973
+    - code: '16080025'
+      name_en: Maivangmarkxaew
+      name_lo: ໃໝ່ວັງໝາກແອວ
+      latitude: 14.575016
+      longitude: 105.808521
+    - code: '16080026'
+      name_en: Mouang
+      name_lo: ມ່ວງ
+      latitude: 14.653067
+      longitude: 105.769717
+    - code: '16080027'
+      name_en: Non gnang
+      name_lo: ໂພນຢາງ
+      latitude: 14.683064
+      longitude: 105.718545
+    - code: '16080028'
+      name_en: Nondaeng neua
+      name_lo: ໂພນແດງເໜືອ
+      latitude: 14.768435
+      longitude: 105.588782
+    - code: '16080029'
+      name_en: Tha pho sii
+      name_lo: ທ່າໂພສີ
+      latitude: 14.577219
+      longitude: 105.834568
+    - code: '16080030'
+      name_en: Toumnoi
+      name_lo: ຕູ່ມນ້ອຍ
+      latitude: 14.492464
+      longitude: 105.852806
+    - code: '16080031'
+      name_en: Done kong
+      name_lo: ດອນໂຂງ
+      latitude: 14.710964
+      longitude: 105.713853
+    - code: '16080032'
+      name_en: Kouttaboune
+      name_lo: ກຸດຕະບູນ
+      latitude: 14.621109
+      longitude: 105.789661
+    - code: '16080033'
+      name_en: Non daeng tai
+      name_lo: ໂພນແດງໃຕ້
+      latitude: 14.557189
+      longitude: 105.74764
+    - code: '16080034'
+      name_en: Nama ngo
+      name_lo: ນາມ່າງໍ້
+      latitude: 14.661255
+      longitude: 105.73748
+    - code: '16080035'
+      name_en: Phaktob
+      name_lo: ຜັກຕົບ
+      latitude: 14.615074
+      longitude: 105.742109
+    - code: '16080036'
+      name_en: Donewai
+      name_lo: ດອນໄວ
+      latitude: 14.730646
+      longitude: 105.753158
+    - code: '16080037'
+      name_en: Dong houa barn
+      name_lo: ດົງຫົວ
+      latitude: 14.611218
+      longitude: 105.849516
+    - code: '16080038'
+      name_en: Non pho
+      name_lo: ໂພນໂພ
+      latitude: 14.504164
+      longitude: 105.649276
+    - code: '16080039'
+      name_en: Soukoumaneua
+      name_lo: ສຸຂຸມາເໜືອ
+      latitude: 14.637277
+      longitude: 105.780857
+    - code: '16080040'
+      name_en: Dong gnang
+      name_lo: ດົງຢາງ
+      latitude: 14.610865
+      longitude: 105.827409
+    - code: '16080041'
+      name_en: Khokkong
+      name_lo: ໂຄກກ່ອງ
+      latitude: 14.536898
+      longitude: 105.56604
+    - code: '16080042'
+      name_en: Kong kwien
+      name_lo: ກອງກວຽນ
+      latitude: 14.65133
+      longitude: 105.821402
+    - code: '16080043'
+      name_en: Non khoum
+      name_lo: ໂພນຂຸມ
+      latitude: 14.538608
+      longitude: 105.697378
+    - code: '16080044'
+      name_en: Bok
+      name_lo: ບົກ
+      latitude: 14.65636
+      longitude: 105.784758
+    - code: '16080045'
+      name_en: Khoksavang
+      name_lo: ໂຄກສະຫວ່າງ
+      latitude: 14.643993
+      longitude: 105.710296
+    - code: '16080046'
+      name_en: Samlieng
+      name_lo: ສໍາລຽງ
+      latitude: 14.608686
+      longitude: 105.703767
+  - code: '1609'
+    name_en: Mounlapamok
+    name_lo: ມູນລະປະໂມກ
+  - code: '1610'
+    name_en: Khong
+    name_lo: ໂຂງ
+- code: LA-AT
+  name_en: Attapeu
+  name_lo: ອັດຕະປື
+  districts:
+  - code: '1701'
+    name_en: Saysetha
+    name_lo: ໄຊເສດຖາ
+    villages:
+    - code: '17010001'
+      name_en: Sakare
+      name_lo: ສະແຄະ
+      latitude: 14.941012
+      longitude: 106.914162
+    - code: '17010002'
+      name_en: Toiy
+      name_lo: ຕວຍ
+      latitude: 14.87838
+      longitude: 106.967997
+    - code: '17010003'
+      name_en: Thalan
+      name_lo: ທ່າລານ
+      latitude: 14.869665
+      longitude: 106.880135
+    - code: '17010004'
+      name_en: Hadsun
+      name_lo: ຫາດຊັນ
+      latitude: 14.780561
+      longitude: 107.112507
+    - code: '17010005'
+      name_en: Kanmakong
+      name_lo: ຄັນມະກ່ອງ
+      latitude: 14.834684
+      longitude: 106.914322
+    - code: '17010006'
+      name_en: Hadsaty
+      name_lo: ຫາດສະຕີ
+      latitude: 14.898883
+      longitude: 106.857099
+    - code: '17010007'
+      name_en: Saysi
+      name_lo: ໄຊສີ
+      latitude: 14.769722
+      longitude: 106.880465
+    - code: '17010008'
+      name_en: Somkoth
+      name_lo: ສົມໂຄດ
+      latitude: 14.792937
+      longitude: 106.921034
+    - code: '17010009'
+      name_en: Phog
+      name_lo: ພອກ
+      latitude: 14.816793
+      longitude: 106.89534
+    - code: '17010010'
+      name_en: Donesim
+      name_lo: ດອນສິມ
+      latitude: 14.773327
+      longitude: 106.935439
+    - code: '17010011'
+      name_en: Sapoungneou
+      name_lo: ສະປວນ
+      latitude: 15.129026
+      longitude: 106.86018
+    - code: '17010012'
+      name_en: Vatneog
+      name_lo: ວັດເໜືອ
+      latitude: 14.806963
+      longitude: 106.968192
+    - code: '17010013'
+      name_en: Vatloung
+      name_lo: ວັດຫຼວງ
+      latitude: 14.799197
+      longitude: 106.94318
+    - code: '17010014'
+      name_en: Kangsay
+      name_lo: ແກ້ງໄຊ
+      latitude: 15.024035
+      longitude: 106.883831
+    - code: '17010015'
+      name_en: Phosay
+      name_lo: ໂພໄຊ
+      latitude: 14.821295
+      longitude: 106.934549
+    - code: '17010016'
+      name_en: Maioudom
+      name_lo: ໃໝ່ອຸດົມ
+      latitude: 14.749584
+      longitude: 106.984918
+    - code: '17010017'
+      name_en: Fungdang
+      name_lo: ຟັ່ງແດງ
+      latitude: 14.810682
+      longitude: 106.932567
+    - code: '17010018'
+      name_en: Kangyay
+      name_lo: ແກ້ງໃຫຍ່
+      latitude: 14.851613
+      longitude: 107.022488
+    - code: '17010019'
+      name_en: Dakyieng
+      name_lo: ດາກຢຽວ
+      latitude: 14.830676
+      longitude: 107.306485
+    - code: '17010020'
+      name_en: Numhieng
+      name_lo: ນໍ້າຫຽງ
+      latitude: 15.197157
+      longitude: 106.819519
+    - code: '17010021'
+      name_en: Say
+      name_lo: ຊ້າຍ
+      latitude: 14.823404
+      longitude: 106.942028
+    - code: '17010022'
+      name_en: Vatthad
+      name_lo: ວັດທາດ
+      latitude: 14.789807
+      longitude: 106.963572
+  - code: '1702'
+    name_en: Samakkhixay
+    name_lo: ສາມັກຄີໄຊ
+    villages:
+    - code: '17020001'
+      name_en: Saykong
+      name_lo: ເຊກອງ
+      latitude: 14.809164
+      longitude: 106.824292
+    - code: '17020002'
+      name_en: Vernkan
+      name_lo: ເວີນແຄນ
+      latitude: 14.824481
+      longitude: 106.809827
+    - code: '17020003'
+      name_en: Samaky
+      name_lo: ບ້ານສາມັກຄີ
+      latitude: 14.805496
+      longitude: 106.856227
+    - code: '17020004'
+      name_en: Saysaead
+      name_lo: ໄຊສະອາດ
+      latitude: 14.82365
+      longitude: 106.822702
+    - code: '17020005'
+      name_en: Sakamankung
+      name_lo: ເຊກະໝານກາງ
+      latitude: 14.771934
+      longitude: 106.815973
+    - code: '17020006'
+      name_en: Kayue
+      name_lo: ກະຢຶ
+      latitude: 14.871278
+      longitude: 106.803827
+    - code: '17020007'
+      name_en: Thahin
+      name_lo: ທ່າຫີນ
+      latitude: 14.836797
+      longitude: 106.796888
+    - code: '17020008'
+      name_en: Sivilay
+      name_lo: ສີວິໄລ
+      latitude: 14.840328
+      longitude: 106.843504
+    - code: '17020009'
+      name_en: Halungyay
+      name_lo: ຮະລາງໃຫຍ່
+      latitude: 14.952158
+      longitude: 106.846091
+    - code: '17020010'
+      name_en: Kamesung
+      name_lo: ແຄມຊັງ
+      latitude: 14.808797
+      longitude: 106.758944
+    - code: '17020011'
+      name_en: Sisomphone
+      name_lo: ສີສົມພອນ
+      latitude: 14.755343
+      longitude: 106.742735
+    - code: '17020012'
+      name_en: Saphaothong
+      name_lo: ສະເພາະທອງ
+      latitude: 14.806483
+      longitude: 106.784158
+    - code: '17020013'
+      name_en: Phonesavung
+      name_lo: ໂພນສະຫວ່າງ
+      latitude: 14.813651
+      longitude: 106.828705
+    - code: '17020014'
+      name_en: Somsanook
+      name_lo: ສົມສະໜຸກ
+      latitude: 14.785454
+      longitude: 106.754185
+    - code: '17020015'
+      name_en: Sayphosy
+      name_lo: ໄຊໂພສີ
+      latitude: 14.912504
+      longitude: 106.817025
+    - code: '17020016'
+      name_en: Salk
+      name_lo: ສອກ
+      latitude: 15.082464
+      longitude: 106.824615
+    - code: '17020017'
+      name_en: Haisok
+      name_lo: ຫາຍໂສກ
+      latitude: 15.071547
+      longitude: 106.859271
+    - code: '17020018'
+      name_en: Layaokung
+      name_lo: ລະຍາວກາງ
+      latitude: 14.830546
+      longitude: 106.759492
+    - code: '17020019'
+      name_en: Moungmay
+      name_lo: ເມືອງໃໝ່
+      latitude: 14.802765
+      longitude: 106.838019
+    - code: '17020020'
+      name_en: Layaokow
+      name_lo: ລະຍາວເໜືອ
+      latitude: 14.852672
+      longitude: 106.755617
+    - code: '17020021'
+      name_en: Kasom
+      name_lo: ກະໂສມ
+      latitude: 14.997836
+      longitude: 106.848289
+    - code: '17020022'
+      name_en: Luck 3
+      name_lo: ຫຼັກ 3
+      latitude: 14.822763
+      longitude: 106.817959
+    - code: '17020023'
+      name_en: Sayay
+      name_lo: ໄຊໃຫຍ່
+      latitude: 14.818048
+      longitude: 106.832515
+    - code: '17020024'
+      name_en: Champhao
+      name_lo: ຈຳປາວ
+      latitude: 14.815111
+      longitude: 106.729485
+    - code: '17020025'
+      name_en: Layaotay
+      name_lo: ລະຍາວໃຕ້
+      latitude: 14.842389
+      longitude: 106.724502
+    - code: '17020026'
+      name_en: Meouhuomeung
+      name_lo: ໝື່ນຫົວເມືອງ
+      latitude: 15.169108
+      longitude: 106.755922
+    - code: '17020027'
+      name_en: Konghun
+      name_lo: ກອງຮັງ
+      latitude: 14.877261
+      longitude: 106.766204
+  - code: '1703'
+    name_en: Sanamxay
+    name_lo: ສະໜາມໄຊ
+    villages:
+    - code: '17030001'
+      name_en: Mitsumphun
+      name_lo: ມິດສຳພັນ
+      latitude: 14.679558
+      longitude: 106.560371
+    - code: '17030002'
+      name_en: Oudomsay
+      name_lo: ອຸດົມໄຊ
+      latitude: 14.664143
+      longitude: 106.599745
+    - code: '17030003'
+      name_en: Thahintay
+      name_lo: ທ່າຫີນໃຕ້
+      latitude: 14.694071
+      longitude: 106.520282
+    - code: '17030004'
+      name_en: Oudomsook
+      name_lo: ອຸດົມສຸກ
+      latitude: 14.712778
+      longitude: 106.609256
+    - code: '17030005'
+      name_en: Donephay
+      name_lo: ດອນໄຜ່
+      latitude: 14.711314
+      longitude: 106.655504
+    - code: '17030006'
+      name_en: Chomphoy
+      name_lo: ຈອມພອຍ
+      latitude: 14.737666
+      longitude: 106.694022
+    - code: '17030007'
+      name_en: Takgao
+      name_lo: ຕັກເກົ້າ
+      latitude: 14.535447
+      longitude: 106.482817
+    - code: '17030008'
+      name_en: Hartsaykham
+      name_lo: ຫາດຊາຍຄຳ
+      latitude: 14.626001
+      longitude: 106.645054
+    - code: '17030009'
+      name_en: Hadphila
+      name_lo: ຫາດພິລາ
+      latitude: 14.633501
+      longitude: 106.677821
+    - code: '17030010'
+      name_en: Tea
+      name_lo: ເຕ້ຍ
+      latitude: 14.745389
+      longitude: 106.556707
+    - code: '17030011'
+      name_en: Somsook
+      name_lo: ສົມສຸກ
+      latitude: 14.757355
+      longitude: 106.65208
+    - code: '17030012'
+      name_en: Boungkeo
+      name_lo: ບຶງແກ້ວ
+      latitude: 14.556042
+      longitude: 106.546636
+    - code: '17030013'
+      name_en: Donesoug
+      name_lo: ດອນສູງ
+      latitude: 14.725331
+      longitude: 106.635417
+    - code: '17030014'
+      name_en: Donesuea
+      name_lo: ດອນເສືອ
+      latitude: 14.70996
+      longitude: 106.675313
+    - code: '17030015'
+      name_en: Phonesaath
+      name_lo: ໂພນສະອາດ
+      latitude: 14.594631
+      longitude: 106.365928
+    - code: '17030016'
+      name_en: Kunmarnao
+      name_lo: ກຸນມາເນົາ
+      latitude: 14.573064
+      longitude: 106.588584
+    - code: '17030017'
+      name_en: Khung
+      name_lo: ຂຸ້ງ
+      latitude: 14.750617
+      longitude: 106.713314
+    - code: '17030018'
+      name_en: Namkong
+      name_lo: ນ້ຳກອງ
+      latitude: 14.596055
+      longitude: 106.624156
+    - code: '17030019'
+      name_en: Samongtay
+      name_lo: ສະໝອງໃຕ້
+      latitude: 14.676118
+      longitude: 106.483726
+    - code: '17030020'
+      name_en: Sivilay
+      name_lo: ສີວິໄລ
+      latitude: 14.595632
+      longitude: 106.305566
+    - code: '17030021'
+      name_en: Hinsombath
+      name_lo: ຫີນສົມບັດ
+      latitude: 14.655655
+      longitude: 106.583307
+    - code: '17030022'
+      name_en: Phonemani
+      name_lo: ໂພນມະນີ
+      latitude: 14.834725
+      longitude: 106.23692
+    - code: '17030023'
+      name_en: Hadxaisoung
+      name_lo: ຫາດຊາຍສູງ
+      latitude: 14.644966
+      longitude: 106.55526
+    - code: '17030024'
+      name_en: Hadoudom
+      name_lo: ຫາດອຸດົມ
+      latitude: 14.492258
+      longitude: 106.382582
+    - code: '17030025'
+      name_en: Somphoy
+      name_lo: ສົມພອຍ
+      latitude: 14.602653
+      longitude: 106.484584
+    - code: '17030026'
+      name_en: Kasare
+      name_lo: ກະສາເຣ
+      latitude: 14.724677
+      longitude: 106.367489
+    - code: '17030027'
+      name_en: Phakbor
+      name_lo: ຜັກບ່ໍ
+      latitude: 14.628506
+      longitude: 106.295433
+    - code: '17030028'
+      name_en: Thasangchan
+      name_lo: ທ່າຊ້າງຈັນ
+      latitude: 14.766208
+      longitude: 106.503985
+    - code: '17030029'
+      name_en: Tamoryose
+      name_lo: ຕາມໍຍົດ
+      latitude: 14.828547
+      longitude: 106.390615
+    - code: '17030030'
+      name_en: Chantor
+      name_lo: ຈັນຕໍ
+      latitude: 14.711498
+      longitude: 106.318768
+    - code: '17030031'
+      name_en: Mai
+      name_lo: ໃໝ່
+      latitude: 14.721343
+      longitude: 106.497886
+    - code: '17030032'
+      name_en: Phu
+      name_lo: ພູ
+      latitude: 14.747783
+      longitude: 106.700866
+    - code: '17030033'
+      name_en: Hinlath
+      name_lo: ຫີນລາດ
+      latitude: 14.747156
+      longitude: 106.474935
+    - code: '17030034'
+      name_en: Bangvilay
+      name_lo: ແບ່ງວິໄລ
+      latitude: 14.768556
+      longitude: 106.278424
+    - code: '17030035'
+      name_en: Nonghin
+      name_lo: ໜອງຫີນ
+      latitude: 14.908167
+      longitude: 106.441908
+    - code: '17030036'
+      name_en: Done
+      name_lo: ດອນ
+      latitude: 14.659329
+      longitude: 106.294359
+    - code: '17030037'
+      name_en: Nongmoung
+      name_lo: ໜອງມ່ວງ
+      latitude: 14.973238
+      longitude: 106.366755
+    - code: '17030038'
+      name_en: Phindong
+      name_lo: ພິນດົງ
+      latitude: 14.688885
+      longitude: 106.435598
+  - code: '1704'
+    name_en: Sanxay
+    name_lo: ສານໄຊ
+  - code: '1705'
+    name_en: Phouvong
+    name_lo: ພູວົງ
+    villages:
+    - code: '17050001'
+      name_en: Veingxay
+      name_lo: ວຽງໄຊ
+      latitude: 14.450055
+      longitude: 106.690862
+    - code: '17050002'
+      name_en: Vongsay
+      name_lo: ວົງສາຍ
+      latitude: 14.683479
+      longitude: 106.718094
+    - code: '17050003'
+      name_en: Khamvongsa
+      name_lo: ຄຳວົງສາ
+      latitude: 14.590764
+      longitude: 107.107415
+    - code: '17050004'
+      name_en: Kaouan
+      name_lo: Kaouan
+      latitude: 14.728091
+      longitude: 107.511312
+    - code: '17050005'
+      name_en: Phousay
+      name_lo: ພູໄຊ
+      latitude: 14.73275
+      longitude: 106.800694
+    - code: '17050006'
+      name_en: Vangyung
+      name_lo: ວັງຍາງ
+      latitude: 14.70903
+      longitude: 106.825242
+    - code: '17050007'
+      name_en: Vonglakone
+      name_lo: ວົງລະຄອນ
+      latitude: 14.640729
+      longitude: 106.703408
+    - code: '17050008'
+      name_en: Namsouan
+      name_lo: ນໍ້າສວນ
+      latitude: 14.623152
+      longitude: 107.359328
+    - code: '17050009'
+      name_en: Lamong
+      name_lo: ລະມອງ
+      latitude: 14.41792
+      longitude: 106.883543
+    - code: '17050010'
+      name_en: Phouyung
+      name_lo: ພູຍາງ
+      latitude: 14.652067
+      longitude: 107.478975
+    - code: '17050011'
+      name_en: Vongvilaytay
+      name_lo: ວົງວິໄລໃຕ້
+      latitude: 14.598605
+      longitude: 106.847904
+    - code: '17050012'
+      name_en: Vongsamphunh
+      name_lo: ວັງສຳພັນ
+      latitude: 14.629265
+      longitude: 106.877496
+    - code: '17050013'
+      name_en: Vungkhan
+      name_lo: ວັງແຄນ
+      latitude: 14.602669
+      longitude: 106.94812
+- code: LA-XS
+  name_en: Xaisomboun
+  name_lo: ໄຊສົມບູນ
+  districts:
+  - code: '1801'
+    name_en: Anouvong
+    name_lo: ອະນຸວົງ
+  - code: '1802'
+    name_en: Longchaeng
+    name_lo: ລ້ອງແຈ້ງ
+  - code: '1803'
+    name_en: Longxan
+    name_lo: ລ້ອງຊານ
+  - code: '1804'
+    name_en: Hom
+    name_lo: ຮົ່ມ
+  - code: '1805'
+    name_en: Thathom
+    name_lo: ທ່າໂທມ

@@ -1,5 +1,5 @@
 module Baan
-  AdministrativeDivision = Data.define(:code, :name_en, :name_lo, :subdivisions, :parent_division) do
+  AdministrativeDivision = Data.define(:code, :name_en, :name_lo, :subdivisions, :parent_division, :latitude, :longitude) do
     class << self
       def all
         data.values
