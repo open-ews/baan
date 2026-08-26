@@ -36,71 +36,220 @@ Each record includes:
 
 **Provinces**
 
-* `code`: 3166-2:LA code
+* `code`: [ISO 3166-2:LA code](https://en.wikipedia.org/wiki/ISO_3166-2:LA)
 * `name_lo`: Lao name
 * `name_en`: Romanized name
+* `latitude`: Latitude
+* `longitude`: Longitude
 * `districts`: List of districts
+* `villages`: List of villages
 
 **Districts**
 
 * `code`: Administrative code
-* `parent_division`: Parent province
+* `province`: Province
 * `name_lo`: Lao name
 * `name_en`: Romanized name
+* `latitude`: Latitude
+* `longitude`: Longitude
+* `villages`: List of villages
+
+**Villages**
+
+* `code`: Administrative code
+* `province`: Province
+* `district`: District
+* `name_lo`: Lao name
+* `name_en`: Romanized name
+* `latitude`: Latitude
+* `longitude`: Longitude
 
 ---
 
 ## 🚀 Usage
 
+### Provinces
+
+Get all provinces:
+
 ```ruby
-# Get all provinces
 Baan::Province.all
-=>
-{"LA-VT" =>
-  #<data Baan::Province
-   code="LA-VT",
-   name_en="Vientiane Prefecture",
-   name_lo="ວຽງຈັນ",
-   subdivisions=
-    [#<data Baan::District code="0101", name_en="Chanthabuly", name_lo="ຈັນທະບູລີ", subdivisions=[], parent_division=#<data Baan::Province:...>>,],
-   parent_division=nil>,
-# ...other provinces
-}
-
-# Get a province by its code
-Baan::Province["LA-VT"]
-=>
-#<data Baan::Province
- code="LA-VT",
- name_en="Vientiane Prefecture",
- name_lo="ວຽງຈັນ",
- subdivisions=
-  [#<data Baan::District code="0101", name_en="Chanthabuly", name_lo="ຈັນທະບູລີ", subdivisions=[], parent_division=#<data Baan::Province:...>>,],
- parent_division=nil>
-
-# Get all districts
-Baan::District.all
-=>
-{"0101" =>
-  #<data Baan::District
-   code="0101",
-   name_en="Chanthabuly",
-   name_lo="ຈັນທະບູລີ",
-   subdivisions=[],
-   parent_division=#<data Baan::Province:...>>,
-# ...other districts
-}
-
-# Get a district by its code
-Baan::District["0101"]
-=>
-#<data Baan::District
- code="0101",
- name_en="Chanthabuly",
- name_lo="ຈັນທະບູລີ",
- subdivisions=[],
- parent_division=#<data Baan::Province:...>>
 ```
+
+Get a province by its [ISO 3166-2:LA code](https://en.wikipedia.org/wiki/ISO_3166-2:LA):
+
+```ruby
+province = Baan::Province["LA-VT"]
+
+puts province.name_en
+# Vientiane Prefecture
+
+puts province.name_lo
+# ວຽງຈັນ
+
+puts province.code
+# LA-VT
+```
+
+Get the districts belonging to a province:
+
+```ruby
+province = Baan::Province["LA-VT"]
+
+province.districts.each do |district|
+  puts "#{district.code}: #{district.name_en}"
+end
+```
+
+### Districts
+
+Get all districts:
+
+```ruby
+Baan::District.all
+```
+
+Get a district by its code:
+
+```ruby
+district = Baan::District["0101"]
+
+puts district.name_en
+# Chanthabuly
+
+puts district.name_lo
+# ຈັນທະບູລີ
+
+puts district.code
+# 0101
+```
+
+Get the province containing a district:
+
+```ruby
+district = Baan::District["0101"]
+
+puts district.province.code
+# LA-VT
+
+puts district.province.name_en
+# Vientiane Prefecture
+```
+
+### Villages
+
+Baan includes village-level data for some districts. Villages are subdivisions of districts and include their geographic coordinates.
+
+For example, Attapeu province has the code `LA-AT`.
+
+Get the Attapeu province:
+
+```ruby
+province = Baan::Province["LA-AT"]
+
+puts province.code
+# LA-AT
+
+puts province.name_en
+# Attapeu
+```
+
+Get a district in Attapeu:
+
+```ruby
+district = Baan::District["1705"]
+
+puts district.code
+# 1705
+
+puts district.name_en
+# Phouvong
+```
+
+Get the villages belonging to the district:
+
+```ruby
+district.villages.each do |village|
+  puts "#{village.code}: #{village.name_en}"
+end
+```
+
+Get all villages:
+
+```ruby
+Baan::Village.all
+```
+
+Get a village by its code:
+
+```ruby
+village = Baan::Village["17050001"]
+
+puts village.code
+# 17050001
+
+puts village.name_en
+# Veingxay
+
+puts village.name_lo
+# ວຽງໄຊ
+
+puts village.latitude
+# 14.450055
+
+puts village.longitude
+# 106.690862
+```
+
+A village's parent division is its district:
+
+```ruby
+village = Baan::Village["17050001"]
+district = village.district
+
+puts district.code
+# 1705
+
+puts district.name_en
+# Phouvong
+```
+
+The district's parent division is its province:
+
+```ruby
+village = Baan::Village["17050001"]
+province = village.province
+
+puts province.code
+# LA-AT
+
+puts province.name_en
+# Attapeu
+```
+
+You can therefore traverse the complete administrative hierarchy from a village:
+
+```ruby
+village = Baan::Village["17050001"]
+
+puts "#{village.province.name_en} > #{village.district.name_en} > #{village.name_en}"
+# Attapeu > Phouvong > Veingxay
+```
+
+Village records have the following attributes:
+
+| Attribute   | Description                         |
+| ----------- | ----------------------------------- |
+| `code`      | Unique village code                 |
+| `name_en`   | English village name                |
+| `name_lo`   | Lao village name                    |
+| `latitude`  | Village latitude                    |
+| `longitude` | Village longitude                   |
+| `district`  | The district containing the village |
+| `province`  | The province containing the village |
+
+
+Village codes are prefixed with their district code. For example, village `17050001` belongs to district `1705`.
 
 ---
 
